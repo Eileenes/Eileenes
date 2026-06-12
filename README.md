@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:1C1C1C,35:374151,70:6B7280,100:B45309&text=Duke%20Yeah&fontColor=F9FAFB&fontSize=54&fontAlignY=40&desc=Independent%20Developer%20%E2%80%A2%20iOS%20%E2%80%A2%20AI%20%E2%80%A2%20Product%20Thinking&descAlignY=62&animation=fadeIn" alt="Duke Yeah banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0F172A,35:1F2937,70:2563EB,100:EA580C&text=Duke%20Yeah&fontColor=F8FAFC&fontSize=54&fontAlignY=40&desc=Independent%20Developer%20%E2%80%A2%20AI%20Products%20%E2%80%A2%20iOS%20Tools%20%E2%80%A2%20Workflow%20Systems&descAlignY=62&animation=fadeIn" alt="Duke Yeah banner" />
 </p>
 
 <div align="center">
 
-### Building calm, useful software for thinking, writing, and working better.
+### I build small, focused software that turns rough workflows into usable products.
 
-`独立开发者` `iOS / Swift` `AI Workflows` `Note Tools` `Product-minded`
+`独立开发者` `AI 产品` `iOS / SwiftUI` `Go / React` `效率工具`
 
 <a href="https://github.com/duke-yeah">GitHub</a> ·
 <a href="mailto:dukeyeah@163.com">Email</a>
@@ -15,98 +15,99 @@
 
 ---
 
-## Editorial Note | 一句话自述
+## About | 关于我
 
-我在做偏产品型的个人项目，重点放在 `iOS`、`AI`、`笔记`、`效率工具` 这些真实会被反复使用的方向。  
-相比“做一个功能”，我更在意的是把一个想法做成能长期打磨、能留在工作流里的产品。
+我关注的是把一个真实问题做成可以反复使用的工具：从需求、交互、工程实现到部署维护，都尽量自己打通。<br/>
+最近的重心放在 `AI 工作流`、`招聘/线索发现`、`iOS 记录工具` 和更自然的个人效率软件上。
 
-I build product-oriented side projects around `iOS`, `AI`, `note-taking`, and `personal workflows`.  
-I care less about feature quantity and more about making tools that feel focused, usable, and worth refining over time.
+I work on product-shaped side projects: taking a concrete workflow from problem framing to interface, backend, deployment, and iteration.<br/>
+Right now I am focused on `AI workflow tools`, `recruiting/lead discovery`, `native iOS note products`, and practical personal software.
 
-## Current Frame | 当前重心
+## Current Direction | 当前方向
 
 <table>
   <tr>
-    <td width="33%">
-      <strong>01 / Native iOS</strong><br/>
-      用 Swift / SwiftUI 做更轻、更顺手的个人工具。<br/>
-      Building smaller, more opinionated native tools with Swift and SwiftUI.
+    <td width="33%" valign="top">
+      <strong>01 / Applied AI Systems</strong><br/>
+      把 LLM 接进真实任务流：解析需求、筛选信息、生成结果、自动推送。<br/>
+      Using LLMs inside real workflows: parsing requirements, ranking signals, generating outputs, and pushing results.
     </td>
-    <td width="33%">
-      <strong>02 / Applied AI</strong><br/>
-      把 AI 接进真实任务流，而不是停留在聊天演示。<br/>
-      Bringing AI into actual workflows instead of leaving it as a demo layer.
+    <td width="33%" valign="top">
+      <strong>02 / Native iOS Tools</strong><br/>
+      用 Swift / SwiftUI 打磨轻量、安静、可长期使用的记录工具。<br/>
+      Building quiet, focused note and productivity tools with Swift and SwiftUI.
     </td>
-    <td width="33%">
-      <strong>03 / Product Iteration</strong><br/>
-      从实验项目出发，持续把它们推成完整产品。<br/>
-      Turning experiments into durable products through public iteration.
+    <td width="33%" valign="top">
+      <strong>03 / Product Engineering</strong><br/>
+      不只做 demo，也关注数据、配置、部署、反馈闭环和真实可用性。<br/>
+      Caring about the whole product loop: data, settings, deployment, feedback, and actual usability.
     </td>
   </tr>
 </table>
 
-## Selected Work | 精选项目
+## Selected Work | 代表项目
 
 <table>
   <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/duke-yeah/Recruitment">Recruitment</a></h3>
+      <p><code>Go</code> <code>React</code> <code>PostgreSQL</code> <code>LLM</code></p>
+      <p>GitHub 人才线索发现工具：根据岗位/技术需求检索公开 GitHub 用户，结合关键词解析、仓库信号排序、持久化和 Webhook 推送。</p>
+      <p>A GitHub lead finder for recruiting workflows, combining requirement parsing, GitHub signal ranking, persistence, and webhook delivery.</p>
+    </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/duke-yeah/memoranote">memoranote</a></h3>
-      <p><code>Swift</code></p>
-      <p>围绕记录、整理与笔记体验展开的个人产品尝试，也是目前公开项目里最清晰的一条产品线。</p>
-      <p>A product-driven note project and the clearest signal of my current direction in public.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/duke-yeah/DukeNote">DukeNote</a></h3>
-      <p><code>Swift</code></p>
-      <p>继续沿着 notebook / note-taking 方向打磨，强调 iOS 原生体验和更干净的交互感受。</p>
-      <p>A native note-taking project focused on a cleaner notebook experience for iOS.</p>
+      <p><code>Swift</code> <code>SwiftUI</code></p>
+      <p>围绕记录、整理与笔记体验展开的个人产品尝试，也是我持续打磨 iOS 工具体验的一条主线。</p>
+      <p>A product-driven note project and one of my main tracks for refining native iOS tool experiences.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/duke-yeah/AIinterviewer">AIinterviewer</a></h3>
-      <p><code>TypeScript</code></p>
-      <p>把 AI 用到具体交互场景里的实验项目，更接近真实应用，而不是通用型对话壳子。</p>
-      <p>An applied AI experiment aimed at concrete conversational workflows instead of generic wrappers.</p>
+      <h3><a href="https://github.com/duke-yeah/DukeNote">DukeNote</a></h3>
+      <p><code>Swift</code> <code>MIT</code></p>
+      <p>Notebook / note-taking 方向的原生 iOS 项目，强调更清晰的结构、更轻的交互和长期可维护的体验。</p>
+      <p>A native notebook project focused on cleaner structure, lighter interaction, and maintainable product feel.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>What ties them together</h3>
-      <p>它们都在尝试同一件事：让工具更自然地参与记录、表达、思考和工作。</p>
-      <p>They all explore the same idea: software that participates naturally in writing, organizing, and getting real work done.</p>
+      <h3>What I Keep Exploring</h3>
+      <p>我更喜欢从具体场景出发做工具：信息太散、流程太慢、重复劳动太多，这些地方都适合被产品化。</p>
+      <p>I like building from concrete friction: scattered information, slow workflows, and repeated manual work are good places for product thinking.</p>
     </td>
   </tr>
 </table>
 
-## Stack & Signals | 技术与方向
+## Stack & Signals | 技术栈
 
 <p>
   <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" />
   <img src="https://img.shields.io/badge/SwiftUI-0D96F6?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftUI" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/AI%20Apps-111111?style=for-the-badge" alt="AI Apps" />
-  <img src="https://img.shields.io/badge/Product%20Thinking-2F855A?style=for-the-badge" alt="Product Thinking" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/AI%20Workflows-111827?style=for-the-badge" alt="AI Workflows" />
 </p>
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=duke-yeah&show_icons=true&hide_border=true&title_color=111827&text_color=374151&icon_color=B45309&bg_color=ffffff" alt="GitHub stats for duke-yeah" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=duke-yeah&show_icons=true&hide_border=true&title_color=111827&text_color=374151&icon_color=EA580C&bg_color=ffffff" alt="GitHub stats for duke-yeah" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duke-yeah&layout=compact&hide_border=true&title_color=111827&text_color=374151&bg_color=ffffff" alt="Top languages for duke-yeah" />
 </p>
 
-## Right Now | 现在想继续做的事
+## Working Notes | 近期在做
 
-- 做更自然的 `AI + 工具` 结合，而不是孤立的聊天入口
-- 做更贴近日常使用的 `iOS` 小产品
-- 持续公开输出，把实验项目逐步沉淀成完整产品
+- 把 `AI + 搜索 + 排序 + 推送` 做成可部署的招聘线索产品
+- 持续打磨 `SwiftUI` 笔记/便签类工具的原生体验
+- 用更小的项目验证完整产品链路，而不是只停在原型
 
-- Build AI-native tools that fit real usage habits
-- Design small iOS products that feel practical and personal
-- Keep iterating in public until experiments become products
+- Turning `AI + search + ranking + delivery` into deployable recruiting tools
+- Refining native `SwiftUI` note and memo experiences
+- Using small projects to validate full product loops, not just prototypes
 
 ## Reach Out | 联系我
 
-如果你也在做 `iOS`、`AI 工具`、`笔记产品`、`效率软件`，欢迎交流。  
-If you're building in `iOS`, `AI tooling`, `note products`, or `productivity software`, feel free to reach out.
+如果你也在做 `AI 工具`、`iOS 产品`、`招聘系统`、`笔记/效率软件`，欢迎交流。<br/>
+If you are building in `AI tooling`, `iOS products`, `recruiting systems`, or `note/productivity software`, feel free to reach out.
 
 - GitHub: [`duke-yeah`](https://github.com/duke-yeah)
 - Email: `dukeyeah@163.com`
@@ -114,5 +115,5 @@ If you're building in `iOS`, `AI tooling`, `note products`, or `productivity sof
 ---
 
 <div align="center">
-  <sub>Designed as a bilingual GitHub profile README with an editorial, product-focused feel.</sub>
+  <sub>Profile README for an independent developer building AI workflows, iOS tools, and practical product systems.</sub>
 </div>
