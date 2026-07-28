@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
-  <title id="title">Eileenes project hangar</title><desc id="desc">A pixel-futuristic project deployment panel matching the open cockpit profile</desc>
+  <title id="title">Eileenes project hangar v2</title><desc id="desc">A pixel-futuristic project deployment panel matching the open cockpit profile</desc>
   <defs>
     <pattern id="p-grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#273033"/><rect width="2" height="2" fill="#536064" opacity=".34"/></pattern>
     <linearGradient id="p-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5ffff"/><stop offset=".3" stop-color="#8d999b"/><stop offset=".6" stop-color="#d9e2e2"/><stop offset="1" stop-color="#626d70"/></linearGradient>

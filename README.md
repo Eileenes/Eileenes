@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/eva-profile-header-mobile.svg">
-  <img src="./assets/eva-profile-header.svg" width="100%" alt="Eileenes 个人驾驶舱档案，打开的机甲座舱中坐着驾驶员剪影" />
+  <source media="(max-width: 600px)" srcset="./assets/cockpit-profile-header-mobile-v2.svg">
+  <img src="./assets/cockpit-profile-header-v2.svg" width="100%" alt="Eileenes 个人驾驶舱档案，打开的机甲座舱中坐着驾驶员剪影" />
 </picture>
 
 <div align="center">
@@ -47,8 +47,8 @@
 ## 作品
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/eva-projects-mobile.svg">
-  <img src="./assets/eva-projects.svg" width="100%" alt="Eileenes 像素未来风作品部署面板" />
+  <source media="(max-width: 600px)" srcset="./assets/cockpit-projects-mobile-v2.svg">
+  <img src="./assets/cockpit-projects-v2.svg" width="100%" alt="Eileenes 像素未来风作品部署面板" />
 </picture>
 
 ### 01 / [Recruitment](https://github.com/Eileenes/Recruitment)
@@ -74,8 +74,8 @@
 ## 联系我
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/eva-contact-panel-mobile.svg">
-  <img src="./assets/eva-contact-panel.svg" width="100%" alt="Eileenes 像素未来风通信面板" />
+  <source media="(max-width: 600px)" srcset="./assets/cockpit-contact-panel-mobile-v2.svg">
+  <img src="./assets/cockpit-contact-panel-v2.svg" width="100%" alt="Eileenes 像素未来风通信面板" />
 </picture>
 
 <div align="center">
