@@ -6,7 +6,7 @@
 
 ### `UNIT DY-01 // 独立开发者 · INDEPENDENT DEVELOPER`
 
-[中文档案](#cn) · [English Profile](#en) · [作战单元](#units) · [系统栈](#stack)
+[中文档案](#中文档案--pilot-file--cn) · [English Profile](#english-profile--pilot-file--en) · [作战单元](#作战单元--active-units) · [系统栈](#系统栈--system-stack)
 
 <a href="https://github.com/duke-yeah"><img src="https://img.shields.io/badge/GITHUB-0A0710?style=for-the-badge&logo=github&logoColor=8CFF00" alt="GitHub" /></a>
 <a href="mailto:dukeyeah@163.com"><img src="https://img.shields.io/badge/CONTACT-6B278C?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email" /></a>
@@ -15,8 +15,6 @@
 </div>
 
 ---
-
-<a id="cn"></a>
 
 ## 中文档案 · PILOT FILE / CN
 
@@ -37,8 +35,6 @@
 
 ---
 
-<a id="en"></a>
-
 ## English Profile · PILOT FILE / EN
 
 > **I turn concrete problems into products built to keep running.**
@@ -57,8 +53,6 @@ My current focus:
 `Current directive: build small, complete, useful software — and ship it.`
 
 ---
-
-<a id="units"></a>
 
 ## 作战单元 · ACTIVE UNITS
 
@@ -99,8 +93,6 @@ My current focus:
 
 ---
 
-<a id="stack"></a>
-
 ## 系统栈 · SYSTEM STACK
 
 <div align="center">
@@ -115,8 +107,7 @@ My current focus:
 
 <br/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=duke-yeah&show_icons=true&hide_border=true&title_color=8cff00&text_color=d9cfe0&icon_color=ff5a1f&bg_color=0a0710" alt="Duke Yeah GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duke-yeah&layout=compact&hide_border=true&title_color=8cff00&text_color=d9cfe0&bg_color=0a0710" alt="Duke Yeah top languages" />
+<img src="./assets/eva-system-panel.svg" width="100%" alt="Duke Yeah system diagnostics — Swift, Go, React, TypeScript, PostgreSQL, and AI workflows" />
 
 </div>
 

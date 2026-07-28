@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
+  <title id="title">Duke Yeah system diagnostics</title>
+  <desc id="desc">A mecha interface panel showing the main development system layers</desc>
+
+  <defs>
+    <pattern id="panel-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#2b1838" stroke-width="1"/>
+    </pattern>
+    <pattern id="panel-warning" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="skewX(-28)">
+      <rect width="10" height="20" fill="#ff5a1f"/>
+      <rect x="10" width="10" height="20" fill="#17101d"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="190" fill="#0a0710"/>
+  <rect width="1200" height="190" fill="url(#panel-grid)" opacity=".7"/>
+  <path d="M0 0H1200V5H0Z" fill="#6b278c"/>
+  <path d="M0 185H1200V190H0Z" fill="#8cff00"/>
+  <path d="M1080 5H1200V25H1080Z" fill="url(#panel-warning)"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="32" y="36" fill="#8cff00" font-size="15" font-weight="700">SYSTEM DIAGNOSTICS // ALL CORES NOMINAL</text>
+    <text x="1058" y="177" fill="#8b7b92" font-size="11">DY-01</text>
+
+    <g transform="translate(32 58)">
+      <rect width="262" height="94" fill="#130d18" stroke="#6b278c" stroke-width="2"/>
+      <rect width="8" height="94" fill="#8cff00"/>
+      <text x="26" y="28" fill="#8cff00" font-size="12">01 / NATIVE CORE</text>
+      <text x="26" y="56" fill="#f4f0f7" font-size="20" font-weight="700">SWIFT + SWIFTUI</text>
+      <rect x="26" y="72" width="206" height="5" fill="#2b1838"/>
+      <rect x="26" y="72" width="181" height="5" fill="#8cff00"/>
+    </g>
+
+    <g transform="translate(314 58)">
+      <rect width="262" height="94" fill="#130d18" stroke="#6b278c" stroke-width="2"/>
+      <rect width="8" height="94" fill="#ff5a1f"/>
+      <text x="26" y="28" fill="#ff5a1f" font-size="12">02 / SERVICE CORE</text>
+      <text x="26" y="56" fill="#f4f0f7" font-size="20" font-weight="700">GO + POSTGRESQL</text>
+      <rect x="26" y="72" width="206" height="5" fill="#2b1838"/>
+      <rect x="26" y="72" width="166" height="5" fill="#ff5a1f"/>
+    </g>
+
+    <g transform="translate(596 58)">
+      <rect width="262" height="94" fill="#130d18" stroke="#6b278c" stroke-width="2"/>
+      <rect width="8" height="94" fill="#a86ad0"/>
+      <text x="26" y="28" fill="#a86ad0" font-size="12">03 / INTERFACE CORE</text>
+      <text x="26" y="56" fill="#f4f0f7" font-size="20" font-weight="700">REACT + TYPESCRIPT</text>
+      <rect x="26" y="72" width="206" height="5" fill="#2b1838"/>
+      <rect x="26" y="72" width="174" height="5" fill="#a86ad0"/>
+    </g>
+
+    <g transform="translate(878 58)">
+      <rect width="290" height="94" fill="#130d18" stroke="#6b278c" stroke-width="2"/>
+      <rect width="8" height="94" fill="#f4f0f7"/>
+      <text x="26" y="28" fill="#f4f0f7" font-size="12">04 / INTELLIGENCE LAYER</text>
+      <text x="26" y="56" fill="#8cff00" font-size="20" font-weight="700">LLM WORKFLOWS</text>
+      <rect x="26" y="72" width="234" height="5" fill="#2b1838"/>
+      <rect x="26" y="72" width="205" height="5" fill="#8cff00"/>
+    </g>
+  </g>
+</svg>
