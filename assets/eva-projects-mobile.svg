@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="880" viewBox="0 0 720 880" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+  <title id="title">Eileenes mobile project operations board</title>
+  <desc id="desc">Three stacked pixel project modules with EVA unit colors</desc>
+  <defs>
+    <style>
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+      .selected { animation: selected 1.4s steps(2, start) infinite; }
+      @keyframes selected { 50% { opacity: .48; } }
+      @media (prefers-reduced-motion: reduce) { .selected { animation: none; } }
+    </style>
+  </defs>
+  <rect width="720" height="880" fill="#08090b"/>
+  <rect x="12" y="12" width="696" height="856" fill="none" stroke="#3a363f" stroke-width="2"/>
+  <rect x="12" y="12" width="696" height="50" fill="#18151b"/>
+  <text x="34" y="45" class="mono" fill="#f4f1f6" font-size="17" font-weight="700">OPERATIONS // 3 PROJECTS</text>
+
+  <g class="mono" transform="translate(50 92)">
+    <rect width="620" height="220" fill="#131015" stroke="#d62828" stroke-width="4"/>
+    <rect width="174" height="220" fill="#d62828"/>
+    <text x="20" y="42" fill="#fff" font-size="15">UNIT-02</text><text x="20" y="78" fill="#fff" font-size="20" font-weight="700">RECRUIT</text>
+    <text x="202" y="54" fill="#f4f1f6" font-size="25" font-weight="700">RECRUITMENT</text><text x="202" y="92" fill="#ff7a00" font-size="14">GO / REACT / LLM</text><text x="202" y="132" fill="#aaa3ae" font-size="14">SEARCH / RANK / DELIVER</text>
+    <g transform="translate(474 48)" fill="#f4f1f6"><rect x="24" width="48" height="12"/><rect x="12" y="12" width="72" height="12"/><rect y="24" width="36" height="48"/><rect x="60" y="24" width="36" height="48"/><rect x="12" y="72" width="72" height="12"/><rect x="48" y="84" width="12" height="36" fill="#ff7a00"/></g>
+  </g>
+  <g class="mono" transform="translate(50 340)">
+    <rect width="620" height="220" fill="#131015" stroke="#6b278c" stroke-width="4" class="selected"/>
+    <rect width="174" height="220" fill="#6b278c"/>
+    <text x="20" y="42" fill="#fff" font-size="15">UNIT-01</text><text x="20" y="78" fill="#fff" font-size="20" font-weight="700">MEMORY</text>
+    <text x="202" y="54" fill="#f4f1f6" font-size="25" font-weight="700">MEMORANOTE</text><text x="202" y="92" fill="#8cff00" font-size="14">SWIFT / SWIFTUI / IOS</text><text x="202" y="132" fill="#aaa3ae" font-size="14">CAPTURE / ORGANIZE / RECALL</text>
+    <g transform="translate(492 42)"><rect width="88" height="128" fill="#f4f1f6"/><rect width="12" height="128" fill="#8cff00"/><rect x="28" y="28" width="48" height="10" fill="#6b278c"/><rect x="28" y="56" width="36" height="10" fill="#252028"/><rect x="28" y="84" width="48" height="10" fill="#252028"/><rect x="28" y="108" width="30" height="10" fill="#8cff00"/></g>
+  </g>
+  <g class="mono" transform="translate(50 588)">
+    <rect width="620" height="220" fill="#131015" stroke="#2357d4" stroke-width="4"/>
+    <rect width="174" height="220" fill="#2357d4"/>
+    <text x="20" y="42" fill="#fff" font-size="15">UNIT-00</text><text x="20" y="78" fill="#fff" font-size="20" font-weight="700">NOTES</text>
+    <text x="202" y="54" fill="#f4f1f6" font-size="25" font-weight="700">DUKENOTE</text><text x="202" y="92" fill="#ffd33d" font-size="14">SWIFT / SWIFTUI / MIT</text><text x="202" y="132" fill="#aaa3ae" font-size="14">WRITE / STRUCTURE / MAINTAIN</text>
+    <g transform="translate(476 44)"><rect width="120" height="120" fill="#aeb7c8"/><rect x="14" y="14" width="92" height="76" fill="#f4f1f6"/><rect x="28" y="30" width="64" height="10" fill="#2357d4"/><rect x="28" y="54" width="48" height="10" fill="#252028"/><rect x="28" y="78" width="64" height="10" fill="#ffd33d"/><rect x="28" y="102" width="64" height="10" fill="#2357d4"/></g>
+  </g>
+  <text x="360" y="844" text-anchor="middle" class="mono" fill="#8cff00" font-size="14">ALL MODULES NOMINAL</text>
+</svg>

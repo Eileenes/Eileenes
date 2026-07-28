@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+  <title id="title">Eileenes project operations board</title>
+  <desc id="desc">Pixel project modules colored for Unit 02, Unit 01, and Unit 00</desc>
+  <defs>
+    <pattern id="project-grid" width="20" height="20" patternUnits="userSpaceOnUse"><rect width="1" height="1" fill="#d9d5dc" opacity=".16"/></pattern>
+    <style>
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+      .selected { animation: selected 1.4s steps(2, start) infinite; }
+      .signal { animation: signal 2s steps(4, end) infinite; }
+      @keyframes selected { 50% { opacity: .45; } }
+      @keyframes signal { 50% { transform: scaleX(.55); } }
+      @media (prefers-reduced-motion: reduce) { .selected, .signal { animation: none; } }
+    </style>
+  </defs>
+  <rect width="1200" height="420" fill="#08090b"/>
+  <rect width="1200" height="420" fill="url(#project-grid)"/>
+  <rect x="12" y="12" width="1176" height="396" fill="none" stroke="#3a363f" stroke-width="2"/>
+  <rect x="12" y="12" width="1176" height="44" fill="#18151b"/>
+  <text x="36" y="41" class="mono" fill="#f4f1f6" font-size="17" font-weight="700">OPERATIONS BOARD // PIXEL MODULES</text>
+  <text x="1164" y="41" text-anchor="end" class="mono" fill="#8cff00" font-size="13">3 PROJECTS ACTIVE</text>
+
+  <!-- Unit 02 / Recruitment -->
+  <g class="mono" transform="translate(42 82)">
+    <rect width="346" height="274" fill="#131015" stroke="#d62828" stroke-width="4"/>
+    <rect x="12" y="12" width="322" height="34" fill="#d62828"/>
+    <text x="26" y="36" fill="#ffffff" font-size="14" font-weight="700">UNIT-02 // RECRUITMENT</text>
+    <g transform="translate(116 70)" fill="#f4f1f6">
+      <rect x="32" width="64" height="16"/><rect x="16" y="16" width="96" height="16"/><rect y="32" width="48" height="64"/><rect x="80" y="32" width="48" height="64"/><rect x="16" y="96" width="96" height="16"/>
+      <rect x="48" y="48" width="16" height="16" fill="#d62828"/><rect x="80" y="48" width="16" height="16" fill="#ff7a00"/>
+      <rect x="64" y="112" width="16" height="48" fill="#d62828"/><rect x="80" y="144" width="48" height="16" fill="#d62828"/>
+    </g>
+    <text x="173" y="244" text-anchor="middle" fill="#ff7a00" font-size="13">SEARCH / RANK / DELIVER</text>
+  </g>
+
+  <!-- Unit 01 / memoranote -->
+  <g class="mono" transform="translate(427 82)">
+    <rect width="346" height="274" fill="#131015" stroke="#6b278c" stroke-width="4" class="selected"/>
+    <rect x="12" y="12" width="322" height="34" fill="#6b278c"/>
+    <text x="26" y="36" fill="#ffffff" font-size="14" font-weight="700">UNIT-01 // MEMORANOTE</text>
+    <g transform="translate(117 68)">
+      <rect width="112" height="152" fill="#f4f1f6"/><rect width="16" height="152" fill="#8cff00"/>
+      <rect x="32" y="32" width="64" height="12" fill="#6b278c"/><rect x="32" y="62" width="48" height="12" fill="#252028"/><rect x="32" y="92" width="64" height="12" fill="#252028"/><rect x="32" y="122" width="40" height="12" fill="#8cff00"/>
+    </g>
+    <text x="173" y="244" text-anchor="middle" fill="#8cff00" font-size="13">CAPTURE / ORGANIZE / RECALL</text>
+  </g>
+
+  <!-- Unit 00 / DukeNote -->
+  <g class="mono" transform="translate(812 82)">
+    <rect width="346" height="274" fill="#131015" stroke="#2357d4" stroke-width="4"/>
+    <rect x="12" y="12" width="322" height="34" fill="#2357d4"/>
+    <text x="26" y="36" fill="#ffffff" font-size="14" font-weight="700">UNIT-00 // DUKENOTE</text>
+    <g transform="translate(105 72)">
+      <rect width="136" height="136" fill="#aeb7c8"/><rect x="16" y="16" width="104" height="88" fill="#f4f1f6"/>
+      <rect x="32" y="34" width="72" height="12" fill="#2357d4"/><rect x="32" y="60" width="56" height="12" fill="#252028"/><rect x="32" y="86" width="72" height="12" fill="#ffd33d"/><rect x="32" y="116" width="72" height="12" fill="#2357d4"/>
+    </g>
+    <text x="173" y="244" text-anchor="middle" fill="#ffd33d" font-size="13">WRITE / STRUCTURE / MAINTAIN</text>
+  </g>
+
+  <g class="mono" font-size="12">
+    <text x="42" y="390" fill="#ff594f">02</text><rect x="66" y="380" width="82" height="8" fill="#d62828" class="signal"/>
+    <text x="427" y="390" fill="#8cff00">01</text><rect x="451" y="380" width="82" height="8" fill="#8cff00" class="signal"/>
+    <text x="812" y="390" fill="#ffd33d">00</text><rect x="836" y="380" width="82" height="8" fill="#2357d4" class="signal"/>
+    <text x="1158" y="390" text-anchor="end" fill="#77717c">ALL MODULES NOMINAL</text>
+  </g>
+</svg>

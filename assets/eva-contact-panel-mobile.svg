@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" role="img" aria-labelledby="title desc">
+  <title id="title">Eileenes mobile communications channel</title>
+  <desc id="desc">A mobile triple-color communications panel</desc>
+  <defs>
+    <style>
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+      .dot { animation: blink 1.4s steps(2, start) infinite; }
+      @keyframes blink { 50% { opacity: .25; } }
+      @media (prefers-reduced-motion: reduce) { .dot { animation: none; } }
+    </style>
+  </defs>
+  <rect width="720" height="320" fill="#08090b"/>
+  <rect x="12" y="12" width="696" height="296" fill="none" stroke="#3a363f" stroke-width="2"/>
+  <path d="M12 12H244" stroke="#8cff00" stroke-width="8"/><path d="M244 12H476" stroke="#d62828" stroke-width="8"/><path d="M476 12H708" stroke="#2357d4" stroke-width="8"/>
+  <g class="mono">
+    <text x="42" y="62" fill="#8cff00" font-size="14">COMMS CONTROL // OPEN</text>
+    <text x="42" y="120" fill="#f4f1f6" font-size="27" font-weight="700">GITHUB / EILEENES</text>
+    <text x="42" y="164" fill="#aaa3ae" font-size="17">DUKEYEAH@163.COM</text>
+    <circle cx="50" cy="216" r="9" fill="#8cff00" class="dot"/><text x="76" y="222" fill="#8cff00" font-size="15">ONLINE / 3 UNITS LINKED</text>
+  </g>
+  <g transform="translate(42 252)" fill="none" stroke-width="6">
+    <path d="M0 18H92L112 0L132 36L152 8L172 28L194 18H320" stroke="#8cff00"/>
+    <path d="M344 18H434" stroke="#d62828"/><path d="M458 18H548" stroke="#2357d4"/><path d="M572 18H624" stroke="#ffd33d"/>
+  </g>
+</svg>

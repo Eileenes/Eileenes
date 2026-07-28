@@ -1,56 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="820" viewBox="0 0 720 820" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
-  <title id="title">Duke Yeah retro mecha mobile profile</title>
-  <desc id="desc">A mobile eight-bit red and white console screen with a pixel mecha</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="820" viewBox="0 0 720 820" role="img" aria-labelledby="title desc">
+  <title id="title">Eileenes mobile triple unit deployment profile</title>
+  <desc id="desc">Mobile command interface with Unit 01, Unit 02, and Unit 00</desc>
   <defs>
-    <pattern id="mobile-scan" width="8" height="8" patternUnits="userSpaceOnUse"><rect y="7" width="8" height="1" fill="#fff4d6" opacity=".04"/></pattern>
+    <pattern id="mobile-grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#25232a"/></pattern>
     <style>
       .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
-      .blink { animation: blink 1.1s steps(2, start) infinite; }
-      @keyframes blink { 50% { opacity: 0; } }
-      @media (prefers-reduced-motion: reduce) { .blink { animation: none; } }
+      .ring { animation: rotate 14s linear infinite; transform-box: fill-box; transform-origin: center; }
+      .pulse { animation: pulse 2.2s ease-in-out infinite; }
+      @keyframes rotate { to { transform: rotate(360deg); } }
+      @keyframes pulse { 50% { opacity: .35; } }
+      @media (prefers-reduced-motion: reduce) { .ring, .pulse { animation: none; } }
     </style>
   </defs>
-  <rect width="720" height="820" fill="#b7b2aa"/>
-  <rect x="10" y="10" width="700" height="800" fill="#d84a3a"/>
-  <rect x="22" y="22" width="676" height="776" fill="#29252d"/>
-  <rect x="38" y="38" width="644" height="744" fill="#0c0b0f"/>
-  <rect x="38" y="38" width="644" height="744" fill="url(#mobile-scan)"/>
-  <rect x="38" y="38" width="644" height="48" fill="#fff4d6"/>
-  <rect x="38" y="78" width="644" height="8" fill="#d84a3a"/>
-  <text x="58" y="69" class="mono" fill="#29252d" font-size="18" font-weight="700">DUKE SYSTEM // 1986 MODE</text>
-
-  <g transform="translate(244 112)">
-    <rect x="48" width="72" height="12" fill="#8cff00"/>
-    <rect x="24" y="12" width="120" height="12" fill="#6b278c"/>
-    <rect x="12" y="24" width="144" height="24" fill="#6b278c"/>
-    <rect y="48" width="168" height="72" fill="#431752"/>
-    <rect x="12" y="120" width="144" height="36" fill="#6b278c"/>
-    <rect x="24" y="156" width="120" height="24" fill="#32123d"/>
-    <rect y="60" width="24" height="48" fill="#d84a3a"/>
-    <rect x="144" y="60" width="24" height="48" fill="#d84a3a"/>
-    <rect x="24" y="72" width="48" height="24" fill="#8cff00"/>
-    <rect x="96" y="72" width="48" height="24" fill="#8cff00"/>
-    <rect x="72" y="96" width="24" height="36" fill="#17141b"/>
-    <rect x="48" y="132" width="72" height="12" fill="#ff6a2a"/>
-    <rect x="-36" y="60" width="36" height="12" fill="#8cff00"/>
-    <rect x="168" y="60" width="36" height="12" fill="#8cff00"/>
-  </g>
+  <rect width="720" height="820" fill="#08090b"/>
+  <rect width="720" height="820" fill="url(#mobile-grid)" opacity=".75"/>
+  <rect x="12" y="12" width="696" height="796" fill="none" stroke="#38343d" stroke-width="2"/>
+  <rect x="12" y="12" width="696" height="8" fill="#8cff00"/>
 
   <g class="mono" text-anchor="middle">
-    <text x="360" y="330" fill="#8cff00" font-size="16">PLAYER 1 // UNIT DY-01</text>
-    <text x="360" y="392" fill="#fff4d6" font-size="54" font-weight="900">DUKE YEAH</text>
-    <rect x="116" y="412" width="488" height="8" fill="#6b278c"/>
-    <rect x="116" y="412" width="164" height="8" fill="#d84a3a"/>
-    <text x="360" y="454" fill="#b7b2aa" font-size="17">INDEPENDENT DEV / PRODUCT ENGINEER</text>
+    <text x="360" y="62" fill="#8cff00" font-size="14">TRIPLE UNIT DEPLOYMENT</text>
+    <text x="360" y="132" fill="#f4f1f6" font-size="58" font-weight="900">EILEENES</text>
+    <text x="360" y="170" fill="#a9a3ae" font-size="17">DUKE YEAH / PRODUCT ENGINEER</text>
+    <rect x="110" y="192" width="500" height="6" fill="#6b278c"/>
+    <rect x="110" y="192" width="170" height="6" fill="#8cff00"/>
   </g>
 
-  <g class="mono" font-size="17">
-    <text x="112" y="516" fill="#d84a3a">01</text><text x="164" y="516" fill="#fff4d6">AI WORKFLOWS</text><text x="572" y="516" fill="#8cff00">READY</text>
-    <text x="112" y="566" fill="#d84a3a">02</text><text x="164" y="566" fill="#fff4d6">NATIVE IOS TOOLS</text><text x="572" y="566" fill="#a86ad0">READY</text>
-    <text x="112" y="616" fill="#d84a3a">03</text><text x="164" y="616" fill="#fff4d6">PRODUCT SYSTEMS</text><text x="572" y="616" fill="#ff6a2a">READY</text>
-    <rect x="112" y="644" width="496" height="1" fill="#4a454e"/>
-    <text x="112" y="684" fill="#8cff00">MODE</text><text x="216" y="684" fill="#fff4d6">BUILD / SHIP / ITERATE</text>
+  <g transform="translate(360 430)" fill="none" opacity=".65">
+    <circle r="220" stroke="#6b278c" stroke-width="2" stroke-dasharray="18 12" class="ring"/>
+    <circle r="192" stroke="#8cff00" stroke-width="1" stroke-dasharray="5 14"/>
   </g>
 
-  <text x="360" y="742" text-anchor="middle" class="mono blink" fill="#fff4d6" font-size="19">- PRESS START -</text>
+  <g transform="translate(230 224)">
+    <path d="M130 0L222 30L276 104L264 214L216 306L130 350L44 306L-4 214L-16 104L38 30Z" fill="#17111d" stroke="#6b278c" stroke-width="8"/>
+    <path d="M130 12L210 40L176 112H84L50 40Z" fill="#6b278c"/><path d="M50 40L84 112L66 270L18 210L2 112Z" fill="#421550"/><path d="M210 40L176 112L194 270L242 210L258 112Z" fill="#421550"/><path d="M84 112H176L190 250L130 326L70 250Z" fill="#71308f"/>
+    <path d="M70 124L118 148L94 188L52 166Z" fill="#8cff00" class="pulse"/><path d="M190 124L142 148L166 188L208 166Z" fill="#8cff00" class="pulse"/>
+    <path d="M108 188H152L166 254L130 292L94 254Z" fill="#1b121f"/><path d="M102 250H158L148 270H112Z" fill="#ff7a00"/>
+    <path d="M-16 126L-80 94L-40 160L8 184Z" fill="#8cff00"/><path d="M276 126L340 94L300 160L252 184Z" fill="#8cff00"/>
+  </g>
+
+  <g transform="translate(90 492) scale(.42)">
+    <path d="M130 0L222 30L276 104L264 214L216 306L130 350L44 306L-4 214L-16 104L38 30Z" fill="#1b1010" stroke="#d62828" stroke-width="11"/><path d="M130 12L210 40L176 112H84L50 40Z" fill="#d62828"/><path d="M50 40L84 112L66 270L18 210L2 112Z" fill="#8f1717"/><path d="M210 40L176 112L194 270L242 210L258 112Z" fill="#8f1717"/><path d="M84 112H176L190 250L130 326L70 250Z" fill="#e43d32"/><path d="M70 124L118 148L94 188L52 166Z" fill="#ffb000"/><path d="M190 124L142 148L166 188L208 166Z" fill="#ffb000"/><path d="M108 188H152L166 254L130 292L94 254Z" fill="#251213"/>
+  </g>
+  <g transform="translate(500 492) scale(.42)">
+    <path d="M130 0L222 30L276 104L264 214L216 306L130 350L44 306L-4 214L-16 104L38 30Z" fill="#101522" stroke="#2357d4" stroke-width="11"/><path d="M130 12L210 40L176 112H84L50 40Z" fill="#2357d4"/><path d="M50 40L84 112L66 270L18 210L2 112Z" fill="#16348e"/><path d="M210 40L176 112L194 270L242 210L258 112Z" fill="#16348e"/><path d="M84 112H176L190 250L130 326L70 250Z" fill="#2f67db"/><path d="M70 124L118 148L94 188L52 166Z" fill="#ffd33d"/><path d="M190 124L142 148L166 188L208 166Z" fill="#ffd33d"/><path d="M108 188H152L166 254L130 292L94 254Z" fill="#11182a"/>
+  </g>
+
+  <g class="mono" font-size="14" text-anchor="middle">
+    <text x="150" y="716" fill="#ff594f">UNIT-02 / SHIP</text>
+    <text x="360" y="674" fill="#8cff00">UNIT-01 / BUILD</text>
+    <text x="570" y="716" fill="#ffd33d">UNIT-00 / ITERATE</text>
+    <rect x="250" y="752" width="220" height="30" fill="#8cff00"/>
+    <text x="360" y="773" fill="#08090b" font-weight="900">SYSTEM ONLINE</text>
+  </g>
 </svg>
