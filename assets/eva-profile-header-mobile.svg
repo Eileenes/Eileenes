@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="820" viewBox="0 0 720 820" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+  <title id="title">Duke Yeah retro mecha mobile profile</title>
+  <desc id="desc">A mobile eight-bit red and white console screen with a pixel mecha</desc>
+  <defs>
+    <pattern id="mobile-scan" width="8" height="8" patternUnits="userSpaceOnUse"><rect y="7" width="8" height="1" fill="#fff4d6" opacity=".04"/></pattern>
+    <style>
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+      .blink { animation: blink 1.1s steps(2, start) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .blink { animation: none; } }
+    </style>
+  </defs>
+  <rect width="720" height="820" fill="#b7b2aa"/>
+  <rect x="10" y="10" width="700" height="800" fill="#d84a3a"/>
+  <rect x="22" y="22" width="676" height="776" fill="#29252d"/>
+  <rect x="38" y="38" width="644" height="744" fill="#0c0b0f"/>
+  <rect x="38" y="38" width="644" height="744" fill="url(#mobile-scan)"/>
+  <rect x="38" y="38" width="644" height="48" fill="#fff4d6"/>
+  <rect x="38" y="78" width="644" height="8" fill="#d84a3a"/>
+  <text x="58" y="69" class="mono" fill="#29252d" font-size="18" font-weight="700">DUKE SYSTEM // 1986 MODE</text>
+
+  <g transform="translate(244 112)">
+    <rect x="48" width="72" height="12" fill="#8cff00"/>
+    <rect x="24" y="12" width="120" height="12" fill="#6b278c"/>
+    <rect x="12" y="24" width="144" height="24" fill="#6b278c"/>
+    <rect y="48" width="168" height="72" fill="#431752"/>
+    <rect x="12" y="120" width="144" height="36" fill="#6b278c"/>
+    <rect x="24" y="156" width="120" height="24" fill="#32123d"/>
+    <rect y="60" width="24" height="48" fill="#d84a3a"/>
+    <rect x="144" y="60" width="24" height="48" fill="#d84a3a"/>
+    <rect x="24" y="72" width="48" height="24" fill="#8cff00"/>
+    <rect x="96" y="72" width="48" height="24" fill="#8cff00"/>
+    <rect x="72" y="96" width="24" height="36" fill="#17141b"/>
+    <rect x="48" y="132" width="72" height="12" fill="#ff6a2a"/>
+    <rect x="-36" y="60" width="36" height="12" fill="#8cff00"/>
+    <rect x="168" y="60" width="36" height="12" fill="#8cff00"/>
+  </g>
+
+  <g class="mono" text-anchor="middle">
+    <text x="360" y="330" fill="#8cff00" font-size="16">PLAYER 1 // UNIT DY-01</text>
+    <text x="360" y="392" fill="#fff4d6" font-size="54" font-weight="900">DUKE YEAH</text>
+    <rect x="116" y="412" width="488" height="8" fill="#6b278c"/>
+    <rect x="116" y="412" width="164" height="8" fill="#d84a3a"/>
+    <text x="360" y="454" fill="#b7b2aa" font-size="17">INDEPENDENT DEV / PRODUCT ENGINEER</text>
+  </g>
+
+  <g class="mono" font-size="17">
+    <text x="112" y="516" fill="#d84a3a">01</text><text x="164" y="516" fill="#fff4d6">AI WORKFLOWS</text><text x="572" y="516" fill="#8cff00">READY</text>
+    <text x="112" y="566" fill="#d84a3a">02</text><text x="164" y="566" fill="#fff4d6">NATIVE IOS TOOLS</text><text x="572" y="566" fill="#a86ad0">READY</text>
+    <text x="112" y="616" fill="#d84a3a">03</text><text x="164" y="616" fill="#fff4d6">PRODUCT SYSTEMS</text><text x="572" y="616" fill="#ff6a2a">READY</text>
+    <rect x="112" y="644" width="496" height="1" fill="#4a454e"/>
+    <text x="112" y="684" fill="#8cff00">MODE</text><text x="216" y="684" fill="#fff4d6">BUILD / SHIP / ITERATE</text>
+  </g>
+
+  <text x="360" y="742" text-anchor="middle" class="mono blink" fill="#fff4d6" font-size="19">- PRESS START -</text>
+</svg>
