@@ -9,7 +9,7 @@
 
 [中文档案](#player-file-cn--中文档案) · [English Profile](#player-file-en--english-profile) · [关卡选择](#stage-select--精选项目) · [装备栏](#loadout--系统栈)
 
-<a href="https://github.com/duke-yeah"><img src="https://img.shields.io/badge/GITHUB-111111?style=for-the-badge&logo=github&logoColor=8CFF00" alt="GitHub" /></a>
+<a href="https://github.com/Eileenes"><img src="https://img.shields.io/badge/GITHUB-111111?style=for-the-badge&logo=github&logoColor=8CFF00" alt="GitHub" /></a>
 <a href="mailto:dukeyeah@163.com"><img src="https://img.shields.io/badge/CONTACT-D84A3A?style=for-the-badge&logo=gmail&logoColor=FFF4D6" alt="Email" /></a>
 <img src="https://img.shields.io/badge/MODE-BUILDING-8CFF00?style=for-the-badge&labelColor=6B278C" alt="Mode: building" />
 
@@ -67,7 +67,7 @@ STATUS    BUILDING...
   <img src="./assets/retro-stage-select.svg" width="100%" alt="Retro stage select showing Recruitment, memoranote, and DukeNote" />
 </picture>
 
-### STAGE 01 · [Recruitment](https://github.com/duke-yeah/Recruitment)
+### STAGE 01 · [Recruitment](https://github.com/Eileenes/Recruitment)
 
 > `GO` `REACT` `POSTGRESQL` `LLM` · **SIGNAL SEARCH MISSION**
 
@@ -75,9 +75,9 @@ STATUS    BUILDING...
 
 A GitHub lead finder for recruiting workflows, combining requirement parsing, public profile discovery, repository signal ranking, persistence, and webhook delivery.
 
-[`▶ ENTER REPOSITORY`](https://github.com/duke-yeah/Recruitment)
+[`▶ ENTER REPOSITORY`](https://github.com/Eileenes/Recruitment)
 
-### STAGE 02 · [memoranote](https://github.com/duke-yeah/memoranote)
+### STAGE 02 · [memoranote](https://github.com/Eileenes/memoranote)
 
 > `SWIFT` `SWIFTUI` `IOS` · **MEMORY CAPTURE MISSION**
 
@@ -85,9 +85,9 @@ A GitHub lead finder for recruiting workflows, combining requirement parsing, pu
 
 A product-driven note project and a long-running exploration of focused, native iOS tool experiences.
 
-[`▶ ENTER REPOSITORY`](https://github.com/duke-yeah/memoranote)
+[`▶ ENTER REPOSITORY`](https://github.com/Eileenes/memoranote)
 
-### STAGE 03 · [DukeNote](https://github.com/duke-yeah/DukeNote)
+### STAGE 03 · [DukeNote](https://github.com/Eileenes/DukeNote)
 
 > `SWIFT` `SWIFTUI` `MIT` · **NOTE SYSTEM MISSION**
 
@@ -95,7 +95,7 @@ A product-driven note project and a long-running exploration of focused, native 
 
 A native notebook project focused on clear structure, lightweight interaction, and maintainable product quality.
 
-[`▶ ENTER REPOSITORY`](https://github.com/duke-yeah/DukeNote)
+[`▶ ENTER REPOSITORY`](https://github.com/Eileenes/DukeNote)
 
 ---
 
@@ -132,7 +132,7 @@ Building `AI tools`, `iOS products`, `recruiting systems`, or `note / productivi
 
 ### `PRESS START TO CONNECT`
 
-[`GITHUB // duke-yeah`](https://github.com/duke-yeah) · [`EMAIL // dukeyeah@163.com`](mailto:dukeyeah@163.com)
+[`GITHUB // Eileenes`](https://github.com/Eileenes) · [`EMAIL // dukeyeah@163.com`](mailto:dukeyeah@163.com)
 
 <sub>DUKE SYSTEM © 1986–20XX // HUMAN × PRODUCT × MACHINE</sub>
 
