@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Duke Yeah developer operations profile</title>
+  <desc id="desc">A dark purple, neon green, and orange mecha cockpit interface</desc>
+
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#2b1838" stroke-width="1"/>
+    </pattern>
+    <pattern id="warning" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="skewX(-28)">
+      <rect width="12" height="24" fill="#ff5a1f"/>
+      <rect x="12" width="12" height="24" fill="#17101d"/>
+    </pattern>
+    <clipPath id="frame">
+      <path d="M0 0H1200V330L1170 360H0Z"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="#0a0710"/>
+    <rect width="1200" height="360" fill="url(#grid)" opacity=".72"/>
+    <path d="M0 0H1200V12H0Z" fill="#8cff00"/>
+    <path d="M0 330H400L370 360H0Z" fill="#52206f"/>
+    <path d="M1080 330H1200V360H1050Z" fill="url(#warning)"/>
+
+    <g fill="none" stroke="#8cff00">
+      <path d="M38 45V25H210" stroke-width="3"/>
+      <path d="M38 315V335H210" stroke-width="3"/>
+      <path d="M972 30H1148V74" stroke-width="2"/>
+      <path d="M972 318H1148V274" stroke-width="2"/>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <text x="46" y="57" fill="#8cff00" font-size="14" font-weight="700">OPERATIONS PROFILE // UNIT DY-01</text>
+      <text x="46" y="148" fill="#f4f0f7" font-size="68" font-weight="900">DUKE YEAH</text>
+      <rect x="46" y="166" width="590" height="4" fill="#6b278c"/>
+      <rect x="46" y="166" width="168" height="4" fill="#ff5a1f"/>
+      <text x="46" y="207" fill="#c8b9cf" font-size="19">INDEPENDENT DEVELOPER / PRODUCT ENGINEER</text>
+      <text x="46" y="247" fill="#8cff00" font-size="15">AI WORKFLOWS</text>
+      <text x="205" y="247" fill="#ff5a1f" font-size="15">SWIFTUI</text>
+      <text x="305" y="247" fill="#a86ad0" font-size="15">GO + REACT</text>
+      <text x="440" y="247" fill="#f4f0f7" font-size="15">PRODUCT SYSTEMS</text>
+
+      <rect x="46" y="277" width="138" height="26" fill="#8cff00"/>
+      <text x="58" y="296" fill="#0a0710" font-size="13" font-weight="900">SYSTEM: ONLINE</text>
+      <text x="202" y="296" fill="#8b7b92" font-size="12">BUILD / SHIP / ITERATE</text>
+    </g>
+
+    <g transform="translate(704 30)">
+      <path d="M250 0L350 44L428 137L399 253L307 299L183 276L118 189L139 72Z" fill="#17101d" stroke="#6b278c" stroke-width="8"/>
+      <path d="M244 19L322 53L288 111L221 107L177 72Z" fill="#562174"/>
+      <path d="M177 72L221 107L201 232L148 189L151 94Z" fill="#361647"/>
+      <path d="M322 53L378 134L343 225L288 111Z" fill="#421857"/>
+      <path d="M221 107L288 111L307 221L252 260L201 232Z" fill="#7a2b9c"/>
+      <path d="M205 121L251 147L228 183L188 162Z" fill="#8cff00"/>
+      <path d="M283 126L320 151L299 181L260 149Z" fill="#8cff00"/>
+      <path d="M236 187L287 183L307 221L252 260L218 229Z" fill="#25102e"/>
+      <path d="M229 214L279 210L288 225L251 242Z" fill="#ff5a1f"/>
+      <path d="M126 179L64 158L18 110L120 135Z" fill="#8cff00"/>
+      <path d="M391 168L468 142L424 202L387 217Z" fill="#8cff00"/>
+      <path d="M151 94L96 40L172 71Z" fill="#ff5a1f"/>
+      <path d="M378 134L445 76L401 158Z" fill="#ff5a1f"/>
+      <g fill="none" stroke="#b479d2" stroke-width="2" opacity=".65">
+        <circle cx="258" cy="154" r="132"/>
+        <circle cx="258" cy="154" r="145" stroke-dasharray="8 12"/>
+        <path d="M258 0V42M258 267V310M94 154H136M380 154H474"/>
+      </g>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">
+      <text x="888" y="338" fill="#8cff00">SYNC 100.0%</text>
+      <text x="1000" y="338" fill="#8b7b92">CN / EN</text>
+    </g>
+  </g>
+</svg>
