@@ -1,107 +1,89 @@
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/eva-profile-header-mobile.svg">
-  <img src="./assets/eva-profile-header.svg" width="100%" alt="Eileenes EVA-inspired profile — Unit 01, Unit 02, and Unit 00 deployment" />
+  <img src="./assets/eva-profile-header.svg" width="100%" alt="Eileenes 个人驾驶舱档案，打开的机甲座舱中坐着驾驶员剪影" />
 </picture>
 
 <div align="center">
 
 ### `EILEENES // DUKE YEAH`
 
-**独立开发者 · 产品工程师 · AI 工作流 / 原生 iOS / 产品系统**
+**10 年产品经理 · 喜欢把想法亲手做出来**
 
-[个人介绍](#个人介绍) · [项目简述](#项目简述) · [联系方式](#联系方式)
+[`个人介绍`](#个人介绍) · [`作品`](#作品) · [`联系我`](#联系我)
 
-<a href="https://github.com/Eileenes"><img src="https://img.shields.io/badge/GITHUB-0A0B0D?style=for-the-badge&logo=github&logoColor=8CFF00" alt="GitHub" /></a>
-<a href="mailto:dukeyeah@163.com"><img src="https://img.shields.io/badge/CONTACT-D62828?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email" /></a>
-<img src="https://img.shields.io/badge/SYSTEM-ONLINE-2357D4?style=for-the-badge&labelColor=FFD33D" alt="System online" />
+<a href="https://github.com/Eileenes"><img src="https://img.shields.io/badge/GITHUB-EILEENES-0B1012?style=for-the-badge&logo=github&logoColor=B9FF2C&labelColor=151C20" alt="GitHub Eileenes" /></a>
+<a href="mailto:dukeyeah@163.com"><img src="https://img.shields.io/badge/CHANNEL-OPEN-FF5C35?style=for-the-badge&logo=gmail&logoColor=FFFFFF&labelColor=151C20" alt="Email" /></a>
+<img src="https://img.shields.io/badge/COCKPIT-ONLINE-10D9CC?style=for-the-badge&labelColor=151C20" alt="Cockpit online" />
 
 </div>
-
-<details>
-  <summary><strong>ENGLISH PROFILE // 点击展开英文档案</strong></summary>
-  <br>
-
-  Hi, I am <strong>Duke Yeah</strong>, an independent developer and product engineer. I build product-shaped software from problem framing and interaction design to implementation, deployment, and iteration. My current focus is applied AI workflows, native iOS tools, and practical software that removes repetitive work.
-
-  <br>
-
-  <strong>Selected projects</strong>
-
-  - <a href="https://github.com/Eileenes/Recruitment"><strong>Recruitment</strong></a>: a GitHub lead finder combining requirement parsing, public profile discovery, repository signal ranking, persistence, and webhook delivery.
-  - <a href="https://github.com/Eileenes/memoranote"><strong>memoranote</strong></a>: a focused native iOS note product built with Swift and SwiftUI.
-  - <a href="https://github.com/Eileenes/DukeNote"><strong>DukeNote</strong></a>: a native notebook project focused on clear structure, lightweight interaction, and maintainable product quality.
-
-  <br>
-
-  <strong>Contact</strong>: <a href="https://github.com/Eileenes">GitHub</a> · <a href="mailto:dukeyeah@163.com">Email</a>
-</details>
 
 ---
 
 ## 个人介绍
 
-> **把真实问题做成能长期运行的产品。**
+> **保持好奇，也保持动手。**
 
-你好，我是 **Duke Yeah**，一名独立开发者与产品工程师。
+你好，我是 **Duke Yeah**，一名有 10 年经验的产品经理。
 
-我喜欢从一个具体的工作流出发，独立完成需求梳理、交互设计、工程实现、部署维护和持续迭代。比起只做一个能演示的 Demo，我更在意软件是否真的好用、是否能稳定运行，以及它能不能减少人的重复劳动。
+我对新事物总有兴趣，也喜欢亲手把想法做出来。遇到没试过的东西，我愿意先走近一点、体验一下，再形成自己的判断。工作之外，我认真生活，也把很多时间留给音乐。
 
-目前主要关注：
+`好奇 / 动手 / 体验 / 生活 / 音乐`
 
-- **AI 工作流**：让大模型进入真实任务，完成解析、搜索、排序、生成与自动推送
-- **原生 iOS 工具**：用 Swift / SwiftUI 打磨安静、轻量、适合长期使用的记录产品
-- **产品工程**：连接前端、后端、数据、部署与反馈，让想法形成完整闭环
+<details>
+  <summary><strong>ENGLISH PROFILE // 展开英文介绍</strong></summary>
+  <br>
 
-<div align="center">
+  Hi, I am <strong>Duke Yeah</strong>, a product manager with 10 years of experience.
 
-`UNIT-01 // BUILD` · `UNIT-02 // SHIP` · `UNIT-00 // ITERATE`
+  I stay curious about new things and enjoy turning ideas into something tangible with my own hands. When I meet the unfamiliar, I prefer to try it first and form my own view through experience. Beyond work, I care deeply about living well and always make room for music.
 
-</div>
+  <br>
+
+  <code>CURIOUS / HANDS-ON / OPEN TO EXPERIENCE / LIFE / MUSIC</code>
+</details>
 
 ---
 
-## 项目简述
+## 作品
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/eva-projects-mobile.svg">
-  <img src="./assets/eva-projects.svg" width="100%" alt="EVA operations board with pixel project modules for Recruitment, memoranote, and DukeNote" />
+  <img src="./assets/eva-projects.svg" width="100%" alt="Eileenes 像素未来风作品部署面板" />
 </picture>
 
-### UNIT-02 / [Recruitment](https://github.com/Eileenes/Recruitment)
+### 01 / [Recruitment](https://github.com/Eileenes/Recruitment)
 
 `Go` `React` `PostgreSQL` `LLM`
 
-面向招聘场景的 GitHub 人才线索发现工具：解析岗位需求、检索公开用户、排序仓库信号，并通过 Webhook 推送结果。
+从岗位需求出发，在 GitHub 公开信息中发现人才线索，完成检索、信号排序与结果推送。
 
-### UNIT-01 / [memoranote](https://github.com/Eileenes/memoranote)
+### 02 / [memoranote](https://github.com/Eileenes/memoranote)
 
 `Swift` `SwiftUI` `iOS`
 
-围绕记录、整理与笔记体验展开的个人产品，也是我持续打磨原生 iOS 工具体验的一条主线。
+一款围绕记录与整理体验持续打磨的原生 iOS 笔记产品。
 
-### UNIT-00 / [DukeNote](https://github.com/Eileenes/DukeNote)
+### 03 / [DukeNote](https://github.com/Eileenes/DukeNote)
 
 `Swift` `SwiftUI` `MIT`
 
-原生 Notebook / 笔记项目，强调清晰结构、轻量交互与可长期维护的产品体验。
+结构清晰、交互轻量的原生 Notebook 项目，适合长期记录与维护。
 
 ---
 
-## 联系方式
+## 联系我
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/eva-contact-panel-mobile.svg">
-  <img src="./assets/eva-contact-panel.svg" width="100%" alt="EVA communications channel status panel" />
+  <img src="./assets/eva-contact-panel.svg" width="100%" alt="Eileenes 像素未来风通信面板" />
 </picture>
-
-如果你也在做 `AI 工具`、`iOS 产品`、`招聘系统` 或 `笔记 / 效率软件`，欢迎交流。
 
 <div align="center">
 
-### `COMMUNICATION CHANNEL OPEN`
+### `COMMUNICATION CHANNEL // OPEN`
 
 [`GITHUB // Eileenes`](https://github.com/Eileenes) · [`EMAIL // dukeyeah@163.com`](mailto:dukeyeah@163.com)
 
-<sub>HUMAN × PRODUCT × MACHINE // BUILD LOG CONTINUES</sub>
+<sub>STAY CURIOUS · MAKE THINGS · KEEP LIVING</sub>
 
 </div>

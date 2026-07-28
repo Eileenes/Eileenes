@@ -1,109 +1,131 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
-  <title id="title">Eileenes triple unit deployment profile</title>
-  <desc id="desc">A dark mecha command interface featuring purple-green Unit 01, red-orange Unit 02, and blue-yellow Unit 00</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Eileenes pilot profile interface</title>
+  <desc id="desc">A retro-futuristic personal profile with an open glossy mecha cockpit and a seated pilot silhouette</desc>
   <defs>
-    <pattern id="command-grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#25232a" stroke-width="1"/>
+    <linearGradient id="paint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".22" stop-color="#d9e2e2"/><stop offset=".52" stop-color="#7f8b8e"/><stop offset=".7" stop-color="#f7ffff"/><stop offset="1" stop-color="#788286"/>
+    </linearGradient>
+    <linearGradient id="matte" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#20262a"/><stop offset="1" stop-color="#080b0d"/>
+    </linearGradient>
+    <radialGradient id="bay" cx="50%" cy="45%" r="58%">
+      <stop stop-color="#17302d"/><stop offset=".55" stop-color="#07110f"/><stop offset="1" stop-color="#020404"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#263033" stroke-width="1"/>
+      <rect width="2" height="2" fill="#536064" opacity=".34"/>
     </pattern>
-    <pattern id="warning-stripe" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="skewX(-28)">
-      <rect width="14" height="28" fill="#ff7a00"/>
-      <rect x="14" width="14" height="28" fill="#151317"/>
+    <pattern id="pixels" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="5" height="5" fill="#b9ff2c"/><rect x="8" y="8" width="5" height="5" fill="#10d9cc"/>
     </pattern>
+    <filter id="green-glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="cyan-glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="cockpit-clip"><path d="M782 156Q897 88 1012 156L1036 284Q1002 372 897 396Q792 372 758 284Z"/></clipPath>
     <style>
-      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
-      .ring { animation: rotate 16s linear infinite; transform-box: fill-box; transform-origin: center; }
-      .counter { animation: rotate-reverse 11s linear infinite; transform-box: fill-box; transform-origin: center; }
-      .pulse { animation: pulse 2.2s ease-in-out infinite; }
-      .scan { animation: scan 5s linear infinite; }
-      @keyframes rotate { to { transform: rotate(360deg); } }
-      @keyframes rotate-reverse { to { transform: rotate(-360deg); } }
-      @keyframes pulse { 50% { opacity: .35; } }
-      @keyframes scan { from { transform: translateY(-360px); } to { transform: translateY(520px); } }
-      @media (prefers-reduced-motion: reduce) { .ring, .counter, .pulse, .scan { animation: none; } }
+      .mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace}.sans{font-family:Impact,"Arial Black",sans-serif;letter-spacing:0}.canopy{animation:canopy 7s cubic-bezier(.4,0,.2,1) infinite;transform-box:fill-box;transform-origin:50% 100%}.pilot{animation:pilot 3.4s ease-in-out infinite}.scan{animation:scan 4.8s linear infinite}.cursor{animation:blink 1s steps(2,end) infinite}.ring{animation:spin 18s linear infinite;transform-box:fill-box;transform-origin:center}.signal{animation:signal 2.4s steps(3,end) infinite}@keyframes canopy{0%,8%{transform:rotate(0deg) translateY(44px);opacity:.42}22%,78%{transform:rotate(-12deg) translateY(-68px);opacity:1}92%,100%{transform:rotate(0deg) translateY(44px);opacity:.42}}@keyframes pilot{50%{opacity:.76}}@keyframes scan{from{transform:translateY(-520px)}to{transform:translateY(600px)}}@keyframes blink{50%{opacity:0}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes signal{50%{transform:scaleX(.35)}}@media(prefers-reduced-motion:reduce){.canopy,.pilot,.scan,.cursor,.ring,.signal{animation:none}.canopy{transform:translateY(-68px)}}
     </style>
   </defs>
 
-  <rect width="1200" height="520" fill="#08090b"/>
-  <rect width="1200" height="520" fill="url(#command-grid)" opacity=".75"/>
-  <rect x="12" y="12" width="1176" height="496" fill="none" stroke="#38343d" stroke-width="2"/>
-  <rect x="12" y="12" width="1176" height="8" fill="#8cff00"/>
-  <rect x="12" y="500" width="280" height="8" fill="#6b278c"/>
-  <rect x="292" y="500" width="280" height="8" fill="#d62828"/>
-  <rect x="572" y="500" width="280" height="8" fill="#2357d4"/>
-  <rect x="1010" y="480" width="178" height="28" fill="url(#warning-stripe)"/>
+  <rect width="1200" height="560" fill="#070a0c"/>
+  <rect width="1200" height="560" fill="url(#grid)" opacity=".72"/>
+  <path d="M0 0H1200V34H0ZM0 526H1200V560H0Z" fill="#0e1316"/>
+  <path d="M0 34H624L548 526H0Z" fill="#0a0e10" opacity=".82"/>
+  <rect x="14" y="14" width="1172" height="532" fill="none" stroke="#546064" stroke-width="2"/>
+  <path d="M14 14H380V20H14ZM820 540H1186V546H820Z" fill="#b9ff2c"/>
+  <path d="M380 14H636V20H380ZM564 540H820V546H564Z" fill="#ff5c35"/>
+  <path d="M636 14H1186V20H636ZM14 540H564V546H14Z" fill="#10d9cc"/>
 
   <g class="mono">
-    <text x="48" y="58" fill="#8cff00" font-size="14" font-weight="700">TRIPLE UNIT DEPLOYMENT // PROFILE SYSTEM</text>
-    <text x="48" y="146" fill="#f4f1f6" font-size="66" font-weight="900">EILEENES</text>
-    <text x="48" y="190" fill="#a9a3ae" font-size="19">DUKE YEAH / INDEPENDENT DEVELOPER</text>
-    <rect x="48" y="214" width="438" height="6" fill="#6b278c"/>
-    <rect x="48" y="214" width="154" height="6" fill="#8cff00"/>
+    <text x="48" y="64" fill="#b9ff2c" font-size="13" font-weight="700">PILOT FILE // 010</text>
+    <text x="48" y="91" fill="#667276" font-size="11">PERSONAL OPERATING SYSTEM / SHANGHAI TIME</text>
+    <text x="48" y="174" class="sans" fill="#f3f8f7" font-size="70" font-weight="900">EILEENES</text>
+    <rect x="48" y="194" width="456" height="2" fill="#586367"/>
+    <rect x="48" y="194" width="142" height="6" fill="#b9ff2c"/>
+    <text x="48" y="230" fill="#f3f8f7" font-size="18" font-weight="700">DUKE YEAH</text>
+    <text x="170" y="230" fill="#7b888b" font-size="14">// PRODUCT MANAGER · MAKER</text>
 
-    <text x="48" y="272" fill="#8cff00" font-size="15">UNIT-01</text>
-    <text x="132" y="272" fill="#f4f1f6" font-size="17" font-weight="700">AI WORKFLOWS</text>
-    <text x="48" y="318" fill="#ff594f" font-size="15">UNIT-02</text>
-    <text x="132" y="318" fill="#f4f1f6" font-size="17" font-weight="700">PRODUCT ENGINEERING</text>
-    <text x="48" y="364" fill="#ffd33d" font-size="15">UNIT-00</text>
-    <text x="132" y="364" fill="#f4f1f6" font-size="17" font-weight="700">NATIVE IOS TOOLS</text>
+    <g transform="translate(48 276)">
+      <rect width="450" height="116" fill="#101619" stroke="#394449" stroke-width="2"/>
+      <rect x="12" y="12" width="8" height="8" fill="#ff5c35"/>
+      <text x="34" y="21" fill="#ff8a68" font-size="11">IDENTITY / 身份档案</text>
+      <text x="20" y="59" fill="#f3f8f7" font-size="17" font-weight="700">10 YEARS IN PRODUCT</text>
+      <text x="20" y="86" fill="#a8b1b2" font-size="13">CURIOUS · HANDS-ON · LIFE &amp; MUSIC</text>
+      <rect x="388" y="18" width="42" height="42" fill="url(#pixels)" opacity=".82"/>
+      <path d="M388 76H430M388 88H414M388 100H424" stroke="#10d9cc" stroke-width="4"/>
+    </g>
 
-    <rect x="48" y="404" width="148" height="28" fill="#8cff00"/>
-    <text x="60" y="424" fill="#08090b" font-size="13" font-weight="900">SYSTEM ONLINE</text>
-    <text x="220" y="424" fill="#79727f" font-size="13">BUILD / SHIP / ITERATE</text>
+    <g transform="translate(48 426)">
+      <rect width="166" height="38" fill="#b9ff2c"/>
+      <text x="16" y="25" fill="#07100d" font-size="13" font-weight="900">COCKPIT ONLINE</text>
+      <rect x="178" width="138" height="38" fill="#151c20" stroke="#3e4a4e"/>
+      <text x="194" y="25" fill="#10d9cc" font-size="12">CN / DEFAULT</text>
+      <rect x="328" width="170" height="38" fill="#151c20" stroke="#3e4a4e"/>
+      <text x="344" y="25" fill="#9aa5a7" font-size="12">EN / AVAILABLE</text>
+    </g>
+    <text x="48" y="508" fill="#667276" font-size="11">STATUS: READY TO TRY SOMETHING NEW</text>
+    <rect x="363" y="496" width="8" height="14" fill="#b9ff2c" class="cursor"/>
   </g>
 
-  <g transform="translate(814 236)" fill="none" opacity=".7">
-    <circle r="205" stroke="#6b278c" stroke-width="2" stroke-dasharray="18 12" class="ring"/>
-    <circle r="178" stroke="#8cff00" stroke-width="1" stroke-dasharray="6 16" class="counter"/>
-    <path d="M-224 0H-188M188 0H224M0-224V-188M0 188V224" stroke="#b98bd2" stroke-width="2"/>
+  <g transform="translate(897 276)" fill="none" opacity=".42">
+    <circle r="236" stroke="#10d9cc" stroke-width="2" stroke-dasharray="2 12" class="ring"/>
+    <circle r="208" stroke="#b9ff2c" stroke-width="1" stroke-dasharray="28 16"/>
+    <path d="M-248 0H-214M214 0H248M0-248V-214M0 214V248" stroke="#8a9699" stroke-width="2"/>
   </g>
 
-  <!-- Unit 01: purple / neon green -->
-  <g transform="translate(684 54)">
-    <path d="M130 0L222 30L276 104L264 214L216 306L130 350L44 306L-4 214L-16 104L38 30Z" fill="#17111d" stroke="#6b278c" stroke-width="8"/>
-    <path d="M130 12L210 40L176 112H84L50 40Z" fill="#6b278c"/>
-    <path d="M50 40L84 112L66 270L18 210L2 112Z" fill="#421550"/>
-    <path d="M210 40L176 112L194 270L242 210L258 112Z" fill="#421550"/>
-    <path d="M84 112H176L190 250L130 326L70 250Z" fill="#71308f"/>
-    <path d="M70 124L118 148L94 188L52 166Z" fill="#8cff00" class="pulse"/>
-    <path d="M190 124L142 148L166 188L208 166Z" fill="#8cff00" class="pulse"/>
-    <path d="M108 188H152L166 254L130 292L94 254Z" fill="#1b121f"/>
-    <path d="M102 250H158L148 270H112Z" fill="#ff7a00"/>
-    <path d="M-16 126L-92 88L-42 164L8 184Z" fill="#8cff00"/>
-    <path d="M276 126L352 88L302 164L252 184Z" fill="#8cff00"/>
-    <path d="M42 34L-16-18L18 72Z" fill="#ff7a00"/>
-    <path d="M218 34L276-18L242 72Z" fill="#ff7a00"/>
+  <!-- shoulders and torso: glossy armor over matte structure -->
+  <g>
+    <path d="M596 526L626 424L704 390L760 348H1032L1087 389L1168 430L1190 526Z" fill="url(#matte)" stroke="#455156" stroke-width="6"/>
+    <path d="M608 522L638 438L710 402L762 388L744 486L684 526Z" fill="url(#paint)" stroke="#b7c0c1" stroke-width="4"/>
+    <path d="M1034 388L1090 404L1153 443L1178 522H1108L1049 486Z" fill="url(#paint)" stroke="#b7c0c1" stroke-width="4"/>
+    <path d="M624 470L690 436L676 490L640 510Z" fill="#ff5c35"/>
+    <path d="M1112 441L1160 470L1170 508L1130 489Z" fill="#b9ff2c"/>
+    <path d="M743 434L780 482H1012L1049 434L1029 526H764Z" fill="#11171a" stroke="#566267" stroke-width="4"/>
+    <path d="M806 476H988L970 526H824Z" fill="#090d0f"/>
+    <path d="M834 488H960" stroke="#10d9cc" stroke-width="8" class="signal"/>
   </g>
 
-  <!-- Unit 02: red / orange -->
-  <g transform="translate(588 246) scale(.5)">
-    <path d="M130 0L222 30L276 104L264 214L216 306L130 350L44 306L-4 214L-16 104L38 30Z" fill="#1b1010" stroke="#d62828" stroke-width="10"/>
-    <path d="M130 12L210 40L176 112H84L50 40Z" fill="#d62828"/>
-    <path d="M50 40L84 112L66 270L18 210L2 112Z" fill="#8f1717"/>
-    <path d="M210 40L176 112L194 270L242 210L258 112Z" fill="#8f1717"/>
-    <path d="M84 112H176L190 250L130 326L70 250Z" fill="#e43d32"/>
-    <path d="M70 124L118 148L94 188L52 166Z" fill="#ffb000"/>
-    <path d="M190 124L142 148L166 188L208 166Z" fill="#ffb000"/>
-    <path d="M108 188H152L166 254L130 292L94 254Z" fill="#251213"/>
-    <path d="M102 250H158L148 270H112Z" fill="#f4f1f6"/>
-    <path d="M-16 126L-82 94L-40 160L8 184Z" fill="#ff7a00"/>
-    <path d="M276 126L342 94L300 160L252 184Z" fill="#ff7a00"/>
+  <!-- open cockpit cavity -->
+  <path d="M782 156Q897 88 1012 156L1036 284Q1002 372 897 396Q792 372 758 284Z" fill="url(#bay)" stroke="#657174" stroke-width="10"/>
+  <g clip-path="url(#cockpit-clip)">
+    <path d="M770 182L816 216M1024 182L978 216M766 304L820 284M1028 304L974 284" stroke="#10d9cc" stroke-width="5" opacity=".55"/>
+    <path d="M790 352Q897 306 1004 352" fill="none" stroke="#b9ff2c" stroke-width="3" stroke-dasharray="10 9"/>
+    <g class="pilot">
+      <circle cx="897" cy="230" r="34" fill="#010202" stroke="#263534" stroke-width="4"/>
+      <path d="M844 355Q850 274 897 266Q944 274 950 355L930 386H864Z" fill="#010202" stroke="#263534" stroke-width="4"/>
+      <path d="M852 300L808 332M942 300L986 332" stroke="#020303" stroke-width="24" stroke-linecap="square"/>
+      <path d="M820 334H866M928 334H974" stroke="#b9ff2c" stroke-width="4"/>
+      <rect x="884" y="214" width="26" height="6" fill="#b9ff2c" filter="url(#green-glow)"/>
+    </g>
+    <rect x="784" y="300" width="6" height="62" fill="#10d9cc" class="signal"/>
+    <rect x="1004" y="300" width="6" height="62" fill="#ff5c35" class="signal"/>
   </g>
 
-  <!-- Unit 00: blue / yellow -->
-  <g transform="translate(1020 246) scale(.5)">
-    <path d="M130 0L222 30L276 104L264 214L216 306L130 350L44 306L-4 214L-16 104L38 30Z" fill="#101522" stroke="#2357d4" stroke-width="10"/>
-    <path d="M130 12L210 40L176 112H84L50 40Z" fill="#2357d4"/>
-    <path d="M50 40L84 112L66 270L18 210L2 112Z" fill="#16348e"/>
-    <path d="M210 40L176 112L194 270L242 210L258 112Z" fill="#16348e"/>
-    <path d="M84 112H176L190 250L130 326L70 250Z" fill="#2f67db"/>
-    <path d="M70 124L118 148L94 188L52 166Z" fill="#ffd33d"/>
-    <path d="M190 124L142 148L166 188L208 166Z" fill="#ffd33d"/>
-    <path d="M108 188H152L166 254L130 292L94 254Z" fill="#11182a"/>
-    <path d="M102 250H158L148 270H112Z" fill="#f4f1f6"/>
-    <path d="M-16 126L-82 94L-40 160L8 184Z" fill="#ffd33d"/>
-    <path d="M276 126L342 94L300 160L252 184Z" fill="#ffd33d"/>
+  <!-- helmet frame -->
+  <path d="M774 166L724 218L738 314L776 290L788 182Z" fill="#151b1e" stroke="#667276" stroke-width="6"/>
+  <path d="M1020 166L1070 218L1056 314L1018 290L1006 182Z" fill="#151b1e" stroke="#667276" stroke-width="6"/>
+  <path d="M724 218L676 188L706 270L742 292Z" fill="url(#paint)" stroke="#b7c0c1" stroke-width="4"/>
+  <path d="M1070 218L1118 188L1088 270L1052 292Z" fill="url(#paint)" stroke="#b7c0c1" stroke-width="4"/>
+
+  <!-- animated canopy lifted away from the pilot -->
+  <g class="canopy">
+    <path d="M776 182Q897 94 1018 182L1000 252Q897 205 794 252Z" fill="url(#paint)" stroke="#d9e1e1" stroke-width="7"/>
+    <path d="M801 181Q897 123 993 181L975 216Q897 184 819 216Z" fill="#111719" stroke="#566367" stroke-width="4"/>
+    <path d="M828 173Q897 138 966 173" fill="none" stroke="#ffffff" stroke-width="7" opacity=".72"/>
+    <path d="M794 226L750 202L780 262Z" fill="#ff5c35"/><path d="M1000 226L1044 202L1014 262Z" fill="#b9ff2c"/>
+    <rect x="877" y="116" width="40" height="16" fill="#10d9cc" filter="url(#cyan-glow)"/>
   </g>
 
-  <rect x="0" y="0" width="1200" height="3" fill="#8cff00" opacity=".5" class="scan"/>
-  <text x="1160" y="472" text-anchor="end" class="mono" fill="#77717c" font-size="11">SYNC 01 / 02 / 00 // NOMINAL</text>
+  <path d="M744 354L778 382M1050 354L1016 382" stroke="#ff5c35" stroke-width="9"/>
+  <path d="M710 338H748M1046 338H1084" stroke="#b9ff2c" stroke-width="7"/>
+
+  <g class="mono" font-size="10">
+    <text x="628" y="64" fill="#10d9cc">CANOPY / AUTO</text>
+    <text x="1074" y="64" fill="#ff8a68">PILOT / LINKED</text>
+    <text x="1148" y="506" text-anchor="end" fill="#6d797c">PX-010 / OPEN COCKPIT</text>
+  </g>
+  <rect x="0" y="0" width="1200" height="3" fill="#b9ff2c" opacity=".5" class="scan"/>
 </svg>

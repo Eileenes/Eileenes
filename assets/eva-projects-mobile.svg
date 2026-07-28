@@ -1,39 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="880" viewBox="0 0 720 880" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
-  <title id="title">Eileenes mobile project operations board</title>
-  <desc id="desc">Three stacked pixel project modules with EVA unit colors</desc>
-  <defs>
-    <style>
-      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
-      .selected { animation: selected 1.4s steps(2, start) infinite; }
-      @keyframes selected { 50% { opacity: .48; } }
-      @media (prefers-reduced-motion: reduce) { .selected { animation: none; } }
-    </style>
-  </defs>
-  <rect width="720" height="880" fill="#08090b"/>
-  <rect x="12" y="12" width="696" height="856" fill="none" stroke="#3a363f" stroke-width="2"/>
-  <rect x="12" y="12" width="696" height="50" fill="#18151b"/>
-  <text x="34" y="45" class="mono" fill="#f4f1f6" font-size="17" font-weight="700">OPERATIONS // 3 PROJECTS</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="930" viewBox="0 0 720 930" role="img" aria-labelledby="title desc">
+  <title id="title">Eileenes mobile project hangar</title><desc id="desc">A mobile pixel-futuristic project deployment panel</desc>
+  <defs><pattern id="pm-grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#273033"/><rect width="2" height="2" fill="#536064" opacity=".34"/></pattern><linearGradient id="pm-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5ffff"/><stop offset=".3" stop-color="#8d999b"/><stop offset=".6" stop-color="#d9e2e2"/><stop offset="1" stop-color="#626d70"/></linearGradient><style>.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace}.pulse{animation:pulse 1.8s steps(2,end) infinite}.bar{animation:bar 2.8s steps(5,end) infinite}@keyframes pulse{50%{opacity:.35}}@keyframes bar{50%{transform:scaleX(.35)}}@media(prefers-reduced-motion:reduce){.pulse,.bar{animation:none}}</style></defs>
+  <rect width="720" height="930" fill="#070a0c"/><rect width="720" height="930" fill="url(#pm-grid)" opacity=".72"/><rect x="12" y="12" width="696" height="906" fill="none" stroke="#566267" stroke-width="2"/>
+  <path d="M12 12H240V20H12Z" fill="#b9ff2c"/><path d="M240 12H470V20H240Z" fill="#ff5c35"/><path d="M470 12H708V20H470Z" fill="#10d9cc"/>
+  <g class="mono"><text x="36" y="54" fill="#f3f8f7" font-size="16" font-weight="700">DEPLOYMENT BAY</text><text x="684" y="54" text-anchor="end" fill="#b9ff2c" font-size="11">03 / NOMINAL</text></g>
 
-  <g class="mono" transform="translate(50 92)">
-    <rect width="620" height="220" fill="#131015" stroke="#d62828" stroke-width="4"/>
-    <rect width="174" height="220" fill="#d62828"/>
-    <text x="20" y="42" fill="#fff" font-size="15">UNIT-02</text><text x="20" y="78" fill="#fff" font-size="20" font-weight="700">RECRUIT</text>
-    <text x="202" y="54" fill="#f4f1f6" font-size="25" font-weight="700">RECRUITMENT</text><text x="202" y="92" fill="#ff7a00" font-size="14">GO / REACT / LLM</text><text x="202" y="132" fill="#aaa3ae" font-size="14">SEARCH / RANK / DELIVER</text>
-    <g transform="translate(474 48)" fill="#f4f1f6"><rect x="24" width="48" height="12"/><rect x="12" y="12" width="72" height="12"/><rect y="24" width="36" height="48"/><rect x="60" y="24" width="36" height="48"/><rect x="12" y="72" width="72" height="12"/><rect x="48" y="84" width="12" height="36" fill="#ff7a00"/></g>
-  </g>
-  <g class="mono" transform="translate(50 340)">
-    <rect width="620" height="220" fill="#131015" stroke="#6b278c" stroke-width="4" class="selected"/>
-    <rect width="174" height="220" fill="#6b278c"/>
-    <text x="20" y="42" fill="#fff" font-size="15">UNIT-01</text><text x="20" y="78" fill="#fff" font-size="20" font-weight="700">MEMORY</text>
-    <text x="202" y="54" fill="#f4f1f6" font-size="25" font-weight="700">MEMORANOTE</text><text x="202" y="92" fill="#8cff00" font-size="14">SWIFT / SWIFTUI / IOS</text><text x="202" y="132" fill="#aaa3ae" font-size="14">CAPTURE / ORGANIZE / RECALL</text>
-    <g transform="translate(492 42)"><rect width="88" height="128" fill="#f4f1f6"/><rect width="12" height="128" fill="#8cff00"/><rect x="28" y="28" width="48" height="10" fill="#6b278c"/><rect x="28" y="56" width="36" height="10" fill="#252028"/><rect x="28" y="84" width="48" height="10" fill="#252028"/><rect x="28" y="108" width="30" height="10" fill="#8cff00"/></g>
-  </g>
-  <g class="mono" transform="translate(50 588)">
-    <rect width="620" height="220" fill="#131015" stroke="#2357d4" stroke-width="4"/>
-    <rect width="174" height="220" fill="#2357d4"/>
-    <text x="20" y="42" fill="#fff" font-size="15">UNIT-00</text><text x="20" y="78" fill="#fff" font-size="20" font-weight="700">NOTES</text>
-    <text x="202" y="54" fill="#f4f1f6" font-size="25" font-weight="700">DUKENOTE</text><text x="202" y="92" fill="#ffd33d" font-size="14">SWIFT / SWIFTUI / MIT</text><text x="202" y="132" fill="#aaa3ae" font-size="14">WRITE / STRUCTURE / MAINTAIN</text>
-    <g transform="translate(476 44)"><rect width="120" height="120" fill="#aeb7c8"/><rect x="14" y="14" width="92" height="76" fill="#f4f1f6"/><rect x="28" y="30" width="64" height="10" fill="#2357d4"/><rect x="28" y="54" width="48" height="10" fill="#252028"/><rect x="28" y="78" width="64" height="10" fill="#ffd33d"/><rect x="28" y="102" width="64" height="10" fill="#2357d4"/></g>
-  </g>
-  <text x="360" y="844" text-anchor="middle" class="mono" fill="#8cff00" font-size="14">ALL MODULES NOMINAL</text>
+  <g class="mono" transform="translate(36 86)"><rect width="648" height="242" fill="#101619" stroke="#3d484c" stroke-width="2"/><rect width="648" height="40" fill="#ff5c35"/><text x="16" y="27" fill="#0b0e10" font-size="13" font-weight="900">01 / RECRUITMENT</text><text x="624" y="27" text-anchor="end" fill="#5c1607" font-size="10">GITHUB TALENT SIGNAL</text><g transform="translate(38 72) scale(.72)" shape-rendering="crispEdges"><path d="M48 0H144V16H176V32H192V80H176V112H144V128H48V112H16V80H0V32H16V16H48Z" fill="none" stroke="url(#pm-metal)" stroke-width="12"/><rect x="48" y="38" width="32" height="16" fill="#ff5c35"/><rect x="112" y="38" width="32" height="16" fill="#b9ff2c"/><rect x="80" y="70" width="32" height="16" fill="#f3f8f7"/></g><text x="220" y="112" fill="#f3f8f7" font-size="13">SEARCH / RANK</text><text x="220" y="140" fill="#7e898c" font-size="11">DELIVER SIGNALS</text><rect x="220" y="172" width="370" height="7" fill="#293337"/><rect x="220" y="172" width="270" height="7" fill="#ff5c35" class="bar"/><rect x="604" y="192" width="10" height="10" fill="#ff5c35" class="pulse"/></g>
+
+  <g class="mono" transform="translate(36 348)"><rect width="648" height="242" fill="#101619" stroke="#3d484c" stroke-width="2"/><rect width="648" height="40" fill="#b9ff2c"/><text x="16" y="27" fill="#07100d" font-size="13" font-weight="900">02 / MEMORANOTE</text><text x="624" y="27" text-anchor="end" fill="#395900" font-size="10">NATIVE MEMORY INTERFACE</text><g transform="translate(54 76) scale(.75)" shape-rendering="crispEdges"><path d="M0 0H152V144H0Z" fill="url(#pm-metal)"/><path d="M0 0H16V144H0Z" fill="#b9ff2c"/><rect x="40" y="30" width="80" height="12" fill="#11171a"/><rect x="40" y="60" width="58" height="12" fill="#657174"/><rect x="40" y="90" width="80" height="12" fill="#10d9cc"/><rect x="40" y="120" width="42" height="10" fill="#ff5c35"/></g><text x="220" y="112" fill="#f3f8f7" font-size="13">CAPTURE / ORGANIZE</text><text x="220" y="140" fill="#7e898c" font-size="11">RECALL MOMENTS</text><rect x="220" y="172" width="370" height="7" fill="#293337"/><rect x="220" y="172" width="310" height="7" fill="#b9ff2c" class="bar"/><rect x="604" y="192" width="10" height="10" fill="#b9ff2c" class="pulse"/></g>
+
+  <g class="mono" transform="translate(36 610)"><rect width="648" height="242" fill="#101619" stroke="#3d484c" stroke-width="2"/><rect width="648" height="40" fill="#10d9cc"/><text x="16" y="27" fill="#06100f" font-size="13" font-weight="900">03 / DUKENOTE</text><text x="624" y="27" text-anchor="end" fill="#074b47" font-size="10">STRUCTURED NOTE MODULE</text><g transform="translate(42 82) scale(.72)" shape-rendering="crispEdges"><path d="M0 0H168V136H0Z" fill="#11171a" stroke="url(#pm-metal)" stroke-width="10"/><rect x="22" y="22" width="124" height="20" fill="#10d9cc"/><rect x="22" y="58" width="82" height="10" fill="#cfd8d8"/><rect x="22" y="82" width="110" height="10" fill="#626e71"/><rect x="22" y="106" width="64" height="10" fill="#b9ff2c"/></g><text x="220" y="112" fill="#f3f8f7" font-size="13">WRITE / STRUCTURE</text><text x="220" y="140" fill="#7e898c" font-size="11">MAINTAIN IDEAS</text><rect x="220" y="172" width="370" height="7" fill="#293337"/><rect x="220" y="172" width="248" height="7" fill="#10d9cc" class="bar"/><rect x="604" y="192" width="10" height="10" fill="#10d9cc" class="pulse"/></g>
+  <g class="mono" font-size="10"><text x="36" y="894" fill="#6e7a7d">HANGAR / 010</text><text x="684" y="894" text-anchor="end" fill="#6e7a7d">ALL MODULES LIVE</text></g>
 </svg>
