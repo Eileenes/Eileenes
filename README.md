@@ -47,29 +47,35 @@
 ## 作品
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/mecha-projects-mobile-v4.svg">
-  <img src="./assets/mecha-projects-v4.svg" width="100%" alt="Eileenes 四模块机甲任务机库，包含 repo-brief、Recruitment、memoranote 与 DukeNote" />
+  <source media="(max-width: 600px)" srcset="./assets/mecha-projects-mobile-v5.svg">
+  <img src="./assets/mecha-projects-v5.svg" width="100%" alt="Eileenes 五模块机甲任务机库，包含 agent-memory-health、repo-brief、Recruitment、memoranote 与 DukeNote" />
 </picture>
 
-### 00 / [repo-brief](https://github.com/Eileenes/repo-brief) `NEW`
+### 00 / [agent-memory-health](https://github.com/Eileenes/agent-memory-health) `NEW`
+
+`Python 3.10+` `CLI` `Agent memory` `MIT`
+
+审计 AI Agent 的记忆健康状态：从会话日志或项目目录中识别记忆盲区、Token 浪费、重复检索与知识漂移，并生成健康评分和优化建议。
+
+### 01 / [repo-brief](https://github.com/Eileenes/repo-brief)
 
 `Python 3.8+` `CLI` `Zero dependencies` `MIT`
 
 一条命令生成任意 Git 仓库的 Markdown 速览：自动识别 20+ 技术栈，汇总文件构成、关键文件和最近提交，便于把项目上下文交给 AI 或团队成员。
 
-### 01 / [Recruitment](https://github.com/Eileenes/Recruitment)
+### 02 / [Recruitment](https://github.com/Eileenes/Recruitment)
 
 `Go` `React` `PostgreSQL` `LLM`
 
 从岗位需求出发，在 GitHub 公开信息中发现人才线索，完成检索、信号排序与结果推送。
 
-### 02 / [memoranote](https://github.com/Eileenes/memoranote)
+### 03 / [memoranote](https://github.com/Eileenes/memoranote)
 
 `Swift` `SwiftUI` `iOS`
 
 一款围绕记录与整理体验持续打磨的原生 iOS 笔记产品。
 
-### 03 / [DukeNote](https://github.com/Eileenes/DukeNote)
+### 04 / [DukeNote](https://github.com/Eileenes/DukeNote)
 
 `Swift` `SwiftUI` `MIT`
 
