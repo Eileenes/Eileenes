@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Eileenes mecha project hangar v3</title><desc id="desc">A purple, green, red and orange project deployment panel matching the open cockpit mecha profile</desc>
+  <defs>
+    <pattern id="p-grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#273033"/><rect width="2" height="2" fill="#536064" opacity=".34"/></pattern>
+    <linearGradient id="p-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5ffff"/><stop offset=".3" stop-color="#8d999b"/><stop offset=".6" stop-color="#d9e2e2"/><stop offset="1" stop-color="#626d70"/></linearGradient>
+    <style>.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace}.pulse{animation:pulse 1.8s steps(2,end) infinite}.bar{animation:bar 2.8s steps(5,end) infinite}.scan{animation:scan 5s linear infinite}@keyframes pulse{50%{opacity:.35}}@keyframes bar{50%{transform:scaleX(.35)}}@keyframes scan{from{transform:translateX(-1200px)}to{transform:translateX(1200px)}}@media(prefers-reduced-motion:reduce){.pulse,.bar,.scan{animation:none}}</style>
+  </defs>
+  <rect width="1200" height="430" fill="#070a0c"/><rect width="1200" height="430" fill="url(#p-grid)" opacity=".72"/>
+  <rect x="14" y="14" width="1172" height="402" fill="none" stroke="#566267" stroke-width="2"/>
+  <rect x="14" y="14" width="1172" height="58" fill="#101619"/>
+  <path d="M14 14H344V20H14Z" fill="#a7ff16"/><path d="M344 14H712V20H344Z" fill="#d82931"/><path d="M712 14H1186V20H712Z" fill="#ff762d"/>
+  <g class="mono"><text x="42" y="50" fill="#f3f8f7" font-size="17" font-weight="700">DEPLOYMENT BAY // SELECTED WORK</text><text x="1158" y="50" text-anchor="end" fill="#a7ff16" font-size="12">03 MODULES / NOMINAL</text></g>
+
+  <!-- one continuous bay, divided into three project slots -->
+  <path d="M400 72V396M800 72V396" stroke="#3c474b" stroke-width="2"/>
+  <g class="mono" transform="translate(42 98)">
+    <rect width="316" height="34" fill="#d82931"/><text x="14" y="23" fill="#0b0e10" font-size="13" font-weight="900">01 / RECRUITMENT</text>
+    <text x="0" y="66" fill="#7e898c" font-size="10">GITHUB TALENT SIGNAL SYSTEM</text>
+    <g transform="translate(62 92)" shape-rendering="crispEdges">
+      <path d="M48 0H144V16H176V32H192V80H176V112H144V128H48V112H16V80H0V32H16V16H48Z" fill="none" stroke="url(#p-metal)" stroke-width="12"/>
+      <rect x="48" y="38" width="32" height="16" fill="#d82931"/><rect x="112" y="38" width="32" height="16" fill="#a7ff16"/>
+      <rect x="80" y="70" width="32" height="16" fill="#f3f8f7"/><rect x="48" y="96" width="96" height="8" fill="#596568"/>
+    </g>
+    <text x="0" y="265" fill="#f3f8f7" font-size="12">SEARCH / RANK / DELIVER</text><rect y="282" width="234" height="6" fill="#293337"/><rect y="282" width="168" height="6" fill="#d82931" class="bar"/>
+  </g>
+
+  <g class="mono" transform="translate(442 98)">
+    <rect width="316" height="34" fill="#a7ff16"/><text x="14" y="23" fill="#07100d" font-size="13" font-weight="900">02 / MEMORANOTE</text>
+    <text x="0" y="66" fill="#7e898c" font-size="10">NATIVE MEMORY INTERFACE</text>
+    <g transform="translate(82 90)" shape-rendering="crispEdges">
+      <path d="M0 0H152V144H0Z" fill="url(#p-metal)"/><path d="M0 0H16V144H0Z" fill="#a7ff16"/>
+      <rect x="40" y="30" width="80" height="12" fill="#11171a"/><rect x="40" y="60" width="58" height="12" fill="#657174"/><rect x="40" y="90" width="80" height="12" fill="#ff762d"/><rect x="40" y="120" width="42" height="10" fill="#d82931"/>
+    </g>
+    <text x="0" y="265" fill="#f3f8f7" font-size="12">CAPTURE / ORGANIZE / RECALL</text><rect y="282" width="234" height="6" fill="#293337"/><rect y="282" width="198" height="6" fill="#a7ff16" class="bar"/>
+  </g>
+
+  <g class="mono" transform="translate(842 98)">
+    <rect width="316" height="34" fill="#ff762d"/><text x="14" y="23" fill="#06100f" font-size="13" font-weight="900">03 / DUKENOTE</text>
+    <text x="0" y="66" fill="#7e898c" font-size="10">STRUCTURED NOTE MODULE</text>
+    <g transform="translate(74 92)" shape-rendering="crispEdges">
+      <path d="M0 0H168V136H0Z" fill="#11171a" stroke="url(#p-metal)" stroke-width="10"/><rect x="22" y="22" width="124" height="20" fill="#ff762d"/>
+      <rect x="22" y="58" width="82" height="10" fill="#cfd8d8"/><rect x="22" y="82" width="110" height="10" fill="#626e71"/><rect x="22" y="106" width="64" height="10" fill="#a7ff16"/>
+    </g>
+    <text x="0" y="265" fill="#f3f8f7" font-size="12">WRITE / STRUCTURE / MAINTAIN</text><rect y="282" width="234" height="6" fill="#293337"/><rect y="282" width="152" height="6" fill="#ff762d" class="bar"/>
+  </g>
+
+  <g class="mono" font-size="10"><rect x="42" y="397" width="8" height="8" fill="#d82931" class="pulse"/><text x="60" y="405" fill="#6e7a7d">LIVE</text><rect x="442" y="397" width="8" height="8" fill="#a7ff16" class="pulse"/><text x="460" y="405" fill="#6e7a7d">LIVE</text><rect x="842" y="397" width="8" height="8" fill="#ff762d" class="pulse"/><text x="860" y="405" fill="#6e7a7d">LIVE</text><text x="1158" y="405" text-anchor="end" fill="#6e7a7d">HANGAR / 010</text></g>
+  <rect x="0" y="0" width="3" height="430" fill="#a7ff16" opacity=".45" class="scan"/>
+</svg>

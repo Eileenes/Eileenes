@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/cockpit-profile-header-mobile-v2.svg">
-  <img src="./assets/cockpit-profile-header-v2.svg" width="100%" alt="Eileenes 个人驾驶舱档案，打开的机甲座舱中坐着驾驶员剪影" />
+  <source media="(max-width: 600px)" srcset="./assets/mecha-profile-header-mobile-v3.svg">
+  <img src="./assets/mecha-profile-header-v3.svg" width="100%" alt="Eileenes 三分之四视角机甲驾驶舱，紫绿与红橙装甲打开并露出驾驶员剪影" />
 </picture>
 
 <div align="center">
@@ -11,9 +11,9 @@
 
 [`个人介绍`](#个人介绍) · [`作品`](#作品) · [`联系我`](#联系我)
 
-<a href="https://github.com/Eileenes"><img src="https://img.shields.io/badge/GITHUB-EILEENES-0B1012?style=for-the-badge&logo=github&logoColor=B9FF2C&labelColor=151C20" alt="GitHub Eileenes" /></a>
-<a href="mailto:dukeyeah@163.com"><img src="https://img.shields.io/badge/CHANNEL-OPEN-FF5C35?style=for-the-badge&logo=gmail&logoColor=FFFFFF&labelColor=151C20" alt="Email" /></a>
-<img src="https://img.shields.io/badge/COCKPIT-ONLINE-10D9CC?style=for-the-badge&labelColor=151C20" alt="Cockpit online" />
+<a href="https://github.com/Eileenes"><img src="https://img.shields.io/badge/GITHUB-EILEENES-0B1012?style=for-the-badge&logo=github&logoColor=A7FF16&labelColor=151C20" alt="GitHub Eileenes" /></a>
+<a href="mailto:dukeyeah@163.com"><img src="https://img.shields.io/badge/CHANNEL-OPEN-D82931?style=for-the-badge&logo=gmail&logoColor=FFFFFF&labelColor=151C20" alt="Email" /></a>
+<img src="https://img.shields.io/badge/COCKPIT-ONLINE-6E2C9D?style=for-the-badge&labelColor=151C20" alt="Cockpit online" />
 
 </div>
 
@@ -47,8 +47,8 @@
 ## 作品
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/cockpit-projects-mobile-v2.svg">
-  <img src="./assets/cockpit-projects-v2.svg" width="100%" alt="Eileenes 像素未来风作品部署面板" />
+  <source media="(max-width: 600px)" srcset="./assets/mecha-projects-mobile-v3.svg">
+  <img src="./assets/mecha-projects-v3.svg" width="100%" alt="Eileenes 紫绿与红橙机甲配色作品部署面板" />
 </picture>
 
 ### 01 / [Recruitment](https://github.com/Eileenes/Recruitment)
@@ -74,8 +74,8 @@
 ## 联系我
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/cockpit-contact-panel-mobile-v2.svg">
-  <img src="./assets/cockpit-contact-panel-v2.svg" width="100%" alt="Eileenes 像素未来风通信面板" />
+  <source media="(max-width: 600px)" srcset="./assets/mecha-contact-panel-mobile-v3.svg">
+  <img src="./assets/mecha-contact-panel-v3.svg" width="100%" alt="Eileenes 紫绿与红橙机甲配色通信面板" />
 </picture>
 
 <div align="center">

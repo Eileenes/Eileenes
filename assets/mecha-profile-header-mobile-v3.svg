@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="980" viewBox="0 0 720 980" role="img" aria-labelledby="title desc">
+  <title id="title">Eileenes mobile open cockpit mecha profile</title>
+  <desc id="desc">A mobile profile with a purple, green, red and orange three-quarter-view mecha head, open canopy and seated black pilot silhouette</desc>
+  <defs>
+    <linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c694ff"/><stop offset=".16" stop-color="#6e2c9d"/><stop offset=".42" stop-color="#321044"/><stop offset=".65" stop-color="#8d43be"/><stop offset=".82" stop-color="#250934"/><stop offset="1" stop-color="#5b1f7a"/></linearGradient>
+    <linearGradient id="r" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff7568"/><stop offset=".22" stop-color="#d6222c"/><stop offset=".62" stop-color="#76101e"/><stop offset=".8" stop-color="#ef3b32"/><stop offset="1" stop-color="#510914"/></linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#efffb0"/><stop offset=".36" stop-color="#a7ff16"/><stop offset=".82" stop-color="#2bbd16"/><stop offset="1" stop-color="#0a5917"/></linearGradient>
+    <linearGradient id="m" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#272b2f"/><stop offset=".55" stop-color="#101316"/><stop offset="1" stop-color="#050708"/></linearGradient>
+    <radialGradient id="bay"><stop stop-color="#233626"/><stop offset=".48" stop-color="#09130d"/><stop offset="1" stop-color="#010202"/></radialGradient>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#27282d"/><rect width="2" height="2" fill="#6a6870" opacity=".28"/></pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><path d="M220 414Q334 340 460 372L522 450L486 604Q392 682 270 626L194 528Z"/></clipPath>
+    <style>.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace}.display{font-family:Impact,"Arial Black",sans-serif;letter-spacing:0}.canopy{animation:lift 5.6s cubic-bezier(.4,0,.2,1) infinite;transform:translate(50px,72px) scale(.82) rotate(-3deg);transform-box:fill-box;transform-origin:80% 100%}.pilot{animation:pilot 3s ease-in-out infinite}.eye{animation:eye 2.1s ease-in-out infinite}.scan{animation:scan 5.2s linear infinite}.ring{animation:spin 22s linear infinite;transform-box:fill-box;transform-origin:center}@keyframes lift{0%,100%{transform:translate(50px,72px) scale(.82) rotate(-3deg)}50%{transform:translate(42px,60px) scale(.82) rotate(-5deg)}}@keyframes pilot{50%{opacity:.72}}@keyframes eye{50%{opacity:.42}}@keyframes scan{from{transform:translateY(-980px)}to{transform:translateY(1040px)}}@keyframes spin{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.canopy,.pilot,.eye,.scan,.ring{animation:none}.canopy{transform:translate(46px,66px) scale(.82) rotate(-4deg)}}</style>
+  </defs>
+  <rect width="720" height="980" fill="#07080a"/><rect width="720" height="980" fill="url(#grid)" opacity=".72"/><rect x="12" y="12" width="696" height="956" fill="none" stroke="#575a62" stroke-width="2"/>
+  <path d="M12 12H224V20H12Z" fill="#a7ff16"/><path d="M224 12H392V20H224Z" fill="#64258a"/><path d="M392 12H556V20H392Z" fill="#d82931"/><path d="M556 12H708V20H556Z" fill="#ff762d"/>
+  <g class="mono" text-anchor="middle"><text x="360" y="66" fill="#a7ff16" font-size="13" font-weight="700">PILOT ARCHIVE // 010</text><text x="360" y="136" class="display" fill="#f5f3f7" font-size="54" font-weight="900">EILEENES</text><text x="360" y="176" fill="#f5f3f7" font-size="17" font-weight="700">DUKE YEAH</text><text x="360" y="204" fill="#8d8d96" font-size="13">PRODUCT MANAGER · MAKER</text><rect x="106" y="230" width="508" height="2" fill="#575962"/><rect x="106" y="230" width="166" height="7" fill="#a7ff16"/></g>
+
+  <g transform="translate(360 526)" fill="none" opacity=".4"><circle r="276" stroke="#7a35a2" stroke-width="2" stroke-dasharray="28 18" class="ring"/><circle r="244" stroke="#a7ff16" stroke-dasharray="3 14"/><path d="M-290 0H-254M254 0H290M0-290V-254M0 254V290" stroke="#8f9098" stroke-width="2"/></g>
+
+  <!-- neck and shoulders -->
+  <path d="M72 842L110 760L206 716L282 696H496L574 730L658 790L684 842Z" fill="url(#m)" stroke="#4e5159" stroke-width="7"/>
+  <path d="M84 836L126 774L220 738L254 732L232 824L174 842Z" fill="url(#r)" stroke="#ff6656" stroke-width="4"/><path d="M504 728L574 748L646 796L672 836H604L538 812Z" fill="url(#p)" stroke="#7e439a" stroke-width="5"/>
+  <path d="M132 784L208 754L180 814L104 830Z" fill="#ff762d"/><path d="M566 756L638 804L654 832L592 808Z" fill="#a7ff16"/>
+  <path d="M250 764L296 818H484L524 762L510 842H262Z" fill="#090b0d" stroke="#474a52" stroke-width="5"/><path d="M322 816H454" stroke="#a7ff16" stroke-width="9"/>
+
+  <!-- skull and cockpit -->
+  <path d="M154 406L220 322L376 278L536 316L620 408L600 572L512 674L392 706L242 658L154 568L118 474Z" fill="url(#m)" stroke="#585b63" stroke-width="8"/>
+  <path d="M220 414Q334 340 460 372L522 450L486 604Q392 682 270 626L194 528Z" fill="url(#bay)" stroke="#74787c" stroke-width="10"/>
+  <g clip-path="url(#clip)"><path d="M208 458L264 482M502 450L452 482M206 566L264 536M502 566L450 540" stroke="#a7ff16" stroke-width="5" opacity=".46"/><path d="M234 596Q350 546 476 600" fill="none" stroke="#ff762d" stroke-width="3" stroke-dasharray="12 10"/><g class="pilot"><circle cx="354" cy="470" r="34" fill="#010101" stroke="#263029" stroke-width="5"/><path d="M292 626Q300 522 354 512Q410 522 424 634L398 660H320Z" fill="#010101" stroke="#263029" stroke-width="5"/><path d="M306 552L250 590M408 552L456 596" stroke="#010101" stroke-width="24"/><path d="M260 592H310M398 596H446" stroke="#a7ff16" stroke-width="5"/><rect x="339" y="453" width="31" height="7" fill="#a7ff16" filter="url(#glow)"/></g></g>
+
+  <!-- armor, green fins and eye -->
+  <path d="M192 388L132 452L148 566L202 532L226 414Z" fill="#2c0c3e" stroke="#713096" stroke-width="7"/><path d="M518 364L574 354L616 414L594 534L520 594L490 556L532 452Z" fill="url(#p)" stroke="#7e439a" stroke-width="7"/>
+  <path d="M178 404L106 366L144 470L208 496Z" fill="url(#g)" stroke="#a7ff16" stroke-width="5"/><path d="M552 398L686 352L622 474L516 510Z" fill="url(#g)" stroke="#a7ff16" stroke-width="6"/>
+  <path d="M196 462L260 438L298 466L246 506L184 494Z" fill="#160823" stroke="#6b238c" stroke-width="5"/><path d="M210 470L254 454L274 468L240 490L204 486Z" fill="#c98cff" filter="url(#glow)" class="eye"/>
+
+  <!-- lower jaw and secondary color -->
+  <path d="M190 520L266 506L312 550L474 542L524 582L478 670L306 660L214 610Z" fill="#090b0d" stroke="#464951" stroke-width="7"/>
+  <path d="M210 524L246 514L260 548L230 556Z" fill="#e8e2ca"/><path d="M254 516L290 532L272 560L246 546Z" fill="#e8e2ca"/><path d="M468 548L504 572L480 594L452 558Z" fill="#e8e2ca"/>
+  <path d="M214 610L302 650L322 692L238 656Z" fill="url(#r)" stroke="#ff5a4b" stroke-width="5"/>
+  <path d="M224 586Q156 624 170 716" fill="none" stroke="#ff762d" stroke-width="14" stroke-linecap="round"/><path d="M250 596Q194 642 208 728" fill="none" stroke="#d82931" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- lifted canopy -->
+  <g class="canopy"><path d="M190 420L242 286L404 242L536 302L486 392L356 364L218 448Z" fill="url(#p)" stroke="#9d5bc2" stroke-width="8"/><path d="M242 296L398 254L500 302L458 334L350 316L246 354Z" fill="#d4a4e7" opacity=".38"/><path d="M240 286L122 176L194 338Z" fill="url(#p)" stroke="#9a54bd" stroke-width="6"/><path d="M404 242L546 168L478 292Z" fill="url(#p)" stroke="#9a54bd" stroke-width="6"/><path d="M214 410L288 342L410 342L486 380L446 416L332 390L236 448Z" fill="#17191d" stroke="#555861" stroke-width="5"/><rect x="346" y="260" width="58" height="14" fill="#a7ff16" filter="url(#glow)"/></g>
+
+  <g class="mono" text-anchor="middle"><rect x="102" y="872" width="516" height="54" fill="#13151a" stroke="#4b4e57" stroke-width="2"/><rect x="102" y="872" width="180" height="54" fill="#a7ff16"/><text x="192" y="905" fill="#0a1007" font-size="12" font-weight="900">CANOPY OPEN</text><text x="362" y="905" fill="#d7a6ef" font-size="12">CN / DEFAULT</text><text x="540" y="905" fill="#9d9da6" font-size="12">EN / OPEN</text><text x="360" y="954" fill="#71727a" font-size="10">CURIOUS · HANDS-ON · LIFE &amp; MUSIC</text></g>
+  <rect width="720" height="3" fill="#a7ff16" opacity=".45" class="scan"/>
+</svg>

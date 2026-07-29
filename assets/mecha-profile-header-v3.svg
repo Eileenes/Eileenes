@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="650" viewBox="0 0 1400 650" role="img" aria-labelledby="title desc">
+  <title id="title">Eileenes open cockpit mecha profile</title>
+  <desc id="desc">A three-quarter-view purple, green, red and orange mecha head with glossy armor, matte inner structure, an open canopy and a seated black pilot silhouette</desc>
+  <defs>
+    <linearGradient id="purple-gloss" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c694ff"/><stop offset=".12" stop-color="#6e2c9d"/><stop offset=".38" stop-color="#341147"/><stop offset=".62" stop-color="#8d43be"/><stop offset=".78" stop-color="#2b0b3d"/><stop offset="1" stop-color="#5b1f7a"/>
+    </linearGradient>
+    <linearGradient id="purple-edge" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#9b55c8"/><stop offset=".5" stop-color="#351047"/><stop offset="1" stop-color="#180821"/></linearGradient>
+    <linearGradient id="red-gloss" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff7568"/><stop offset=".18" stop-color="#d6222c"/><stop offset=".58" stop-color="#76101e"/><stop offset=".78" stop-color="#ef3b32"/><stop offset="1" stop-color="#510914"/></linearGradient>
+    <linearGradient id="lime-glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#efffb0" stop-opacity=".96"/><stop offset=".35" stop-color="#9dff18" stop-opacity=".9"/><stop offset=".78" stop-color="#32c814" stop-opacity=".74"/><stop offset="1" stop-color="#0a5917" stop-opacity=".86"/></linearGradient>
+    <linearGradient id="matte" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#25292d"/><stop offset=".55" stop-color="#101316"/><stop offset="1" stop-color="#050708"/></linearGradient>
+    <radialGradient id="cockpit" cx="45%" cy="38%" r="68%"><stop stop-color="#233626"/><stop offset=".42" stop-color="#09130d"/><stop offset="1" stop-color="#010202"/></radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#26272d"/><rect width="2" height="2" fill="#6a6870" opacity=".28"/></pattern>
+    <pattern id="pixel" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#a7ff16"/><rect x="7" y="7" width="4" height="4" fill="#ff5139"/></pattern>
+    <filter id="glow-green" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow-purple" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft-shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000" flood-opacity=".72"/></filter>
+    <clipPath id="bay-clip"><path d="M824 238Q930 172 1050 206L1112 276L1084 404Q1002 470 884 438L798 354Z"/></clipPath>
+    <style>
+      .mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace}.display{font-family:Impact,"Arial Black",sans-serif;letter-spacing:0}.canopy{animation:lift 5.6s cubic-bezier(.4,0,.2,1) infinite;transform:translate(18px,-12px) scale(.92) rotate(-3deg);transform-box:fill-box;transform-origin:78% 100%}.pilot{animation:pilot 3s ease-in-out infinite}.eye{animation:eye 2.1s ease-in-out infinite}.scan{animation:scan 5.2s linear infinite}.cursor{animation:blink 1s steps(2,end) infinite}.ring{animation:spin 22s linear infinite;transform-box:fill-box;transform-origin:center}.pixels{animation:pixels 1.8s steps(3,end) infinite}@keyframes lift{0%,100%{transform:translate(18px,-12px) scale(.92) rotate(-3deg)}50%{transform:translate(10px,-26px) scale(.92) rotate(-5deg)}}@keyframes pilot{50%{opacity:.72}}@keyframes eye{50%{opacity:.42}}@keyframes scan{from{transform:translateY(-620px)}to{transform:translateY(720px)}}@keyframes blink{50%{opacity:0}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes pixels{50%{opacity:.32}}@media(prefers-reduced-motion:reduce){.canopy,.pilot,.eye,.scan,.cursor,.ring,.pixels{animation:none}.canopy{transform:translate(14px,-18px) scale(.92) rotate(-4deg)}}
+    </style>
+  </defs>
+
+  <rect width="1400" height="650" fill="#07080a"/><rect width="1400" height="650" fill="url(#grid)" opacity=".72"/>
+  <path d="M0 0H1400V34H0ZM0 616H1400V650H0Z" fill="#101115"/>
+  <rect x="14" y="14" width="1372" height="622" fill="none" stroke="#565861" stroke-width="2"/>
+  <path d="M14 14H426V21H14Z" fill="#a7ff16"/><path d="M426 14H760V21H426Z" fill="#64258a"/><path d="M760 14H1088V21H760Z" fill="#d82931"/><path d="M1088 14H1386V21H1088Z" fill="#ff762d"/>
+  <path d="M14 629H504V636H14Z" fill="#64258a"/><path d="M504 629H918V636H504Z" fill="#a7ff16"/><path d="M918 629H1386V636H918Z" fill="#d82931"/>
+
+  <g class="mono">
+    <text x="54" y="72" fill="#a7ff16" font-size="14" font-weight="700">PILOT ARCHIVE // 010</text>
+    <text x="54" y="99" fill="#75767e" font-size="11">PERSONAL INTERFACE / OPEN CANOPY MODE</text>
+    <text x="54" y="196" class="display" fill="#f5f3f7" font-size="80" font-weight="900">EILEENES</text>
+    <rect x="54" y="220" width="482" height="2" fill="#575962"/><rect x="54" y="220" width="166" height="7" fill="#a7ff16"/>
+    <text x="54" y="264" fill="#f5f3f7" font-size="20" font-weight="700">DUKE YEAH</text><text x="192" y="264" fill="#8d8d96" font-size="14">// PRODUCT MANAGER · MAKER</text>
+
+    <g transform="translate(54 312)">
+      <path d="M0 0H482V146H0Z" fill="#111317" stroke="#444750" stroke-width="2"/>
+      <path d="M0 0H8V146H0Z" fill="#64258a"/><path d="M8 0H14V92H8Z" fill="#a7ff16"/>
+      <rect x="24" y="20" width="9" height="9" fill="#ff5139"/><text x="48" y="29" fill="#ff806d" font-size="11">IDENTITY / 身份档案</text>
+      <text x="24" y="76" fill="#f5f3f7" font-size="20" font-weight="700">10 YEARS IN PRODUCT</text>
+      <text x="24" y="110" fill="#a9a9b0" font-size="13">CURIOUS · HANDS-ON · LIFE &amp; MUSIC</text>
+      <rect x="402" y="22" width="52" height="52" fill="url(#pixel)" class="pixels"/>
+      <path d="M402 94H454M402 108H438M402 122H448" stroke="#a7ff16" stroke-width="5"/>
+    </g>
+
+    <g transform="translate(54 500)">
+      <rect width="178" height="42" fill="#a7ff16"/><text x="18" y="27" fill="#0a1007" font-size="13" font-weight="900">CANOPY OPEN</text>
+      <rect x="192" width="134" height="42" fill="#15171c" stroke="#494b55"/><text x="211" y="27" fill="#d7a6ef" font-size="12">CN / DEFAULT</text>
+      <rect x="340" width="142" height="42" fill="#15171c" stroke="#494b55"/><text x="359" y="27" fill="#9d9da6" font-size="12">EN / OPEN</text>
+    </g>
+    <text x="54" y="588" fill="#71727a" font-size="11">STATUS: READY FOR THE UNFAMILIAR</text><rect x="352" y="575" width="8" height="15" fill="#a7ff16" class="cursor"/>
+  </g>
+
+  <!-- targeting interface -->
+  <g transform="translate(1032 326)" fill="none" opacity=".42"><circle r="276" stroke="#7a35a2" stroke-width="2" stroke-dasharray="28 18" class="ring"/><circle r="244" stroke="#a7ff16" stroke-width="1" stroke-dasharray="3 14"/><path d="M-292 0H-254M254 0H292M0-292V-254M0 254V292" stroke="#8f9098" stroke-width="2"/></g>
+
+  <!-- neck and shoulders -->
+  <g filter="url(#soft-shadow)">
+    <path d="M650 620L680 540L774 496L866 468H1124L1212 500L1328 560L1372 620Z" fill="url(#matte)" stroke="#4e5159" stroke-width="7"/>
+    <path d="M660 616L696 552L788 514L842 506L816 600L758 620Z" fill="url(#red-gloss)" stroke="#ff6656" stroke-width="4"/>
+    <path d="M1164 506L1224 520L1310 564L1354 616H1260L1196 592Z" fill="url(#purple-gloss)" stroke="#7e439a" stroke-width="5"/>
+    <path d="M708 560L780 534L754 590L686 608Z" fill="#ff762d"/><path d="M1230 536L1296 570L1320 606L1250 582Z" fill="#a7ff16"/>
+    <path d="M834 526L886 574H1134L1186 524L1166 620H844Z" fill="#090b0d" stroke="#474a52" stroke-width="5"/>
+    <path d="M916 583H1090" stroke="#a7ff16" stroke-width="9" opacity=".82"/>
+  </g>
+
+  <!-- matte skull and open cockpit bay -->
+  <path d="M760 244L824 154L1010 94L1190 136L1302 234L1282 390L1192 478L1088 510L886 474L762 388L720 300Z" fill="url(#matte)" stroke="#585b63" stroke-width="8"/>
+  <path d="M824 238Q930 172 1050 206L1112 276L1084 404Q1002 470 884 438L798 354Z" fill="url(#cockpit)" stroke="#74787c" stroke-width="10"/>
+  <g clip-path="url(#bay-clip)">
+    <path d="M816 270L866 294M1084 270L1038 296M816 374L870 348M1086 376L1038 350" stroke="#a7ff16" stroke-width="5" opacity=".48"/>
+    <path d="M838 398Q940 350 1068 404" fill="none" stroke="#ff762d" stroke-width="3" stroke-dasharray="12 10"/>
+    <g class="pilot">
+      <circle cx="950" cy="286" r="34" fill="#010101" stroke="#263029" stroke-width="5"/>
+      <path d="M890 422Q895 334 950 326Q1005 334 1020 430L994 456H916Z" fill="#010101" stroke="#263029" stroke-width="5"/>
+      <path d="M904 360L848 394M1002 360L1050 400" stroke="#010101" stroke-width="24" stroke-linecap="square"/>
+      <path d="M858 396H908M994 400H1040" stroke="#a7ff16" stroke-width="5"/>
+      <rect x="935" y="269" width="31" height="7" fill="#a7ff16" filter="url(#glow-green)"/>
+    </g>
+    <rect x="814" y="318" width="7" height="60" fill="#a7ff16"/><rect x="1076" y="320" width="7" height="64" fill="#ff5139"/>
+  </g>
+
+  <!-- fixed purple side armor -->
+  <path d="M780 214L730 278L746 372L796 348L824 238Z" fill="url(#purple-edge)" stroke="#713096" stroke-width="7"/>
+  <path d="M1108 194L1196 168L1288 238L1262 350L1192 420L1118 394L1142 286Z" fill="url(#purple-gloss)" stroke="#7e439a" stroke-width="7"/>
+  <path d="M1190 198L1246 226L1260 302L1220 326L1162 296Z" fill="#17191d" stroke="#555860" stroke-width="4"/>
+  <circle cx="1210" cy="268" r="25" fill="#060708" stroke="#6f7279" stroke-width="7"/><circle cx="1210" cy="268" r="9" fill="#a7ff16" filter="url(#glow-green)"/>
+
+  <!-- glossy face bridge and forward horn -->
+  <path d="M782 286L708 256L742 338L798 360Z" fill="url(#red-gloss)" stroke="#ff5a4b" stroke-width="5"/>
+  <path d="M786 232L710 190L744 278L804 304Z" fill="url(#lime-glass)" stroke="#a7ff16" stroke-width="5" opacity=".95"/>
+  <path d="M1184 218L1328 168L1266 272L1150 318Z" fill="url(#lime-glass)" stroke="#a7ff16" stroke-width="6" opacity=".96"/>
+  <path d="M1198 228L1292 198L1246 242L1174 276Z" fill="#d8ff7b" opacity=".42"/>
+
+  <!-- illuminated eye beneath lifted faceplate -->
+  <path d="M802 280L874 256L906 282L848 322L792 310Z" fill="#160823" stroke="#6b238c" stroke-width="5"/>
+  <path d="M818 286L868 272L884 284L846 304L812 300Z" fill="#c98cff" filter="url(#glow-purple)" class="eye"/>
+
+  <!-- lower jaw with teeth, red secondary armor and orange hoses -->
+  <path d="M804 344L868 330L914 368L1080 360L1128 394L1074 482L904 466L820 414Z" fill="#090b0d" stroke="#464951" stroke-width="7"/>
+  <path d="M824 348L858 340L872 370L844 378Z" fill="#e8e2ca"/><path d="M866 337L898 350L882 380L858 368Z" fill="#e8e2ca"/><path d="M1080 365L1110 388L1088 408L1064 378Z" fill="#e8e2ca"/>
+  <path d="M826 410L900 448L924 490L846 456Z" fill="url(#red-gloss)" stroke="#ff5a4b" stroke-width="5"/>
+  <path d="M902 444L1070 430L1040 482L930 490Z" fill="#17191c" stroke="#50535a" stroke-width="5"/>
+  <path d="M838 390Q782 424 790 500" fill="none" stroke="#ff762d" stroke-width="14" stroke-linecap="round"/><path d="M860 400Q812 444 828 510" fill="none" stroke="#d82931" stroke-width="10" stroke-linecap="round"/>
+  <g fill="#696b72"><rect x="786" y="442" width="22" height="8" transform="rotate(80 797 446)"/><rect x="814" y="454" width="20" height="7" transform="rotate(74 824 458)"/></g>
+
+  <!-- lifted two-piece canopy: always open -->
+  <g class="canopy">
+    <path d="M790 244L842 112L1014 58L1138 122L1090 210L940 184L824 278Z" fill="url(#purple-gloss)" stroke="#9d5bc2" stroke-width="8"/>
+    <path d="M840 124L1008 74L1098 124L1056 152L928 132L842 178Z" fill="#c792df" opacity=".42"/>
+    <path d="M832 116L724 34L792 166Z" fill="#16081f" stroke="#6f2b94" stroke-width="6"/>
+    <path d="M842 112L688 8L764 160Z" fill="url(#purple-gloss)" stroke="#9a54bd" stroke-width="6"/>
+    <path d="M1014 58L1138 0L1080 112Z" fill="url(#purple-gloss)" stroke="#9a54bd" stroke-width="6"/>
+    <path d="M812 236L886 170L1018 172L1088 208L1048 238L920 214L838 272Z" fill="#17191d" stroke="#555861" stroke-width="5"/>
+    <rect x="954" y="70" width="58" height="14" fill="#a7ff16" filter="url(#glow-green)"/>
+  </g>
+
+  <g class="mono" font-size="10"><text x="634" y="74" fill="#b384cc">ARMOR / GLOSS</text><text x="1150" y="72" fill="#ff7568">PILOT / LINKED</text><text x="1346" y="598" text-anchor="end" fill="#74757c">PX-010 / TYPE-01+02</text></g>
+  <rect width="1400" height="3" fill="#a7ff16" opacity=".45" class="scan"/>
+</svg>
