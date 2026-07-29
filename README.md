@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/mecha-profile-header-mobile-v3.svg">
-  <img src="./assets/mecha-profile-header-v3.svg" width="100%" alt="Eileenes 三分之四视角机甲驾驶舱，紫绿与红橙装甲打开并露出驾驶员剪影" />
+  <source media="(max-width: 600px)" srcset="./assets/mecha-profile-header-mobile-v4.svg">
+  <img src="./assets/mecha-profile-header-v4.svg" width="100%" alt="Eileenes 三分之四视角机甲驾驶舱，紫绿与红橙装甲打开并露出驾驶员剪影" />
 </picture>
 
 <div align="center">
@@ -47,9 +47,15 @@
 ## 作品
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/mecha-projects-mobile-v3.svg">
-  <img src="./assets/mecha-projects-v3.svg" width="100%" alt="Eileenes 紫绿与红橙机甲配色作品部署面板" />
+  <source media="(max-width: 600px)" srcset="./assets/mecha-projects-mobile-v4.svg">
+  <img src="./assets/mecha-projects-v4.svg" width="100%" alt="Eileenes 四模块机甲任务机库，包含 repo-brief、Recruitment、memoranote 与 DukeNote" />
 </picture>
+
+### 00 / [repo-brief](https://github.com/Eileenes/repo-brief) `NEW`
+
+`Python 3.8+` `CLI` `Zero dependencies` `MIT`
+
+一条命令生成任意 Git 仓库的 Markdown 速览：自动识别 20+ 技术栈，汇总文件构成、关键文件和最近提交，便于把项目上下文交给 AI 或团队成员。
 
 ### 01 / [Recruitment](https://github.com/Eileenes/Recruitment)
 
@@ -74,8 +80,8 @@
 ## 联系我
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/mecha-contact-panel-mobile-v3.svg">
-  <img src="./assets/mecha-contact-panel-v3.svg" width="100%" alt="Eileenes 紫绿与红橙机甲配色通信面板" />
+  <source media="(max-width: 600px)" srcset="./assets/mecha-contact-panel-mobile-v4.svg">
+  <img src="./assets/mecha-contact-panel-v4.svg" width="100%" alt="Eileenes 四模块已连接的紫绿与红橙机甲通信面板" />
 </picture>
 
 <div align="center">

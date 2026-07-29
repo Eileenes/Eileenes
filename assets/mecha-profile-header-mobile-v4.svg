@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="980" viewBox="0 0 720 980" role="img" aria-labelledby="title desc">
-  <title id="title">Eileenes mobile open cockpit mecha profile</title>
+  <title id="title">Eileenes mobile open cockpit mecha profile v4</title>
   <desc id="desc">A mobile profile with a purple, green, red and orange three-quarter-view mecha head, open canopy and seated black pilot silhouette</desc>
   <defs>
     <linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c694ff"/><stop offset=".16" stop-color="#6e2c9d"/><stop offset=".42" stop-color="#321044"/><stop offset=".65" stop-color="#8d43be"/><stop offset=".82" stop-color="#250934"/><stop offset="1" stop-color="#5b1f7a"/></linearGradient>
@@ -43,6 +43,6 @@
   <!-- lifted canopy -->
   <g class="canopy"><path d="M190 420L242 286L404 242L536 302L486 392L356 364L218 448Z" fill="url(#p)" stroke="#9d5bc2" stroke-width="8"/><path d="M242 296L398 254L500 302L458 334L350 316L246 354Z" fill="#d4a4e7" opacity=".38"/><path d="M240 286L122 176L194 338Z" fill="url(#p)" stroke="#9a54bd" stroke-width="6"/><path d="M404 242L546 168L478 292Z" fill="url(#p)" stroke="#9a54bd" stroke-width="6"/><path d="M214 410L288 342L410 342L486 380L446 416L332 390L236 448Z" fill="#17191d" stroke="#555861" stroke-width="5"/><rect x="346" y="260" width="58" height="14" fill="#a7ff16" filter="url(#glow)"/></g>
 
-  <g class="mono" text-anchor="middle"><rect x="102" y="872" width="516" height="54" fill="#13151a" stroke="#4b4e57" stroke-width="2"/><rect x="102" y="872" width="180" height="54" fill="#a7ff16"/><text x="192" y="905" fill="#0a1007" font-size="12" font-weight="900">CANOPY OPEN</text><text x="362" y="905" fill="#d7a6ef" font-size="12">CN / DEFAULT</text><text x="540" y="905" fill="#9d9da6" font-size="12">EN / OPEN</text><text x="360" y="954" fill="#71727a" font-size="10">CURIOUS · HANDS-ON · LIFE &amp; MUSIC</text></g>
+  <g class="mono" text-anchor="middle"><rect x="102" y="872" width="516" height="54" fill="#13151a" stroke="#4b4e57" stroke-width="2"/><rect x="102" y="872" width="180" height="54" fill="#a7ff16"/><text x="192" y="905" fill="#0a1007" font-size="12" font-weight="900">CANOPY OPEN</text><text x="362" y="905" fill="#d7a6ef" font-size="12">CN / DEFAULT</text><text x="540" y="905" fill="#9d9da6" font-size="12">EN / OPEN</text><text x="360" y="954" fill="#71727a" font-size="10">04 MODULES LINKED · LIFE &amp; MUSIC</text></g>
   <rect width="720" height="3" fill="#a7ff16" opacity=".45" class="scan"/>
 </svg>
