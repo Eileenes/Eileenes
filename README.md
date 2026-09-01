@@ -4,6 +4,14 @@
   <img alt="Eileenes's GitHub profile" src="dark_mode.svg">
 </picture>
 
+<sub>👆 这是我 GitHub 主页的「neofetch 风首屏卡片」。左侧是把我本人头像像素化后用 `@ / # / *` 字符堆叠出来的 ASCII；右侧展示设备栈与当前 GitHub 统计（Repos / Stars / Commits / Followers / Lines of Code），会根据你的系统主题自动切换深浅色。</sub>
+
+<details>
+  <summary><strong>ENGLISH // Show English caption</strong></summary>
+  <br>
+  <sub>👆 This is my <code>neofetch</code>-style header card. The left side is an ASCII rendering of my GitHub avatar (built from <code>@</code> / <code>#</code> / <code>*</code> pixels); the right side shows my device stack and live GitHub stats — Repos / Stars / Commits / Followers / Lines of Code — and it auto-switches between dark and light themes to match your system.</sub>
+</details>
+
 <div align="center">
 
 ### `EILEENES // DUKE YEAH`
