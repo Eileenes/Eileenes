@@ -1,6 +1,7 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/mecha-profile-header-mobile-v4.svg">
-  <img src="./assets/mecha-profile-header-v4.svg" width="100%" alt="Eileenes 三分之四视角机甲驾驶舱，紫绿与红橙装甲打开并露出驾驶员剪影" />
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg">
+  <img alt="Eileenes's GitHub profile" src="dark_mode.svg">
 </picture>
 
 <div align="center">
