@@ -1,0 +1,49 @@
+name: Update profile card
+
+# Recomputes the neofetch-style header card from the public GitHub API so the
+# Repos / Stars / Commits / Followers numbers never go stale again.
+# The skill tree card is static content and is not touched here.
+
+on:
+  schedule:
+    # Daily at 03:17 UTC (11:17 Asia/Shanghai). Off-the-hour on purpose: GitHub
+    # drops scheduled runs that pile up at :00.
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile-card
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate card
+        env:
+          # The default token is enough: the script only reads public data.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/generate_profile_card.py
+
+      - name: Commit if changed
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Card is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dark_mode.svg light_mode.svg
+          git commit -m "chore: refresh profile card stats [skip ci]"
+          git push

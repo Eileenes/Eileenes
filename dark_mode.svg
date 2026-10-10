@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500" font-family="Consolas, Menlo, monospace" font-size="13px">
-  <rect x="0.5" y="0.5" width="959" height="499" rx="10" fill="#0d1117" stroke="#30363d"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" font-family="Consolas, Menlo, monospace" font-size="13px">
+  <rect x="0.5" y="0.5" width="959" height="459" rx="10" fill="#0d1117" stroke="#30363d"/>
   <text x="25" y="40" fill="#8b949e" xml:space="preserve">          @@@@@@@@@@@@@@@@@@@@@@@@              </text>
   <text x="25" y="55" fill="#8b949e" xml:space="preserve">         @@@@@@@@@@@@@@@@@@@@@@@@@@             </text>
   <text x="25" y="70" fill="#8b949e" xml:space="preserve">       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@           </text>
@@ -29,8 +29,8 @@
   <text x="415" y="50" xml:space="preserve"><tspan fill="#58a6ff">─ Eileenes@github </tspan><tspan fill="#484f58">──────────────────────────────────────────────────────</tspan></text>
   <text x="415" y="92" xml:space="preserve"><tspan fill="#ffa657">OS: </tspan><tspan fill="#484f58">........................... </tspan><tspan fill="#c9d1d9">macOS · Apple Silicon</tspan></text>
   <text x="415" y="113" xml:space="preserve"><tspan fill="#ffa657">Uptime: </tspan><tspan fill="#484f58">....................... </tspan><tspan fill="#c9d1d9">since Aug 2025</tspan></text>
-  <text x="415" y="134" xml:space="preserve"><tspan fill="#ffa657">Host: </tspan><tspan fill="#484f58">......................... </tspan><tspan fill="#c9d1d9">Unknown</tspan></text>
-  <text x="415" y="155" xml:space="preserve"><tspan fill="#ffa657">Kernel: </tspan><tspan fill="#484f58">....................... </tspan><tspan fill="#c9d1d9">10-year Product Manager · Maker</tspan></text>
+  <text x="415" y="134" xml:space="preserve"><tspan fill="#ffa657">Host: </tspan><tspan fill="#484f58">......................... </tspan><tspan fill="#c9d1d9">Eileenes · Independent Maker</tspan></text>
+  <text x="415" y="155" xml:space="preserve"><tspan fill="#ffa657">Kernel: </tspan><tspan fill="#484f58">....................... </tspan><tspan fill="#c9d1d9">10-year Product Manager</tspan></text>
   <text x="415" y="176" xml:space="preserve"><tspan fill="#ffa657">IDE: </tspan><tspan fill="#484f58">.......................... </tspan><tspan fill="#c9d1d9">VSCode, Codex, Pi, WorkBuddy</tspan></text>
   <text x="415" y="218" xml:space="preserve"><tspan fill="#ffa657">Languages.Programming: </tspan><tspan fill="#484f58">........ </tspan><tspan fill="#c9d1d9">TypeScript, Python, Go, React</tspan></text>
   <text x="415" y="239" xml:space="preserve"><tspan fill="#ffa657">Languages.Real: </tspan><tspan fill="#484f58">............... </tspan><tspan fill="#c9d1d9">中文 (Chinese), English</tspan></text>
@@ -39,7 +39,6 @@
   <text x="415" y="323" xml:space="preserve"><tspan fill="#ffa657">Email: </tspan><tspan fill="#484f58">........................ </tspan><tspan fill="#c9d1d9">taoyeyeah@gmail.com</tspan></text>
   <text x="415" y="344" xml:space="preserve"><tspan fill="#ffa657">GitHub: </tspan><tspan fill="#484f58">....................... </tspan><tspan fill="#c9d1d9">github.com/Eileenes</tspan></text>
   <text x="415" y="386" xml:space="preserve"><tspan fill="#58a6ff">─ GitHub Stats </tspan><tspan fill="#484f58">─────────────────────────────────────────────────────────</tspan></text>
-  <text x="415" y="407" xml:space="preserve"><tspan fill="#ffa657">Repos: </tspan><tspan fill="#484f58">.......... </tspan><tspan fill="#c9d1d9">18</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Stars: </tspan><tspan fill="#484f58">.......... </tspan><tspan fill="#c9d1d9">9</tspan></text>
-  <text x="415" y="428" xml:space="preserve"><tspan fill="#ffa657">Commits: </tspan><tspan fill="#484f58">........ </tspan><tspan fill="#c9d1d9">186</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Followers: </tspan><tspan fill="#484f58">...... </tspan><tspan fill="#c9d1d9">6</tspan></text>
-  <text x="415" y="449" xml:space="preserve"><tspan fill="#ffa657">Lines of Code: </tspan><tspan fill="#484f58">................ </tspan><tspan fill="#c9d1d9">1,606,832</tspan><tspan fill="#484f58">  </tspan><tspan fill="#484f58">across 18 repos</tspan></text>
+  <text x="415" y="407" xml:space="preserve"><tspan fill="#ffa657">Repos: </tspan><tspan fill="#484f58">.......... </tspan><tspan fill="#c9d1d9">12 </tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Stars: </tspan><tspan fill="#484f58">.......... </tspan><tspan fill="#c9d1d9">32 </tspan></text>
+  <text x="415" y="428" xml:space="preserve"><tspan fill="#ffa657">Commits: </tspan><tspan fill="#484f58">........ </tspan><tspan fill="#c9d1d9">232</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Followers: </tspan><tspan fill="#484f58">...... </tspan><tspan fill="#c9d1d9">8  </tspan></text>
 </svg>
