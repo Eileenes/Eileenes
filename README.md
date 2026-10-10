@@ -4,23 +4,13 @@
   <img alt="Eileenes's GitHub profile" src="dark_mode.svg">
 </picture>
 
-<sub>👆 这是我 GitHub 主页的「neofetch 风首屏卡片」。左侧是把我本人头像像素化后用 `@ / # / *` 字符堆叠出来的 ASCII；右侧展示设备栈与当前 GitHub 统计（Repos / Stars / Commits / Followers / Lines of Code），会根据你的系统主题自动切换深浅色。</sub>
+<sub>👆 这是我 GitHub 主页的「neofetch 风首屏卡片」。左侧是把我本人头像像素化后用 `@ / # / *` 字符堆叠出来的 ASCII；右侧展示设备栈与当前 GitHub 统计（Repos / Stars / Commits / Followers），会根据你的系统主题自动切换深浅色。所有数字由 GitHub Actions 每天从公开 API 重新计算，不是手写上去的。</sub>
 
 <details>
   <summary><strong>ENGLISH // Show English caption</strong></summary>
   <br>
-  <sub>👆 This is my <code>neofetch</code>-style header card. The left side is an ASCII rendering of my GitHub avatar (built from <code>@</code> / <code>#</code> / <code>*</code> pixels); the right side shows my device stack and live GitHub stats — Repos / Stars / Commits / Followers / Lines of Code — and it auto-switches between dark and light themes to match your system.</sub>
+  <sub>👆 This is my <code>neofetch</code>-style header card. The left side is an ASCII rendering of my GitHub avatar (built from <code>@</code> / <code>#</code> / <code>*</code> pixels); the right side shows my device stack and live GitHub stats — Repos / Stars / Commits / Followers — and it auto-switches between dark and light themes to match your system. Every number is recomputed daily by a GitHub Action from the public API, not typed in by hand.</sub>
 </details>
-
----
-
-## 🔥 贡献热力图 / Contribution Graph
-
-<p align="center">
-  <a href="https://github.com/Eileenes">
-    <img src="https://ghchart.rshah.org/Eileenes" alt="Eileenes 的 GitHub 贡献热力图" width="100%" />
-  </a>
-</p>
 
 ---
 
@@ -47,17 +37,36 @@
 
 ---
 
+## 🧬 技能天赋书 / Skill Talent Tree
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="skill_tree_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="skill_tree_light.svg">
+  <img alt="Duke Yeah 的技能天赋书" src="skill_tree_light.svg">
+</picture>
+
+<sub>👆 四条天赋线：**产品 / 开发 / 音乐 / 游戏**。金色是点满了，红色是……就不提了。所有等级均为本人自行评定，不接受外部校准。</sub>
+
+<details>
+  <summary><strong>ENGLISH // Show English caption</strong></summary>
+  <br>
+  <sub>👆 My talent tree. Four branches — <strong>Product / Dev / Music / Game</strong>. Gold means maxed out; red means let's not talk about it. All levels are entirely self-assessed and not open to peer review.</sub>
+</details>
+
+---
+
 ## 🚀 项目 / Projects
 
-- **[LumaRouter](https://github.com/Eileenes/LumaRouter)** — 智能 LLM 网关，多模型智能路由 `Python`
-- **[pi-desktop](https://github.com/Eileenes/pi-desktop)** — Pi 的桌面端应用 `TypeScript`
-- **[pi](https://github.com/Eileenes/pi)** — AI Agent 工具集：统一 LLM API + Agent 框架
-- **[QoderGuide](https://github.com/Eileenes/QoderGuide)** — Qoder 实战蓝皮书：教程 · 真实工作流 · Quest Mode
+- **[pi-desktop](https://github.com/Eileenes/pi-desktop)** — Pi 智能体的桌面端 GUI，让 Agent 有个正经界面 `TypeScript`
+- **[DecideLint](https://github.com/Eileenes/DecideLint)** — 给类型化决策模型做回归测试与弃权阈值校验 `Python`
+- **[promptforge](https://github.com/Eileenes/promptforge)** — AI 提示词工程工具箱：优化 · 测试 · 管理 `Python`
+- **[DukeNote](https://github.com/Eileenes/DukeNote)** — iOS AI 便签：清单 · 语音速记 · 时间筛选 `Swift`
+- **[memoranote](https://github.com/Eileenes/memoranote)** — macOS 记事本 Memora：橙紫配色 · 语音录入 `Swift`
 
 ---
 
 ## 📫 联系我 / Contact
 
 <p align="center">
-  <a href="https://github.com/Eileenes">GitHub</a> · <a href="mailto:dukeyeah@163.com">Email</a>
+  <a href="https://github.com/Eileenes">GitHub</a> · <a href="mailto:taoyeyeah@gmail.com">Email</a>
 </p>
