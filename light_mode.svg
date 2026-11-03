@@ -1,31 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" font-family="Consolas, Menlo, monospace" font-size="13px">
   <rect x="0.5" y="0.5" width="959" height="459" rx="10" fill="#ffffff" stroke="#d0d7de"/>
-  <text x="25" y="40" fill="#57606a" xml:space="preserve">          @@@@@@@@@@@@@@@@@@@@@@@@              </text>
-  <text x="25" y="55" fill="#57606a" xml:space="preserve">         @@@@@@@@@@@@@@@@@@@@@@@@@@             </text>
-  <text x="25" y="70" fill="#57606a" xml:space="preserve">       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@           </text>
-  <text x="25" y="85" fill="#57606a" xml:space="preserve">      @@@@@@@@@@@@@*@@@@@@@@@@@@@@@@@@          </text>
-  <text x="25" y="100" fill="#57606a" xml:space="preserve">    *@@@@@@@@@@@@@@#*@*@@*@@@@@@@@@@@@@         </text>
-  <text x="25" y="115" fill="#57606a" xml:space="preserve">    @@@@@@@@@@@@@@*##*##@*#@@*@@@@@@@@@         </text>
-  <text x="25" y="130" fill="#57606a" xml:space="preserve">   @@@@@@@@@@@@@#@##########*####@*@@@@         </text>
-  <text x="25" y="145" fill="#57606a" xml:space="preserve">  @@@@@@@@@@***#####################@@@         </text>
-  <text x="25" y="160" fill="#57606a" xml:space="preserve">    @@@@@@@*#########################@@         </text>
-  <text x="25" y="175" fill="#57606a" xml:space="preserve">    @@@@@@@##########################@@         </text>
-  <text x="25" y="190" fill="#57606a" xml:space="preserve">    @@@@@############################*#*        </text>
-  <text x="25" y="205" fill="#57606a" xml:space="preserve">      @@@@##############################*       </text>
-  <text x="25" y="220" fill="#57606a" xml:space="preserve">          @############################*        </text>
-  <text x="25" y="235" fill="#57606a" xml:space="preserve">          @@##########################          </text>
-  <text x="25" y="250" fill="#57606a" xml:space="preserve">         *##*######################*            </text>
-  <text x="25" y="265" fill="#57606a" xml:space="preserve">          *##*####################*             </text>
-  <text x="25" y="280" fill="#57606a" xml:space="preserve">            ***#*################*              </text>
-  <text x="25" y="295" fill="#57606a" xml:space="preserve">                  *##############*              </text>
-  <text x="25" y="310" fill="#57606a" xml:space="preserve">                    @############*              </text>
-  <text x="25" y="325" fill="#57606a" xml:space="preserve">                    ****#########*              </text>
-  <text x="25" y="340" fill="#57606a" xml:space="preserve">                    *############* *            </text>
-  <text x="25" y="355" fill="#57606a" xml:space="preserve">                   * *###########*****          </text>
-  <text x="25" y="370" fill="#57606a" xml:space="preserve">                 *****############******        </text>
-  <text x="25" y="385" fill="#57606a" xml:space="preserve">                *******###########***********   </text>
-  <text x="25" y="400" fill="#57606a" xml:space="preserve">             ********#*##########***************</text>
-  <text x="25" y="415" fill="#57606a" xml:space="preserve">              *******############* *************</text>
+  <text x="25" y="40" fill="#57606a" xml:space="preserve">                *****  *****                    </text>
+  <text x="25" y="55" fill="#57606a" xml:space="preserve">               ***************                  </text>
+  <text x="25" y="70" fill="#57606a" xml:space="preserve">              *****************                 </text>
+  <text x="25" y="85" fill="#57606a" xml:space="preserve">            *********************               </text>
+  <text x="25" y="100" fill="#57606a" xml:space="preserve">           ***********************              </text>
+  <text x="25" y="115" fill="#57606a" xml:space="preserve">          *************************             </text>
+  <text x="25" y="130" fill="#57606a" xml:space="preserve">          *******@@@@@@@@@@@*******             </text>
+  <text x="25" y="145" fill="#57606a" xml:space="preserve">          *****@@@@@@@@@@@@@@@*****             </text>
+  <text x="25" y="160" fill="#57606a" xml:space="preserve">          ****@@@@@@@@@@@@@@@@@****             </text>
+  <text x="25" y="175" fill="#57606a" xml:space="preserve">          ****@@     @@@     @@****             </text>
+  <text x="25" y="190" fill="#57606a" xml:space="preserve">          ****@@     @@@     @@****             </text>
+  <text x="25" y="205" fill="#57606a" xml:space="preserve">          *****@@@@@@@@@@@@@@@*****             </text>
+  <text x="25" y="220" fill="#57606a" xml:space="preserve">           *****@@@@@@@@@@@@@*****              </text>
+  <text x="25" y="235" fill="#57606a" xml:space="preserve">            *****@@@     @@@*****               </text>
+  <text x="25" y="250" fill="#57606a" xml:space="preserve">              ****@@@@@@@@@****                 </text>
+  <text x="25" y="265" fill="#57606a" xml:space="preserve">                @@@@@@@@@@@@@                   </text>
+  <text x="25" y="280" fill="#57606a" xml:space="preserve">                  @@@@@@@@@                     </text>
+  <text x="25" y="295" fill="#57606a" xml:space="preserve">                   @@@@@@@                      </text>
+  <text x="25" y="310" fill="#57606a" xml:space="preserve">                   @@@@@@@                      </text>
+  <text x="25" y="325" fill="#57606a" xml:space="preserve">                #############                   </text>
+  <text x="25" y="340" fill="#57606a" xml:space="preserve">             @####@@####@@####@@                </text>
+  <text x="25" y="355" fill="#57606a" xml:space="preserve">          ##@@####@@####@@####@@###             </text>
+  <text x="25" y="370" fill="#57606a" xml:space="preserve">        ####@@####@@####@@####@@####@           </text>
+  <text x="25" y="385" fill="#57606a" xml:space="preserve">      @@####@@####@@####@@####@@####@@#         </text>
+  <text x="25" y="400" fill="#57606a" xml:space="preserve">    ##@@####@@####@@####@@####@@####@@###       </text>
+  <text x="25" y="415" fill="#57606a" xml:space="preserve">    ##@@####@@####@@####@@####@@####@@###       </text>
   <text x="415" y="50" xml:space="preserve"><tspan fill="#0969da">─ Eileenes@github </tspan><tspan fill="#afb8c1">──────────────────────────────────────────────────────</tspan></text>
   <text x="415" y="92" xml:space="preserve"><tspan fill="#953800">OS: </tspan><tspan fill="#afb8c1">........................... </tspan><tspan fill="#24292f">macOS · Apple Silicon</tspan></text>
   <text x="415" y="113" xml:space="preserve"><tspan fill="#953800">Uptime: </tspan><tspan fill="#afb8c1">....................... </tspan><tspan fill="#24292f">since Aug 2025</tspan></text>

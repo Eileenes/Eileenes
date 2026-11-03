@@ -4,12 +4,12 @@
   <img alt="Eileenes's GitHub profile" src="dark_mode.svg">
 </picture>
 
-<sub>👆 这是我 GitHub 主页的「neofetch 风首屏卡片」。左侧是把我本人头像像素化后用 `@ / # / *` 字符堆叠出来的 ASCII；右侧展示设备栈与当前 GitHub 统计（Repos / Stars / Commits / Followers），会根据你的系统主题自动切换深浅色。所有数字由 GitHub Actions 每天从公开 API 重新计算，不是手写上去的。</sub>
+<sub>👆 这是我 GitHub 主页的「neofetch 风首屏卡片」。左侧是把我本人头像用 `@ / # / *` 字符重绘成的 ASCII 剪影 —— 卷发、黑框眼镜、条纹衬衫；右侧展示设备栈与当前 GitHub 统计（Repos / Stars / Commits / Followers），会根据你的系统主题自动切换深浅色。所有数字由 GitHub Actions 每天从公开 API 重新计算，不是手写上去的。</sub>
 
 <details>
   <summary><strong>ENGLISH // Show English caption</strong></summary>
   <br>
-  <sub>👆 This is my <code>neofetch</code>-style header card. The left side is an ASCII rendering of my GitHub avatar (built from <code>@</code> / <code>#</code> / <code>*</code> pixels); the right side shows my device stack and live GitHub stats — Repos / Stars / Commits / Followers — and it auto-switches between dark and light themes to match your system. Every number is recomputed daily by a GitHub Action from the public API, not typed in by hand.</sub>
+  <sub>👆 This is my <code>neofetch</code>-style header card. The left side is an ASCII silhouette of my avatar — curly hair, thick-rimmed glasses, a striped shirt — hand-built from <code>@</code> / <code>#</code> / <code>*</code> glyphs; the right side shows my device stack and live GitHub stats — Repos / Stars / Commits / Followers — and it auto-switches between dark and light themes to match your system. Every number is recomputed daily by a GitHub Action from the public API, not typed in by hand.</sub>
 </details>
 
 ---
