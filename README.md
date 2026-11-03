@@ -4,12 +4,12 @@
   <img alt="Eileenes's GitHub profile" src="dark_mode.svg">
 </picture>
 
-<sub>👆 这是我 GitHub 主页的「neofetch 风首屏卡片」。左侧是照着我的 GitHub 头像用 `@ / # / *` 字符重绘的 ASCII —— 卷发、圆框眼镜、条纹衬衫；右侧展示设备栈与当前 GitHub 统计（Repos / Stars / Commits / Followers），会根据你的系统主题自动切换深浅色。所有数字由 GitHub Actions 每天从公开 API 重新计算，不是手写上去的。</sub>
+<sub>👆 这是我 GitHub 主页的「neofetch 风首屏卡片」。左侧是照着我的 GitHub 头像画的 ASCII 线稿 —— `~` 波浪是卷发，`( @ )` 是圆框眼镜；右侧展示设备栈与当前 GitHub 统计（Repos / Stars / Commits / Followers），会根据你的系统主题自动切换深浅色。所有数字由 GitHub Actions 每天从公开 API 重新计算，不是手写上去的。</sub>
 
 <details>
   <summary><strong>ENGLISH // Show English caption</strong></summary>
   <br>
-  <sub>👆 This is my <code>neofetch</code>-style header card. The left side is my avatar redrawn in ASCII — curly hair, round glasses, a striped shirt — built from <code>@</code> / <code>#</code> / <code>*</code> glyphs; the right side shows my device stack and live GitHub stats — Repos / Stars / Commits / Followers — and it auto-switches between dark and light themes to match your system. Every number is recomputed daily by a GitHub Action from the public API, not typed in by hand.</sub>
+  <sub>👆 This is my <code>neofetch</code>-style header card. The left side is my avatar redrawn as ASCII line art — <code>~</code> waves for the curls, <code>( @ )</code> for the round glasses; the right side shows my device stack and live GitHub stats — Repos / Stars / Commits / Followers — and it auto-switches between dark and light themes to match your system. Every number is recomputed daily by a GitHub Action from the public API, not typed in by hand.</sub>
 </details>
 
 ---

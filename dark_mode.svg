@@ -1,37 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" font-family="Consolas, Menlo, monospace" font-size="13px">
   <rect x="0.5" y="0.5" width="959" height="459" rx="10" fill="#0d1117" stroke="#30363d"/>
-  <text x="40" y="44.0" fill="#8b949e" font-size="10px" xml:space="preserve">                       *  *********                         </text>
-  <text x="40" y="55.5" fill="#8b949e" font-size="10px" xml:space="preserve">                    *********************                   </text>
-  <text x="40" y="67.0" fill="#8b949e" font-size="10px" xml:space="preserve">                  *************************                 </text>
-  <text x="40" y="78.5" fill="#8b949e" font-size="10px" xml:space="preserve">               *******************************              </text>
-  <text x="40" y="90.0" fill="#8b949e" font-size="10px" xml:space="preserve">             ***********************************            </text>
-  <text x="40" y="101.5" fill="#8b949e" font-size="10px" xml:space="preserve">            *************************************           </text>
-  <text x="40" y="113.0" fill="#8b949e" font-size="10px" xml:space="preserve">            **************@@@@@@@@@**************           </text>
-  <text x="40" y="124.5" fill="#8b949e" font-size="10px" xml:space="preserve">            ************@@@@@@@@@@@@@************           </text>
-  <text x="40" y="136.0" fill="#8b949e" font-size="10px" xml:space="preserve">            **********@@@@@@@@@@@@@@@@@**********           </text>
-  <text x="40" y="147.5" fill="#8b949e" font-size="10px" xml:space="preserve">            ******        @@@@@@@@@        ******           </text>
-  <text x="40" y="159.0" fill="#8b949e" font-size="10px" xml:space="preserve">             *******@@@@@@@@@@@@@@@@@@@@@*******            </text>
-  <text x="40" y="170.5" fill="#8b949e" font-size="10px" xml:space="preserve">             ******       @@@@@@@@@       ******            </text>
-  <text x="40" y="182.0" fill="#8b949e" font-size="10px" xml:space="preserve">             *****  @@@@@  @@@@@@@  @@@@@  *****            </text>
-  <text x="40" y="193.5" fill="#8b949e" font-size="10px" xml:space="preserve">             ****  @@  @@@         @@  @@@  ****            </text>
-  <text x="40" y="205.0" fill="#8b949e" font-size="10px" xml:space="preserve">             **** @@   @@@@ @@@@@ @@   @@@@ ****            </text>
-  <text x="40" y="216.5" fill="#8b949e" font-size="10px" xml:space="preserve">             ****  @@@@@@@  @@@@@  @@@@@@@  ****            </text>
-  <text x="40" y="228.0" fill="#8b949e" font-size="10px" xml:space="preserve">              ****         @@@@@@@         ****             </text>
-  <text x="40" y="239.5" fill="#8b949e" font-size="10px" xml:space="preserve">              *****@@   @@@@@@@@@@@@@   @@*****             </text>
-  <text x="40" y="251.0" fill="#8b949e" font-size="10px" xml:space="preserve">               *****@@@@@@@       @@@@@@@*****              </text>
-  <text x="40" y="262.5" fill="#8b949e" font-size="10px" xml:space="preserve">                ****@@@@@@@@@@@@@@@@@@@@@****               </text>
-  <text x="40" y="274.0" fill="#8b949e" font-size="10px" xml:space="preserve">                 ****@@@@@@@@@@@@@@@@@@@****                </text>
-  <text x="40" y="285.5" fill="#8b949e" font-size="10px" xml:space="preserve">                  ****@@@@@@@@@@@@@@@@@****                 </text>
-  <text x="40" y="297.0" fill="#8b949e" font-size="10px" xml:space="preserve">                    ****@@@@@@@@@@@@@****                   </text>
-  <text x="40" y="308.5" fill="#8b949e" font-size="10px" xml:space="preserve">                      @@@@@@@@@@@@@@@@@                     </text>
-  <text x="40" y="320.0" fill="#8b949e" font-size="10px" xml:space="preserve">                   #@@@@@##@@@@@##@@@@@##                   </text>
-  <text x="40" y="331.5" fill="#8b949e" font-size="10px" xml:space="preserve">                 @##@@@@@##@@@@@##@@@@@##@@                 </text>
-  <text x="40" y="343.0" fill="#8b949e" font-size="10px" xml:space="preserve">               @@@##@@@@@##@@@@@##@@@@@##@@@@               </text>
-  <text x="40" y="354.5" fill="#8b949e" font-size="10px" xml:space="preserve">             @@@@@##@@@@@##@@@@@##@@@@@##@@@@@#             </text>
-  <text x="40" y="366.0" fill="#8b949e" font-size="10px" xml:space="preserve">            #@@@@@##@@@@@##@@@@@##@@@@@##@@@@@##            </text>
-  <text x="40" y="377.5" fill="#8b949e" font-size="10px" xml:space="preserve">          @##@@@@@##@@@@@##@@@@@##@@@@@##@@@@@##@@          </text>
-  <text x="40" y="389.0" fill="#8b949e" font-size="10px" xml:space="preserve">         @@##@@@@@##@@@@@##@@@@@##@@@@@##@@@@@##@@@         </text>
-  <text x="40" y="400.5" fill="#8b949e" font-size="10px" xml:space="preserve">        @@@##@@@@@##@@@@@##@@@@@##@@@@@##@@@@@##@@@@        </text>
+  <text x="40" y="44.0" fill="#8b949e" font-size="10px" xml:space="preserve">                        ~~~~     ~~~~                       </text>
+  <text x="40" y="55.5" fill="#8b949e" font-size="10px" xml:space="preserve">                     ~~~~~~ ~~~~  ~~~~~                     </text>
+  <text x="40" y="67.0" fill="#8b949e" font-size="10px" xml:space="preserve">                   ~~~~~~ ~~~~~ ~~~~~ ~~~~                  </text>
+  <text x="40" y="78.5" fill="#8b949e" font-size="10px" xml:space="preserve">                 ~~~~~~ ~~~~~~ ~~~~~ ~~~~~~                 </text>
+  <text x="40" y="90.0" fill="#8b949e" font-size="10px" xml:space="preserve">                ~~~~~~ ~~~~~~ ~~~~~ ~~~~~~~~                </text>
+  <text x="40" y="101.5" fill="#8b949e" font-size="10px" xml:space="preserve">               ~~~~~~ ~~~~~~ ~~~~~~ ~~~~~~~~~               </text>
+  <text x="40" y="113.0" fill="#8b949e" font-size="10px" xml:space="preserve">              ~~~~~~ ~~~~~~ ~~~~~~ ~~~~~~~~~~               </text>
+  <text x="40" y="124.5" fill="#8b949e" font-size="10px" xml:space="preserve">             ~~~~~~ ~~~~~~ ~~~~~~ ~~~~~~~~~~~~              </text>
+  <text x="40" y="136.0" fill="#8b949e" font-size="10px" xml:space="preserve">             ~~~~~ ~~~~~~ ~~~~~~ ~~~~~~~~~~~~~              </text>
+  <text x="40" y="147.5" fill="#8b949e" font-size="10px" xml:space="preserve">            ~~~~~ ~~~~~~ ~~~~~~ ~~~~~~~~~~~~~               </text>
+  <text x="40" y="159.0" fill="#8b949e" font-size="10px" xml:space="preserve">            ~~~~ ~~~~~~ ~~~~~~ ~~~~~~~~~~~~~                </text>
+  <text x="40" y="170.5" fill="#8b949e" font-size="10px" xml:space="preserve">             /                                \             </text>
+  <text x="40" y="182.0" fill="#8b949e" font-size="10px" xml:space="preserve">              /    _______        _______   \               </text>
+  <text x="40" y="193.5" fill="#8b949e" font-size="10px" xml:space="preserve">               /    __ __           __ __  \                </text>
+  <text x="40" y="205.0" fill="#8b949e" font-size="10px" xml:space="preserve">                /  ( @@@ )-------- ( @@@ )\                 </text>
+  <text x="40" y="216.5" fill="#8b949e" font-size="10px" xml:space="preserve">                 /  __ __           __ __\                  </text>
+  <text x="40" y="228.0" fill="#8b949e" font-size="10px" xml:space="preserve">                   /     \         /   \                    </text>
+  <text x="40" y="239.5" fill="#8b949e" font-size="10px" xml:space="preserve">                    /     \_______/   \                     </text>
+  <text x="40" y="251.0" fill="#8b949e" font-size="10px" xml:space="preserve">                     /               \                      </text>
+  <text x="40" y="262.5" fill="#8b949e" font-size="10px" xml:space="preserve">                      /             \                       </text>
+  <text x="40" y="274.0" fill="#8b949e" font-size="10px" xml:space="preserve">                        /          \                        </text>
+  <text x="40" y="285.5" fill="#8b949e" font-size="10px" xml:space="preserve">                         __________                         </text>
+  <text x="40" y="297.0" fill="#8b949e" font-size="10px" xml:space="preserve">                                                            </text>
+  <text x="40" y="308.5" fill="#8b949e" font-size="10px" xml:space="preserve">                    / _________________\                    </text>
+  <text x="40" y="320.0" fill="#8b949e" font-size="10px" xml:space="preserve">                   /                    \                   </text>
+  <text x="40" y="331.5" fill="#8b949e" font-size="10px" xml:space="preserve">                  /                      \                  </text>
+  <text x="40" y="343.0" fill="#8b949e" font-size="10px" xml:space="preserve">                 /                        \                 </text>
+  <text x="40" y="354.5" fill="#8b949e" font-size="10px" xml:space="preserve">                /                          \                </text>
+  <text x="40" y="366.0" fill="#8b949e" font-size="10px" xml:space="preserve">               /                            \               </text>
+  <text x="40" y="377.5" fill="#8b949e" font-size="10px" xml:space="preserve">              /                              \              </text>
+  <text x="40" y="389.0" fill="#8b949e" font-size="10px" xml:space="preserve">             /                                \             </text>
+  <text x="40" y="400.5" fill="#8b949e" font-size="10px" xml:space="preserve">            /                                  \            </text>
   <text x="415" y="50" xml:space="preserve"><tspan fill="#58a6ff">─ Eileenes@github </tspan><tspan fill="#484f58">──────────────────────────────────────────────────────</tspan></text>
   <text x="415" y="92" xml:space="preserve"><tspan fill="#ffa657">OS: </tspan><tspan fill="#484f58">........................... </tspan><tspan fill="#c9d1d9">macOS · Apple Silicon</tspan></text>
   <text x="415" y="113" xml:space="preserve"><tspan fill="#ffa657">Uptime: </tspan><tspan fill="#484f58">....................... </tspan><tspan fill="#c9d1d9">since Aug 2025</tspan></text>
@@ -46,5 +46,5 @@
   <text x="415" y="344" xml:space="preserve"><tspan fill="#ffa657">GitHub: </tspan><tspan fill="#484f58">....................... </tspan><tspan fill="#c9d1d9">github.com/Eileenes</tspan></text>
   <text x="415" y="386" xml:space="preserve"><tspan fill="#58a6ff">─ GitHub Stats </tspan><tspan fill="#484f58">─────────────────────────────────────────────────────────</tspan></text>
   <text x="415" y="407" xml:space="preserve"><tspan fill="#ffa657">Repos: </tspan><tspan fill="#484f58">.......... </tspan><tspan fill="#c9d1d9">17 </tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Stars: </tspan><tspan fill="#484f58">.......... </tspan><tspan fill="#c9d1d9">39 </tspan></text>
-  <text x="415" y="428" xml:space="preserve"><tspan fill="#ffa657">Commits: </tspan><tspan fill="#484f58">........ </tspan><tspan fill="#c9d1d9">282</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Followers: </tspan><tspan fill="#484f58">...... </tspan><tspan fill="#c9d1d9">7  </tspan></text>
+  <text x="415" y="428" xml:space="preserve"><tspan fill="#ffa657">Commits: </tspan><tspan fill="#484f58">........ </tspan><tspan fill="#c9d1d9">283</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Followers: </tspan><tspan fill="#484f58">...... </tspan><tspan fill="#c9d1d9">7  </tspan></text>
 </svg>
