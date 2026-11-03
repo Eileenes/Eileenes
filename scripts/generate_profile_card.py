@@ -18,48 +18,60 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from avatar_art import CELL_W, GRID_H, GRID_W, PALETTE, ROWS  # noqa: E402
+
 USER = "Eileenes"
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CARD_WIDTH = 960
 CARD_HEIGHT = 460
 
-# ---------------------------------------------------------------- ASCII avatar
-# Left half of the card. Fill colour is applied per theme, so the art itself is
-# shared between the dark and light variants.
-#
-# Hand-drawn, not sampled: at 48x26 with a single fill colour there is no room
-# for luminance gradients, so the portrait is built as a flat silhouette —
-# `*` hair, `@` face and neck, `#` shirt — and every facial feature is carved
-# out as blank cells (card background), which is the only reliably visible
-# contrast at this size. Redrawn whenever the GitHub avatar changes.
-ASCII_ART = [
-    "                *****  *****                    ",
-    "               ***************                  ",
-    "              *****************                 ",
-    "            *********************               ",
-    "           ***********************              ",
-    "          *************************             ",
-    "          *******@@@@@@@@@@@*******             ",
-    "          *****@@@@@@@@@@@@@@@*****             ",
-    "          ****@@@@@@@@@@@@@@@@@****             ",
-    "          ****@@     @@@     @@****             ",
-    "          ****@@     @@@     @@****             ",
-    "          *****@@@@@@@@@@@@@@@*****             ",
-    "           *****@@@@@@@@@@@@@*****              ",
-    "            *****@@@     @@@*****               ",
-    "              ****@@@@@@@@@****                 ",
-    "                @@@@@@@@@@@@@                   ",
-    "                  @@@@@@@@@                     ",
-    "                   @@@@@@@                      ",
-    "                   @@@@@@@                      ",
-    "                #############                   ",
-    "             @####@@####@@####@@                ",
-    "          ##@@####@@####@@####@@###             ",
-    "        ####@@####@@####@@####@@####@           ",
-    "      @@####@@####@@####@@####@@####@@#         ",
-    "    ##@@####@@####@@####@@####@@####@@###       ",
-    "    ##@@####@@####@@####@@####@@####@@###       ",
-]
+# ------------------------------------------------------------------ portrait
+# The left column is a grid of coloured rectangles built from scripts/avatar_art.py,
+# which scripts/build_avatar_art.py regenerates from the live GitHub avatar.
+# A single-tone glyph ramp cannot carry this illustration: its identity is almost
+# entirely colour (coral backdrop, dark brown curls, skin, black frames), so an
+# ASCII rendering collapses into an unrecognisable blob at this size.
+
+
+def portrait() -> list[str]:
+    """Greedy rectangle merge — adjacent same-colour cells collapse into one
+    <rect>, which keeps the SVG near 70 KB instead of 160 KB."""
+    cells = []
+    for row in ROWS:
+        cells.append([
+            None if row[x * CELL_W:(x + 1) * CELL_W].strip() == ""
+            else PALETTE[int(row[x * CELL_W:(x + 1) * CELL_W], 16)]
+            for x in range(GRID_W)
+        ])
+
+    used = [[False] * GRID_W for _ in range(GRID_H)]
+    out = []
+    for y in range(GRID_H):
+        for x in range(GRID_W):
+            colour = cells[y][x]
+            if colour is None or used[y][x]:
+                continue
+            w = 0
+            while (x + w < GRID_W and cells[y][x + w] == colour
+                   and not used[y][x + w]):
+                w += 1
+            h = 1
+            while y + h < GRID_H and all(
+                cells[y + h][x + i] == colour and not used[y + h][x + i]
+                for i in range(w)
+            ):
+                h += 1
+            for j in range(h):
+                for i in range(w):
+                    used[y + j][x + i] = True
+            out.append(
+                f'  <rect x="{PORTRAIT_X + x * PORTRAIT_CELL_W:.0f}" '
+                f'y="{PORTRAIT_Y + y * PORTRAIT_CELL_H:.1f}" '
+                f'width="{w * PORTRAIT_CELL_W:.0f}" '
+                f'height="{h * PORTRAIT_CELL_H:.1f}" fill="{colour}"/>'
+            )
+    return out
 
 # ---------------------------------------------------------------- theme tokens
 THEMES = {
@@ -86,9 +98,10 @@ THEMES = {
 }
 
 # Geometry, tuned against the original hand-written card.
-ART_X = 25
-ART_Y0 = 40
-ART_DY = 15
+PORTRAIT_X = 57      # centred in the 390 px left column
+PORTRAIT_Y = 80      # centred vertically in the 460 px card
+PORTRAIT_CELL_W = 5.0
+PORTRAIT_CELL_H = 10.0
 COL_X = 415
 ROW_Y0 = 50
 ROW_DY = 21
@@ -215,12 +228,7 @@ def render(theme_name: str, stats: dict) -> str:
         f'stroke="{theme["border"]}"/>',
     ]
 
-    for index, line in enumerate(ASCII_ART):
-        y = ART_Y0 + index * ART_DY
-        lines.append(
-            f'  <text x="{ART_X}" y="{y}" fill="{theme["art"]}" '
-            f'xml:space="preserve">{esc(line)}</text>'
-        )
+    lines.extend(portrait())
 
     lines.append(
         section_row(ROW_Y0, f"{USER}@github", theme, 54)

@@ -30,6 +30,14 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install dependencies
+        run: pip install --quiet pillow numpy
+
+      - name: Resample the avatar if the profile picture changed
+        # Writes scripts/avatar_art.py from https://github.com/<user>.png. It is a
+        # no-op when the picture has not changed, so this stays quiet on most days.
+        run: python3 scripts/build_avatar_art.py
+
       - name: Regenerate card
         env:
           # The default token is enough: the script only reads public data.
@@ -44,6 +52,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dark_mode.svg light_mode.svg
+          git add dark_mode.svg light_mode.svg scripts/avatar_art.py
           git commit -m "chore: refresh profile card stats [skip ci]"
           git push
