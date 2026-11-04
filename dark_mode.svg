@@ -1,37 +1,104 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" font-family="Consolas, Menlo, monospace" font-size="13px">
   <rect x="0.5" y="0.5" width="959" height="459" rx="10" fill="#0d1117" stroke="#30363d"/>
-  <text x="40" y="44.0" fill="#8b949e" font-size="10px" xml:space="preserve">                        ~~~~     ~~~~                       </text>
-  <text x="40" y="55.5" fill="#8b949e" font-size="10px" xml:space="preserve">                     ~~~~~~ ~~~~  ~~~~~                     </text>
-  <text x="40" y="67.0" fill="#8b949e" font-size="10px" xml:space="preserve">                   ~~~~~~ ~~~~~ ~~~~~ ~~~~                  </text>
-  <text x="40" y="78.5" fill="#8b949e" font-size="10px" xml:space="preserve">                 ~~~~~~ ~~~~~~ ~~~~~ ~~~~~~                 </text>
-  <text x="40" y="90.0" fill="#8b949e" font-size="10px" xml:space="preserve">                ~~~~~~ ~~~~~~ ~~~~~ ~~~~~~~~                </text>
-  <text x="40" y="101.5" fill="#8b949e" font-size="10px" xml:space="preserve">               ~~~~~~ ~~~~~~ ~~~~~~ ~~~~~~~~~               </text>
-  <text x="40" y="113.0" fill="#8b949e" font-size="10px" xml:space="preserve">              ~~~~~~ ~~~~~~ ~~~~~~ ~~~~~~~~~~               </text>
-  <text x="40" y="124.5" fill="#8b949e" font-size="10px" xml:space="preserve">             ~~~~~~ ~~~~~~ ~~~~~~ ~~~~~~~~~~~~              </text>
-  <text x="40" y="136.0" fill="#8b949e" font-size="10px" xml:space="preserve">             ~~~~~ ~~~~~~ ~~~~~~ ~~~~~~~~~~~~~              </text>
-  <text x="40" y="147.5" fill="#8b949e" font-size="10px" xml:space="preserve">            ~~~~~ ~~~~~~ ~~~~~~ ~~~~~~~~~~~~~               </text>
-  <text x="40" y="159.0" fill="#8b949e" font-size="10px" xml:space="preserve">            ~~~~ ~~~~~~ ~~~~~~ ~~~~~~~~~~~~~                </text>
-  <text x="40" y="170.5" fill="#8b949e" font-size="10px" xml:space="preserve">             /                                \             </text>
-  <text x="40" y="182.0" fill="#8b949e" font-size="10px" xml:space="preserve">              /    _______        _______   \               </text>
-  <text x="40" y="193.5" fill="#8b949e" font-size="10px" xml:space="preserve">               /    __ __           __ __  \                </text>
-  <text x="40" y="205.0" fill="#8b949e" font-size="10px" xml:space="preserve">                /  ( @@@ )-------- ( @@@ )\                 </text>
-  <text x="40" y="216.5" fill="#8b949e" font-size="10px" xml:space="preserve">                 /  __ __           __ __\                  </text>
-  <text x="40" y="228.0" fill="#8b949e" font-size="10px" xml:space="preserve">                   /     \         /   \                    </text>
-  <text x="40" y="239.5" fill="#8b949e" font-size="10px" xml:space="preserve">                    /     \_______/   \                     </text>
-  <text x="40" y="251.0" fill="#8b949e" font-size="10px" xml:space="preserve">                     /               \                      </text>
-  <text x="40" y="262.5" fill="#8b949e" font-size="10px" xml:space="preserve">                      /             \                       </text>
-  <text x="40" y="274.0" fill="#8b949e" font-size="10px" xml:space="preserve">                        /          \                        </text>
-  <text x="40" y="285.5" fill="#8b949e" font-size="10px" xml:space="preserve">                         __________                         </text>
-  <text x="40" y="297.0" fill="#8b949e" font-size="10px" xml:space="preserve">                                                            </text>
-  <text x="40" y="308.5" fill="#8b949e" font-size="10px" xml:space="preserve">                    / _________________\                    </text>
-  <text x="40" y="320.0" fill="#8b949e" font-size="10px" xml:space="preserve">                   /                    \                   </text>
-  <text x="40" y="331.5" fill="#8b949e" font-size="10px" xml:space="preserve">                  /                      \                  </text>
-  <text x="40" y="343.0" fill="#8b949e" font-size="10px" xml:space="preserve">                 /                        \                 </text>
-  <text x="40" y="354.5" fill="#8b949e" font-size="10px" xml:space="preserve">                /                          \                </text>
-  <text x="40" y="366.0" fill="#8b949e" font-size="10px" xml:space="preserve">               /                            \               </text>
-  <text x="40" y="377.5" fill="#8b949e" font-size="10px" xml:space="preserve">              /                              \              </text>
-  <text x="40" y="389.0" fill="#8b949e" font-size="10px" xml:space="preserve">             /                                \             </text>
-  <text x="40" y="400.5" fill="#8b949e" font-size="10px" xml:space="preserve">            /                                  \            </text>
+  <g id="ascii-avatar" fill="#d5d5d5" font-size="6px" font-weight="700" xml:space="preserve">
+    <title>ASCII portrait sampled from Eileenes’s avatar</title>
+    <desc>Monochrome portrait with wavy hair, glasses and a striped shirt, with a panda on the left and a pepper on the right. Made entirely of ASCII text, on a 100 by 60 grid.</desc>
+    <text x="194.0" y="63.1" textLength="28.8" lengthAdjust="spacingAndGlyphs">---====+</text>
+    <text x="168.8" y="69.1" textLength="18.0" lengthAdjust="spacingAndGlyphs">+====</text>
+    <text x="190.4" y="69.1" textLength="39.6" lengthAdjust="spacingAndGlyphs">+=:::--====</text>
+    <text x="237.2" y="69.1" textLength="18.0" lengthAdjust="spacingAndGlyphs">=====</text>
+    <text x="161.6" y="75.1" textLength="100.8" lengthAdjust="spacingAndGlyphs">=--=======-------===----====</text>
+    <text x="158.0" y="81.1" textLength="108.0" lengthAdjust="spacingAndGlyphs">+-::::--------====--:---:::-==</text>
+    <text x="147.2" y="87.1" textLength="140.4" lengthAdjust="spacingAndGlyphs">====-----------:::::-------------=====+</text>
+    <text x="136.4" y="93.1" textLength="158.4" lengthAdjust="spacingAndGlyphs">===---------=====---::-===--:--===-----====+</text>
+    <text x="136.4" y="99.1" textLength="162.0" lengthAdjust="spacingAndGlyphs">-:::::--------===---::-====-:::-===-:----::-=</text>
+    <text x="136.4" y="105.1" textLength="162.0" lengthAdjust="spacingAndGlyphs">=-----=--::------:::::----=-::::--==-----=--=</text>
+    <text x="129.2" y="111.1" textLength="172.8" lengthAdjust="spacingAndGlyphs">===------::::::::::--:::::::-::-:::::::--======+</text>
+    <text x="122.0" y="117.1" textLength="187.2" lengthAdjust="spacingAndGlyphs">==---:::-::----::---------::::---------:::-===--====</text>
+    <text x="118.4" y="123.1" textLength="194.4" lengthAdjust="spacingAndGlyphs">=--:::--:::-----:-===-:---=-----==----===-::--==-:--==</text>
+    <text x="114.8" y="129.1" textLength="198.0" lengthAdjust="spacingAndGlyphs">=-:::-----:-----::---=-:--==-:---===::-====--:::-==-::-</text>
+    <text x="118.4" y="135.1" textLength="194.4" lengthAdjust="spacingAndGlyphs">=-:----:::-----::----::-----::-----:::--==--==---===-=</text>
+    <text x="114.8" y="141.1" textLength="201.6" lengthAdjust="spacingAndGlyphs">==-----::-::---::::----::------::---==:::---:-==----====</text>
+    <text x="111.2" y="147.1" textLength="208.8" lengthAdjust="spacingAndGlyphs">=--:--:::--:::--:-==::-:==:::--+=-:::-#*=-::-::----=-----=</text>
+    <text x="111.2" y="153.1" textLength="208.8" lengthAdjust="spacingAndGlyphs">=::--:::---::-::-***+=-=***=--+##*+++*%%#*+=+*=::---=::--=</text>
+    <text x="111.2" y="159.1" textLength="205.2" lengthAdjust="spacingAndGlyphs">=---::-::-::=+==*#######%%####%%%%%%%%%%%%%%%%#*::::-----</text>
+    <text x="114.8" y="165.1" textLength="201.6" lengthAdjust="spacingAndGlyphs">=--::-::::+**#######%%%%%%%%%%%%%%%%%%%%%%%%%%%*:-:-----</text>
+    <text x="114.8" y="171.1" textLength="201.6" lengthAdjust="spacingAndGlyphs">---::::::+########%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%=------=</text>
+    <text x="114.8" y="177.1" textLength="198.0" lengthAdjust="spacingAndGlyphs">=:-:::::-*####%%%%%%%%%%%%%%%%%%%%##*******%%%%%*------</text>
+    <text x="118.4" y="183.1" textLength="194.4" lengthAdjust="spacingAndGlyphs">----:::=#####++======+#%%%%%%%%*=--::------*%%%%=----=</text>
+    <text x="122.0" y="189.1" textLength="190.8" lengthAdjust="spacingAndGlyphs">----::*###+::::-------#%%%%%%%+=++++++++++=*%%%+:---+</text>
+    <text x="122.0" y="195.1" textLength="187.2" lengthAdjust="spacingAndGlyphs">=---:-*##+-==++++****####%%%%%%#**++++++++++**#*:--=</text>
+    <text x="125.6" y="201.1" textLength="183.6" lengthAdjust="spacingAndGlyphs">---:=**+=====++++++==*#%%#%%#+-=+*****###**-:--==--</text>
+    <text x="125.6" y="207.1" textLength="190.8" lengthAdjust="spacingAndGlyphs">=-----::=+****++++**+-==--==--##*=-=**+*%%%#--=-=+##*</text>
+    <text x="122.0" y="213.1" textLength="201.6" lengthAdjust="spacingAndGlyphs">++===:::+#*#*=**-:+=+#*:-=++-:*#*-:-*=%%+*###-=#-=%%%%#+</text>
+    <text x="118.4" y="219.1" textLength="205.2" lengthAdjust="spacingAndGlyphs">*#**+:=+:+***+%%-::+-=**:+#%%*:*%#:::::#@%####-+%-*####%#</text>
+    <text x="114.8" y="225.1" textLength="208.8" lengthAdjust="spacingAndGlyphs">*#****-=#:+####%%+::::*#+:*%%%%=-%%*---*%%%##%#:##=#####%#</text>
+    <text x="111.2" y="231.1" textLength="212.4" lengthAdjust="spacingAndGlyphs">=******+-#+-#####%%*=+*%#-=##%%%#-=%%%#%%%%%%##-+%#######%#</text>
+    <text x="370.4" y="231.1" textLength="10.8" lengthAdjust="spacingAndGlyphs">=+*</text>
+    <text x="111.2" y="237.1" textLength="212.4" lengthAdjust="spacingAndGlyphs">=*****+*+*#=-*#####%%%%#=-*##%%%%#==+######**+-+%%%%%####%*</text>
+    <text x="374.0" y="237.1" textLength="7.2" lengthAdjust="spacingAndGlyphs">=*</text>
+    <text x="114.8" y="243.1" textLength="208.8" lengthAdjust="spacingAndGlyphs">*****+***#*+==++**+++==+*###%%%%%#*+=======++#%#%#%%%%%%#+</text>
+    <text x="374.0" y="243.1" textLength="7.2" lengthAdjust="spacingAndGlyphs">++</text>
+    <text x="114.8" y="249.1" textLength="205.2" lengthAdjust="spacingAndGlyphs">=********#***++====++*##**########%%%##########%%#%%%%%#+</text>
+    <text x="366.8" y="249.1" textLength="14.4" lengthAdjust="spacingAndGlyphs">*++*</text>
+    <text x="118.4" y="255.1" textLength="194.4" lengthAdjust="spacingAndGlyphs">+********#****#####%%%#********##%%%%%%%%####%%#*###*+</text>
+    <text x="356.0" y="255.1" textLength="28.8" lengthAdjust="spacingAndGlyphs">++=+****</text>
+    <text x="125.6" y="261.1" textLength="165.6" lengthAdjust="spacingAndGlyphs">+*****+#***##########*******##%%%%%%%%%%%%%%%*</text>
+    <text x="294.8" y="261.1" textLength="7.2" lengthAdjust="spacingAndGlyphs">+=</text>
+    <text x="352.4" y="261.1" textLength="36.0" lengthAdjust="spacingAndGlyphs">*+===++=++</text>
+    <text x="93.2" y="267.1" textLength="21.6" lengthAdjust="spacingAndGlyphs">=---==</text>
+    <text x="132.8" y="267.1" textLength="158.4" lengthAdjust="spacingAndGlyphs">+++==*#**################%%%%%##%%%%%%%%%%#+</text>
+    <text x="348.8" y="267.1" textLength="39.6" lengthAdjust="spacingAndGlyphs">+=-==+*#+++</text>
+    <text x="39.2" y="273.1" textLength="14.4" lengthAdjust="spacingAndGlyphs">====</text>
+    <text x="78.8" y="273.1" textLength="39.6" lengthAdjust="spacingAndGlyphs">%%#+--:::-=</text>
+    <text x="150.8" y="273.1" textLength="136.8" lengthAdjust="spacingAndGlyphs">+*#**########**############%%%%%%%%%%+</text>
+    <text x="345.2" y="273.1" textLength="43.2" lengthAdjust="spacingAndGlyphs">###+=======+</text>
+    <text x="32.0" y="279.1" textLength="86.4" lengthAdjust="spacingAndGlyphs">=----:-#%%%@@@@@@@%#+-:-</text>
+    <text x="154.4" y="279.1" textLength="129.6" lengthAdjust="spacingAndGlyphs">+*#**#########*****####%%%%%%%%%#%#+</text>
+    <text x="341.6" y="279.1" textLength="46.8" lengthAdjust="spacingAndGlyphs">#%+*@+*##*===</text>
+    <text x="32.0" y="285.1" textLength="86.4" lengthAdjust="spacingAndGlyphs">-::::+#%@@%%%%%%%%%%%*=+</text>
+    <text x="158.0" y="285.1" textLength="122.4" lengthAdjust="spacingAndGlyphs">+*#**##############%%%%%%%%%%####+</text>
+    <text x="341.6" y="285.1" textLength="43.2" lengthAdjust="spacingAndGlyphs">*#==***-#@+=</text>
+    <text x="32.0" y="291.1" textLength="93.6" lengthAdjust="spacingAndGlyphs">:-:-#%%%%###****+++++**+++</text>
+    <text x="161.6" y="291.1" textLength="115.2" lengthAdjust="spacingAndGlyphs">++*#**############%%%%%%%%####*+</text>
+    <text x="309.2" y="291.1" textLength="75.6" lengthAdjust="spacingAndGlyphs">##**++==-===+==+=##==</text>
+    <text x="32.0" y="297.1" textLength="100.8" lengthAdjust="spacingAndGlyphs">-:-#%#*+++===========++==+++</text>
+    <text x="168.8" y="297.1" textLength="100.8" lengthAdjust="spacingAndGlyphs">+**#*##########%%%%%%#####*+</text>
+    <text x="302.0" y="297.1" textLength="90.0" lengthAdjust="spacingAndGlyphs">#***+++==-===-:--=+==--+#</text>
+    <text x="32.0" y="303.1" textLength="100.8" lengthAdjust="spacingAndGlyphs">*+##+++------------=======+=</text>
+    <text x="176.0" y="303.1" textLength="86.4" lengthAdjust="spacingAndGlyphs">++***#################*+</text>
+    <text x="298.4" y="303.1" textLength="93.6" lengthAdjust="spacingAndGlyphs">%#+*++==--=+=========----+</text>
+    <text x="32.0" y="309.1" textLength="100.8" lengthAdjust="spacingAndGlyphs">*##=-+=:----------=------=+=</text>
+    <text x="183.2" y="309.1" textLength="79.2" lengthAdjust="spacingAndGlyphs">+*****###########***#*</text>
+    <text x="294.8" y="309.1" textLength="97.2" lengthAdjust="spacingAndGlyphs">**#*+==---=+===++===--::-=*</text>
+    <text x="32.0" y="315.1" textLength="100.8" lengthAdjust="spacingAndGlyphs">+=---+=:------============*#</text>
+    <text x="179.6" y="315.1" textLength="86.4" lengthAdjust="spacingAndGlyphs">+***+***************#%*+</text>
+    <text x="294.8" y="315.1" textLength="97.2" lengthAdjust="spacingAndGlyphs">*++***+==+====+==-----=+*##</text>
+    <text x="32.0" y="321.1" textLength="100.8" lengthAdjust="spacingAndGlyphs">-::-:-+=-----==++=======+*%#</text>
+    <text x="168.8" y="321.1" textLength="108.0" lengthAdjust="spacingAndGlyphs">+++=+******++********###%****+</text>
+    <text x="294.8" y="321.1" textLength="97.2" lengthAdjust="spacingAndGlyphs">++++++++**+**++++++***#####</text>
+    <text x="32.0" y="327.1" textLength="100.8" lengthAdjust="spacingAndGlyphs">-=+*+--======+##---#%###%%%#</text>
+    <text x="161.6" y="327.1" textLength="122.4" lengthAdjust="spacingAndGlyphs">+++=--+**************###%%%+-+*#*+</text>
+    <text x="294.8" y="327.1" textLength="97.2" lengthAdjust="spacingAndGlyphs">===++++++++++*********#####</text>
+    <text x="32.0" y="333.1" textLength="100.8" lengthAdjust="spacingAndGlyphs">**#***+===+*###%#+#%%%%%%%%*</text>
+    <text x="158.0" y="333.1" textLength="129.6" lengthAdjust="spacingAndGlyphs">**+==--*************####%%%%#-=**##*</text>
+    <text x="294.8" y="333.1" textLength="97.2" lengthAdjust="spacingAndGlyphs">++=====++++****************</text>
+    <text x="32.0" y="339.1" textLength="97.2" lengthAdjust="spacingAndGlyphs">*******#######****%#######*</text>
+    <text x="150.8" y="339.1" textLength="140.4" lengthAdjust="spacingAndGlyphs">+##+++=-=***********####%%%%%%%+-***%@#</text>
+    <text x="294.8" y="339.1" textLength="97.2" lengthAdjust="spacingAndGlyphs">++++=--=++++++++++*********</text>
+    <text x="32.0" y="345.1" textLength="360.0" lengthAdjust="spacingAndGlyphs">**********#############*+==--=-=+##*++++=++*******######%%%%%%%#+=**##%@#++===+=++++++++******#*++*#</text>
+    <text x="32.0" y="351.1" textLength="360.0" lengthAdjust="spacingAndGlyphs">****++***************+=-::::--=+*###++++==+*****#######%%%%%%%%#++**##%%%#*+=====+++==+##****+*#####</text>
+    <text x="32.0" y="357.1" textLength="360.0" lengthAdjust="spacingAndGlyphs">**#+-:--===+++===--::::-::-=++++*###++**++++***#######%%%%%%%%##****##%%%####*++======*%++**###**%#*</text>
+    <text x="32.0" y="363.1" textLength="360.0" lengthAdjust="spacingAndGlyphs">#*=::::::::::::-==+***+=+*###**+*###*+****##**#######%%%%%%%%%%%****##%%%##%%%%%#*+=-++*********+*%#</text>
+    <text x="32.0" y="369.1" textLength="360.0" lengthAdjust="spacingAndGlyphs">*-:----::::-=+##%%%#####%%%###***###*+****#%%%%######%%%%%%%%%%#***#*#%%%%#%%%%%@@%%**+=+********+#%</text>
+    <text x="32.0" y="375.1" textLength="360.0" lengthAdjust="spacingAndGlyphs">-------::-+#%%%%#####%%#####*++**%###*****%#%%%%%%%%%%%%%%%@@%###***##%%%%######%%%%@@%*+==+++*****#</text>
+    <text x="32.0" y="381.1" textLength="360.0" lengthAdjust="spacingAndGlyphs">------::+#########%##******++==**%%%#****#%##%%%%%%%%%%%%%%%%#*#%*####%%%%#********###%%%#++++++++**</text>
+    <text x="32.0" y="387.1" textLength="360.0" lengthAdjust="spacingAndGlyphs">------:=*#####*##**********++==**####****##**#%%%%%%%%%%%%%%%***%#+***#%%%#***********###%%#++++****</text>
+    <text x="32.0" y="393.1" textLength="360.0" lengthAdjust="spacingAndGlyphs">::---:-++**#*##**************+++++++===-*#***#%%%%%%%%%%%%%%****#%+===++++*#%#######******#%#+++++++</text>
+    <text x="32.0" y="399.1" textLength="360.0" lengthAdjust="spacingAndGlyphs">-:::::-----=***+****#####%%###*+++++++++#****%%%%%%%%%%%%%%##****##***+++*#%%%%%%%%%%######*##++++++</text>
+    <text x="32.0" y="405.1" textLength="360.0" lengthAdjust="spacingAndGlyphs">*+=:-------**++**####%%%#%%###########++****#%%%%%%%%%%%%%#%%%#***##%%%%%%%%%%%%%%%%%%%%%#####*+++++</text>
+    <text x="32.0" y="411.1" textLength="360.0" lengthAdjust="spacingAndGlyphs">**+-------**++*###############*******+==+**#%%%%%#%%%%%%%#%%%%%#********#########%%%%%%%%%%###%*++++</text>
+  </g>
   <text x="415" y="50" xml:space="preserve"><tspan fill="#58a6ff">─ Eileenes@github </tspan><tspan fill="#484f58">──────────────────────────────────────────────────────</tspan></text>
   <text x="415" y="92" xml:space="preserve"><tspan fill="#ffa657">OS: </tspan><tspan fill="#484f58">........................... </tspan><tspan fill="#c9d1d9">macOS · Apple Silicon</tspan></text>
   <text x="415" y="113" xml:space="preserve"><tspan fill="#ffa657">Uptime: </tspan><tspan fill="#484f58">....................... </tspan><tspan fill="#c9d1d9">since Aug 2025</tspan></text>
@@ -46,5 +113,5 @@
   <text x="415" y="344" xml:space="preserve"><tspan fill="#ffa657">GitHub: </tspan><tspan fill="#484f58">....................... </tspan><tspan fill="#c9d1d9">github.com/Eileenes</tspan></text>
   <text x="415" y="386" xml:space="preserve"><tspan fill="#58a6ff">─ GitHub Stats </tspan><tspan fill="#484f58">─────────────────────────────────────────────────────────</tspan></text>
   <text x="415" y="407" xml:space="preserve"><tspan fill="#ffa657">Repos: </tspan><tspan fill="#484f58">.......... </tspan><tspan fill="#c9d1d9">17 </tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Stars: </tspan><tspan fill="#484f58">.......... </tspan><tspan fill="#c9d1d9">39 </tspan></text>
-  <text x="415" y="428" xml:space="preserve"><tspan fill="#ffa657">Commits: </tspan><tspan fill="#484f58">........ </tspan><tspan fill="#c9d1d9">283</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Followers: </tspan><tspan fill="#484f58">...... </tspan><tspan fill="#c9d1d9">7  </tspan></text>
+  <text x="415" y="428" xml:space="preserve"><tspan fill="#ffa657">Commits: </tspan><tspan fill="#484f58">........ </tspan><tspan fill="#c9d1d9">284</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Followers: </tspan><tspan fill="#484f58">...... </tspan><tspan fill="#c9d1d9">7  </tspan></text>
 </svg>

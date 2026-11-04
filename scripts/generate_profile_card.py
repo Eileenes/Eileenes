@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 import urllib.error
 import urllib.request
@@ -23,54 +24,16 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 CARD_WIDTH = 960
 CARD_HEIGHT = 460
 
-# ------------------------------------------------------------------ portrait
-# Line art drawn against the avatar: '~' waves for the curly hair, '( @ )'
-# lenses on a '-' bridge for the glasses, '/' and '\' strokes for the face
-# and shoulders. A filled silhouette was tried first — it collapses into a
-# grey blob at 60x32 in a single tone, because the source illustration has no
-# internal shading to map a glyph ramp onto. Strokes on empty ground are the
-# only thing that stays crisp.
-ASCII_ART = [
-    "                        ~~~~     ~~~~                       ",
-    "                     ~~~~~~ ~~~~  ~~~~~                     ",
-    "                   ~~~~~~ ~~~~~ ~~~~~ ~~~~                  ",
-    "                 ~~~~~~ ~~~~~~ ~~~~~ ~~~~~~                 ",
-    "                ~~~~~~ ~~~~~~ ~~~~~ ~~~~~~~~                ",
-    "               ~~~~~~ ~~~~~~ ~~~~~~ ~~~~~~~~~               ",
-    "              ~~~~~~ ~~~~~~ ~~~~~~ ~~~~~~~~~~               ",
-    "             ~~~~~~ ~~~~~~ ~~~~~~ ~~~~~~~~~~~~              ",
-    "             ~~~~~ ~~~~~~ ~~~~~~ ~~~~~~~~~~~~~              ",
-    "            ~~~~~ ~~~~~~ ~~~~~~ ~~~~~~~~~~~~~               ",
-    "            ~~~~ ~~~~~~ ~~~~~~ ~~~~~~~~~~~~~                ",
-    "             /                                \             ",
-    "              /    _______        _______   \               ",
-    "               /    __ __           __ __  \                ",
-    "                /  ( @@@ )-------- ( @@@ )\                 ",
-    "                 /  __ __           __ __\                  ",
-    "                   /     \         /   \                    ",
-    "                    /     \_______/   \                     ",
-    "                     /               \                      ",
-    "                      /             \                       ",
-    "                        /          \                        ",
-    "                         __________                         ",
-    "                                                            ",
-    "                    / _________________\                    ",
-    "                   /                    \                   ",
-    "                  /                      \                  ",
-    "                 /                        \                 ",
-    "                /                          \                ",
-    "               /                            \               ",
-    "              /                              \              ",
-    "             /                                \             ",
-    "            /                                  \            ",
-]
+# The portrait is sampled from the saved reference image, not hand-drawn.
+# Rebuild it with scripts/generate_avatar_ascii.py when the source changes.
+PORTRAIT_PATH = REPO_ROOT / "assets/avatar-ascii.json"
 
 # ---------------------------------------------------------------- theme tokens
 THEMES = {
     "dark": {
         "bg": "#0d1117",
         "border": "#30363d",
-        "art": "#8b949e",
+        "art": "#d5d5d5",
         "accent": "#58a6ff",
         "label": "#ffa657",
         "dots": "#484f58",
@@ -80,7 +43,7 @@ THEMES = {
     "light": {
         "bg": "#ffffff",
         "border": "#d0d7de",
-        "art": "#57606a",
+        "art": "#3f3f3f",
         "accent": "#0969da",
         "label": "#953800",
         "dots": "#afb8c1",
@@ -90,10 +53,10 @@ THEMES = {
 }
 
 # Geometry, tuned against the original hand-written card.
-ART_X = 40           # 60 cols at 6.0 px = 360 px, centred in the left column
-ART_Y0 = 44
-ART_DY = 11.5
-ART_FONT_SIZE = 10   # the panel text stays at 13 px
+ART_X = 32
+ART_TOP = 52
+ART_WIDTH = 360
+ART_HEIGHT = 360
 COL_X = 415
 ROW_Y0 = 50
 ROW_DY = 21
@@ -206,6 +169,35 @@ def section_row(y: int, title: str, theme: dict, rule_width: int) -> str:
     )
 
 
+def render_portrait(theme_name: str) -> str:
+    portrait = json.loads(PORTRAIT_PATH.read_text(encoding="utf-8"))
+    theme = portrait["themes"][theme_name]
+    cell_width = ART_WIDTH / portrait["columns"]
+    cell_height = ART_HEIGHT / portrait["rows"]
+    pieces = [
+        f'  <g id="ascii-avatar" fill="{THEMES[theme_name]["art"]}" '
+        'font-size="6px" font-weight="700" '
+        'xml:space="preserve">',
+        '    <title>ASCII portrait sampled from Eileenes’s avatar</title>',
+        '    <desc>Monochrome portrait with wavy hair, glasses and a striped shirt, '
+        'with a panda on the left and a pepper on the right. '
+        'Made entirely of ASCII text, on a 100 by 60 grid.</desc>',
+    ]
+    for row, line in enumerate(theme["characters"]):
+        y = ART_TOP + row * cell_height + cell_height * .85
+        # Place each nonblank run explicitly: SVG viewers may trim whitespace.
+        for match in re.finditer(r"\S+", line):
+            text = match.group()
+            x = ART_X + match.start() * cell_width
+            pieces.append(
+                f'    <text x="{x:.1f}" y="{y:.1f}" '
+                f'textLength="{len(text) * cell_width:.1f}" '
+                f'lengthAdjust="spacingAndGlyphs">{esc(text)}</text>'
+            )
+    pieces.append("  </g>")
+    return "\n".join(pieces)
+
+
 def render(theme_name: str, stats: dict) -> str:
     theme = THEMES[theme_name]
     commits = stats["commits"]
@@ -220,12 +212,7 @@ def render(theme_name: str, stats: dict) -> str:
         f'stroke="{theme["border"]}"/>',
     ]
 
-    for index, line in enumerate(ASCII_ART):
-        y = ART_Y0 + index * ART_DY
-        lines.append(
-            f'  <text x="{ART_X}" y="{y:.1f}" fill="{theme["art"]}" '
-            f'font-size="{ART_FONT_SIZE}px" xml:space="preserve">{esc(line)}</text>'
-        )
+    lines.append(render_portrait(theme_name))
 
     lines.append(
         section_row(ROW_Y0, f"{USER}@github", theme, 54)
