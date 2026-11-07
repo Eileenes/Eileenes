@@ -302,8 +302,8 @@ def render(theme_name: str) -> str:
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{CARD_W}" '
         f'height="{CARD_H}" viewBox="0 0 {CARD_W} {CARD_H}" '
         f'font-family="{SANS}" role="img" '
-        f'aria-label="Duke Yeah 的技能天赋书：产品 / 开发 / 音乐 / 游戏 四条天赋线">',
-        "  <title>Duke Yeah · 技能天赋书 / Skill Talent Tree</title>",
+        f'aria-label="Soren 的技能天赋书：产品 / 开发 / 音乐 / 游戏 四条天赋线">',
+        "  <title>Soren · 技能天赋书 / Skill Talent Tree</title>",
         "  <style>" + STYLE + "  </style>",
         f'  <rect x="0.5" y="0.5" width="{CARD_W - 1}" height="{CARD_H - 1}" '
         f'rx="12" fill="{theme["bg"]}" stroke="{theme["border"]}"/>',
@@ -312,7 +312,7 @@ def render(theme_name: str) -> str:
         f'    <rect x="20" y="18" width="{CARD_W - 40}" height="58" rx="10" '
         f'fill="{theme["panel"]}" stroke="{theme["border"]}"/>',
         f'    <text x="44" y="46" fill="{theme["title"]}" font-size="16" '
-        f'font-weight="700">Duke Yeah · 技能天赋书</text>',
+        f'font-weight="700">Soren · 技能天赋书</text>',
         f'    <text x="44" y="63" fill="{theme["faint"]}" font-size="10.5" '
         f'letter-spacing="0.8">SKILL TALENT TREE</text>',
         f'    <text x="{CARD_W - 44}" y="46" fill="{theme["faint"]}" '

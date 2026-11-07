@@ -22,7 +22,7 @@ from pathlib import Path
 USER = "Eileenes"
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CARD_WIDTH = 960
-CARD_HEIGHT = 460
+CARD_HEIGHT = 481
 
 # The portrait is sampled from the saved reference image, not hand-drawn.
 # Rebuild it with scripts/generate_avatar_ascii.py when the source changes.
@@ -244,6 +244,8 @@ def render(theme_name: str, stats: dict) -> str:
     lines.append(single_row(y, "Email", "taoyeyeah@gmail.com", theme))
     y += ROW_DY
     lines.append(single_row(y, "GitHub", f"github.com/{USER}", theme))
+    y += ROW_DY
+    lines.append(single_row(y, "X", "x.com/Eileeness160708", theme))
 
     y += 2 * ROW_DY
     lines.append(section_row(y, "GitHub Stats", theme, 57))

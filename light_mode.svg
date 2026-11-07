@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" font-family="Consolas, Menlo, monospace" font-size="13px">
-  <rect x="0.5" y="0.5" width="959" height="459" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="481" viewBox="0 0 960 481" font-family="Consolas, Menlo, monospace" font-size="13px">
+  <rect x="0.5" y="0.5" width="959" height="480" rx="10" fill="#ffffff" stroke="#d0d7de"/>
   <g id="ascii-avatar" fill="#3f3f3f" font-size="6px" font-weight="700" xml:space="preserve">
     <title>ASCII portrait sampled from Eileenes’s avatar</title>
     <desc>Monochrome portrait with wavy hair, glasses and a striped shirt, with a panda on the left and a pepper on the right. Made entirely of ASCII text, on a 100 by 60 grid.</desc>
@@ -111,7 +111,8 @@
   <text x="415" y="302" xml:space="preserve"><tspan fill="#0969da">─ Contact </tspan><tspan fill="#afb8c1">──────────────────────────────────────────────────────────────</tspan></text>
   <text x="415" y="323" xml:space="preserve"><tspan fill="#953800">Email: </tspan><tspan fill="#afb8c1">........................ </tspan><tspan fill="#24292f">taoyeyeah@gmail.com</tspan></text>
   <text x="415" y="344" xml:space="preserve"><tspan fill="#953800">GitHub: </tspan><tspan fill="#afb8c1">....................... </tspan><tspan fill="#24292f">github.com/Eileenes</tspan></text>
-  <text x="415" y="386" xml:space="preserve"><tspan fill="#0969da">─ GitHub Stats </tspan><tspan fill="#afb8c1">─────────────────────────────────────────────────────────</tspan></text>
-  <text x="415" y="407" xml:space="preserve"><tspan fill="#953800">Repos: </tspan><tspan fill="#afb8c1">.......... </tspan><tspan fill="#24292f">20 </tspan><tspan fill="#afb8c1"> | </tspan><tspan fill="#953800">Stars: </tspan><tspan fill="#afb8c1">.......... </tspan><tspan fill="#24292f">40 </tspan></text>
-  <text x="415" y="428" xml:space="preserve"><tspan fill="#953800">Commits: </tspan><tspan fill="#afb8c1">........ </tspan><tspan fill="#24292f">297</tspan><tspan fill="#afb8c1"> | </tspan><tspan fill="#953800">Followers: </tspan><tspan fill="#afb8c1">...... </tspan><tspan fill="#24292f">7  </tspan></text>
+  <text x="415" y="365" xml:space="preserve"><tspan fill="#953800">X: </tspan><tspan fill="#afb8c1">............................ </tspan><tspan fill="#24292f">x.com/Eileeness160708</tspan></text>
+  <text x="415" y="407" xml:space="preserve"><tspan fill="#0969da">─ GitHub Stats </tspan><tspan fill="#afb8c1">─────────────────────────────────────────────────────────</tspan></text>
+  <text x="415" y="428" xml:space="preserve"><tspan fill="#953800">Repos: </tspan><tspan fill="#afb8c1">.......... </tspan><tspan fill="#24292f">20 </tspan><tspan fill="#afb8c1"> | </tspan><tspan fill="#953800">Stars: </tspan><tspan fill="#afb8c1">.......... </tspan><tspan fill="#24292f">40 </tspan></text>
+  <text x="415" y="449" xml:space="preserve"><tspan fill="#953800">Commits: </tspan><tspan fill="#afb8c1">........ </tspan><tspan fill="#24292f">297</tspan><tspan fill="#afb8c1"> | </tspan><tspan fill="#953800">Followers: </tspan><tspan fill="#afb8c1">...... </tspan><tspan fill="#24292f">7  </tspan></text>
 </svg>

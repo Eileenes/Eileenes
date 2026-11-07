@@ -18,7 +18,7 @@
 
 > **保持好奇，也保持动手。**
 
-你好，我是 **Duke Yeah**，一名有 10 年经验的产品经理。我对新事物总有兴趣，也喜欢亲手把想法做出来。遇到没试过的东西，我愿意先走近一点、体验一下，再形成自己的判断。工作之外，我认真生活，也把很多时间留给音乐。
+你好，我是 **Soren**，一名有 10 年经验的产品经理。我对新事物总有兴趣，也喜欢亲手把想法做出来。遇到没试过的东西，我愿意先走近一点、体验一下，再形成自己的判断。工作之外，我认真生活，也把很多时间留给音乐。
 
 `好奇 / 动手 / 体验 / 生活 / 音乐`
 
@@ -26,7 +26,7 @@
   <summary><strong>ENGLISH // 展开英文介绍</strong></summary>
   <br>
 
-  Hi, I'm **Duke Yeah**, a product manager with 10 years of experience.
+  Hi, I'm **Soren**, a product manager with 10 years of experience.
 
   I stay curious about new things and enjoy turning ideas into something tangible with my own hands. When I meet the unfamiliar, I prefer to try it first and form my own view through experience. Beyond work, I care deeply about living well and always make room for music.
 
@@ -42,7 +42,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="skill_tree_dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="skill_tree_light.svg">
-  <img alt="Duke Yeah 的技能天赋书" src="skill_tree_light.svg">
+  <img alt="Soren 的技能天赋书" src="skill_tree_light.svg">
 </picture>
 
 <sub>👆 四条天赋线：**产品 / 开发 / 音乐 / 游戏**。金色是点满了，红色是……就不提了。所有等级均为本人自行评定，不接受外部校准。</sub>
