@@ -68,5 +68,5 @@
 ## 📫 联系我 / Contact
 
 <p align="center">
-  <a href="https://github.com/Eileenes">GitHub</a> · <a href="mailto:taoyeyeah@gmail.com">Email</a>
+  <a href="https://github.com/Eileenes">GitHub</a> · <a href="https://x.com/Eileeness160708">X</a> · <a href="mailto:taoyeyeah@gmail.com">Email</a>
 </p>
